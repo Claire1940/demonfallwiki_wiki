@@ -10,14 +10,7 @@
       "twitterDescription": "Demonfall Wiki covers codes, breathing styles, clans, weapons, maps, bosses, builds, and progression guides for Roblox Demonfall players with updated tips."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
