@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Вики Demonfall - Коды, Дыхание и Билды",
+      "description": "Вики Demonfall охватывает коды, стили дыхания, кланы, оружие, карты, боссов, сборки и руководства по прогрессии для игроков Roblox Demonfall с актуальными советами.",
+      "keywords": "Demonfall, Roblox, коды, стили дыхания, сборки, оружие, кланы, боссы",
+      "ogTitle": "Вики Demonfall - Коды, Дыхание и Билды",
+      "ogDescription": "Вики Demonfall охватывает коды, стили дыхания, кланы, оружие, карты, боссов, сборки и руководства по прогрессии для игроков Roblox Demonfall с актуальными советами.",
+      "twitterTitle": "Вики Demonfall - Коды, Дыхание и Билды",
+      "twitterDescription": "Вики Demonfall охватывает коды, стили дыхания, кланы, оружие, карты, боссов, сборки и руководства по прогрессии для игроков Roblox Demonfall с актуальными советами."
     }
   },
   "nav": {
@@ -34,38 +34,38 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Аниме-экшен-RPG-приключение",
+    "title": "Вики Demonfall",
+    "description": "Вики Demonfall охватывает стили дыхания, демонические искусства, кланы, оружие, боссов, карты, коды, сборки и руководства по прогрессии для игроков Roblox Demonfall.",
+    "getFreeCodesCTA": "Бесплатные коды",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "980M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "20+",
+        "label": "Breathing Styles & Arts"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "1+",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "Weekly",
+        "label": "Daily Updates"
       }
-    }
+    },
+    "playOnRobloxCTA": "Играть в Roblox"
   },
   "gameFeature": {
-    "title": "Геймплей Lucid Blocks",
-    "description": "Исследуйте сюрреалистичные биомы, объединяйте предметы с помощью Apotheosis и выживайте среди странных существ в этой похожей на сон воксельной песочнице на Steam."
+    "title": "Геймплей Demonfall",
+    "description": "Освойте стили дыхания, демонические искусства и бой на клинках как Demon Slayer или Демон в этом экшен-RPG Roblox по мотивам Demon Slayer."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Demonfall",
     "titleHighlight": "Ресурсы",
-    "subtitle": "Все, что вам нужно для исследования, крафта и выживания в Lucid Blocks",
+    "subtitle": "Всё, что нужно для освоения кодов, дыхания, билдов, кланов и боя в Demonfall",
     "cards": [
       {
         "icon": "BookOpen",
@@ -181,26 +181,26 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
+    "title": "Готовы покорить Demonfall?",
+    "description": "Присоединяйтесь к сообществу Demonfall в Discord за гайдами, обновлениями и обсуждениями!",
     "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "joinGame": "Играть в Roblox"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
+    "title": "Вики Demonfall",
+    "description": "Ваш полный центр ресурсов по кодам, стилям дыхания, кланам, оружию, сборкам и руководствам по прогрессии Demonfall.",
     "resources": "Ресурсы",
     "community": "Сообщество",
     "legal": "Юридическая информация",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
+    "twitter": "Reddit",
+    "steamCommunity": "Игра в Roblox",
+    "steamStore": "Играть в Roblox",
     "about": "О проекте",
     "privacy": "Политика конфиденциальности",
     "terms": "Условия использования",
     "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
+    "copyright": "© 2026 Вики Demonfall. Не аффилировано с разработчиками Demonfall.",
     "disclaimer": "Неофициальный фанатский ресурс."
   },
   "pages": {

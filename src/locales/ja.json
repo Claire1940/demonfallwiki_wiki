@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Demonfall Wiki - コード・呼吸法・ビルド",
+      "description": "Demonfall Wikiは、Roblox Demonfallのプレイヤーに向けたコード、呼吸法、一族、武器、マップ、ボス、ビルド、進行ガイドを最新情報とともに網羅しています。",
+      "keywords": "Demonfall, Roblox, コード, 呼吸法, ビルド, 武器, 一族, ボス",
+      "ogTitle": "Demonfall Wiki - コード・呼吸法・ビルド",
+      "ogDescription": "Demonfall Wikiは、Roblox Demonfallのプレイヤーに向けたコード、呼吸法、一族、武器、マップ、ボス、ビルド、進行ガイドを最新情報とともに網羅しています。",
+      "twitterTitle": "Demonfall Wiki - コード・呼吸法・ビルド",
+      "twitterDescription": "Demonfall Wikiは、Roblox Demonfallのプレイヤーに向けたコード、呼吸法、一族、武器、マップ、ボス、ビルド、進行ガイドを最新情報とともに網羅しています。"
     }
   },
   "nav": {
@@ -34,38 +34,38 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "アニメアクションRPGアドベンチャー",
+    "title": "Demonfall Wiki",
+    "description": "Demonfall Wikiは、Roblox Demonfallのプレイヤーに向けた呼吸法、血鬼術、一族、武器、ボス、マップ、コード、ビルド、進行ガイドを網羅しています。",
+    "getFreeCodesCTA": "無料コードを入手",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "980M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "20+",
+        "label": "Breathing Styles & Arts"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "1+",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "Weekly",
+        "label": "Daily Updates"
       }
-    }
+    },
+    "playOnRobloxCTA": "Robloxで遊ぶ"
   },
   "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
+    "title": "Demonfall ゲームプレイ",
+    "description": "鬼滅の刃にインスパイアされたRobloxアクションRPGで、鬼殺隊または鬼として呼吸法、血鬼術、刀の戦闘を極めましょう。"
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Demonfall",
     "titleHighlight": "リソース",
-    "subtitle": "Lucid Blocksでの探索、クラフト、生存に必要なすべての情報",
+    "subtitle": "Demonfallのコード、呼吸法、ビルド、一族、戦闘を極めるために必要なすべて",
     "cards": [
       {
         "icon": "BookOpen",
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
+    "title": "Demonfallを極める準備はできましたか？",
+    "description": "DiscordのDemonfallコミュニティに参加して、ガイド、アップデート、議論をチェックしましょう！",
     "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "joinGame": "Robloxで遊ぶ"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "Demonfall Wiki",
+    "description": "Demonfallのコード、呼吸法、一族、武器、ビルド、進行ガイドを網羅した完全リソースハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
+    "twitter": "Reddit",
+    "steamCommunity": "Robloxゲーム",
+    "steamStore": "Robloxで遊ぶ",
     "about": "このサイトについて",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
+    "copyright": "© 2026 Demonfall Wiki. Demonfallの開発者とは提携していません。",
     "disclaimer": "非公式のファン作成リソースサイトです。"
   },
   "pages": {

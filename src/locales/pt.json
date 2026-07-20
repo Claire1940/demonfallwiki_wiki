@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
+      "title": "Wiki do Demonfall - Códigos, Respiração e Builds",
+      "description": "A Wiki do Demonfall cobre códigos, estilos de respiração, clãs, armas, mapas, chefes, builds e guias de progressão para os jogadores de Roblox Demonfall com dicas atualizadas.",
+      "keywords": "Demonfall, Roblox, códigos, estilos de respiração, builds, armas, clãs, chefes",
+      "ogTitle": "Wiki do Demonfall - Códigos, Respiração e Builds",
+      "ogDescription": "A Wiki do Demonfall cobre códigos, estilos de respiração, clãs, armas, mapas, chefes, builds e guias de progressão para os jogadores de Roblox Demonfall com dicas atualizadas.",
+      "twitterTitle": "Wiki do Demonfall - Códigos, Respiração e Builds",
+      "twitterDescription": "A Wiki do Demonfall cobre códigos, estilos de respiração, clãs, armas, mapas, chefes, builds e guias de progressão para os jogadores de Roblox Demonfall com dicas atualizadas."
     }
   },
   "nav": {
@@ -34,38 +34,38 @@
     "articlesComingSoon": "Artigos em breve"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
-    "getFreeCodesCTA": "Explore o Guia de Criação",
-    "playOnSteamCTA": "Jogue no Steam",
+    "badge": "RPG de ação e aventura anime",
+    "title": "Wiki do Demonfall",
+    "description": "A Wiki do Demonfall cobre estilos de respiração, artes demoníacas, clãs, armas, chefes, mapas, códigos, builds e guias de progressão para os jogadores de Roblox Demonfall.",
+    "getFreeCodesCTA": "Códigos Grátis",
     "stats": {
       "stat1": {
-        "value": "1.325",
-        "label": "Jogadores Online"
+        "value": "980M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1.986",
-        "label": "Pico de CCU"
+        "value": "20+",
+        "label": "Breathing Styles & Arts"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Avaliações Positivas"
+        "value": "1+",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Data de Lançamento"
+        "value": "Weekly",
+        "label": "Daily Updates"
       }
-    }
+    },
+    "playOnRobloxCTA": "Jogar no Roblox"
   },
   "gameFeature": {
-    "title": "Jogabilidade de Lucid Blocks",
-    "description": "Explore biomas surreais, funda itens com Apotheosis e sobreviva a criaturas estranhas neste sandbox de voxel onírico no Steam."
+    "title": "Gameplay do Demonfall",
+    "description": "Domine estilos de respiração, artes demoníacas e combate com lâmina como Demon Slayer ou Demon neste RPG de ação do Roblox inspirado em Demon Slayer."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Demonfall",
     "titleHighlight": "Recursos",
-    "subtitle": "Tudo o que você precisa para explorar, criar e sobreviver em Lucid Blocks",
+    "subtitle": "Tudo o que você precisa para dominar códigos, respiração, builds, clãs e combate no Demonfall",
     "cards": [
       {
         "icon": "BookOpen",
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Pronto para explorar Lucid Blocks?",
-    "description": "Junte-se à comunidade de Lucid Blocks no Discord para guias, atualizações e discussões!",
+    "title": "Pronto para dominar Demonfall?",
+    "description": "Junte-se à comunidade do Demonfall no Discord para guias, atualizações e discussões!",
     "joinCommunity": "Entrar no Discord",
-    "joinGame": "Jogue no Steam"
+    "joinGame": "Jogar no Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
+    "title": "Wiki do Demonfall",
+    "description": "Seu hub completo de recursos para códigos, estilos de respiração, clãs, armas, builds e guias de progressão do Demonfall.",
     "resources": "Recursos",
     "community": "Comunidade",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidade Steam",
-    "steamStore": "Loja Steam",
+    "twitter": "Reddit",
+    "steamCommunity": "Jogo no Roblox",
+    "steamStore": "Jogar no Roblox",
     "about": "Sobre",
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Lucid Blocks. Não afiliada aos desenvolvedores de Lucid Blocks.",
+    "copyright": "© 2026 Wiki do Demonfall. Não afiliada aos desenvolvedores de Demonfall.",
     "disclaimer": "Site de recursos não oficial feito por fãs."
   },
   "pages": {

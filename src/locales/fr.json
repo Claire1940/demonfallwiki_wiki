@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "description": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication, des commandes, des mods et des liens communautaires pour le jeu de braquage furtif sur Steam.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, téléchargement de la démo, guide pour débutants, guide de coopération, fabrication, équipement, mods, BepInEx, jeu Steam, jeu furtif",
-      "ogTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "ogDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication et des mods pour le jeu de braquage furtif sur Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "twitterDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération et des conseils de fabrication."
+      "title": "Wiki de Demonfall - Codes, Respiration & Builds",
+      "description": "Le Wiki de Demonfall couvre les codes, styles de respiration, clans, armes, cartes, boss, builds et guides de progression pour les joueurs de Roblox Demonfall avec des conseils mis à jour.",
+      "keywords": "Demonfall, Roblox, codes, styles de respiration, builds, armes, clans, boss",
+      "ogTitle": "Wiki de Demonfall - Codes, Respiration & Builds",
+      "ogDescription": "Le Wiki de Demonfall couvre les codes, styles de respiration, clans, armes, cartes, boss, builds et guides de progression pour les joueurs de Roblox Demonfall avec des conseils mis à jour.",
+      "twitterTitle": "Wiki de Demonfall - Codes, Respiration & Builds",
+      "twitterDescription": "Le Wiki de Demonfall couvre les codes, styles de respiration, clans, armes, cartes, boss, builds et guides de progression pour les joueurs de Roblox Demonfall avec des conseils mis à jour."
     }
   },
   "nav": {
@@ -34,38 +34,38 @@
     "articlesComingSoon": "Articles à venir"
   },
   "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
+    "badge": "RPG d'action et d'aventure anime",
+    "title": "Wiki de Demonfall",
+    "description": "Le Wiki de Demonfall couvre les styles de respiration, les arts démoniaques, les clans, les armes, les boss, les cartes, les codes, les builds et les guides de progression pour les joueurs de Roblox Demonfall.",
+    "getFreeCodesCTA": "Codes Gratuits",
     "stats": {
       "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
+        "value": "980M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
+        "value": "20+",
+        "label": "Breathing Styles & Arts"
       },
       "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
+        "value": "1+",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
+        "value": "Weekly",
+        "label": "Daily Updates"
       }
-    }
+    },
+    "playOnRobloxCTA": "Jouer sur Roblox"
   },
   "gameFeature": {
-    "title": "Gameplay de Lucid Blocks",
-    "description": "Regardez de minuscules gnomes réaliser de gros braquages dans des missions furtives chaotiques en coopération à 6 joueurs !"
+    "title": "Gameplay de Demonfall",
+    "description": "Maîtrisez les styles de respiration, les arts démoniaques et le combat à la lame en tant que Demon Slayer ou Démon dans ce RPG d'action Roblox inspiré de Demon Slayer."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Demonfall",
     "titleHighlight": "Ressources",
-    "subtitle": "Tout ce dont vous avez besoin pour maîtriser les braquages et la furtivité en coopération",
+    "subtitle": "Tout ce dont vous avez besoin pour maîtriser les codes, la respiration, les builds, les clans et le combat dans Demonfall",
     "cards": [
       {
         "icon": "Télécharger",
@@ -819,26 +819,26 @@
     ]
   },
   "cta": {
-    "title": "Prêt à commencer à braquer ?",
-    "description": "Rejoignez la communauté Lucid Blocks sur Discord pour des groupes de coopération, des mises à jour et des discussions sur les mods !",
+    "title": "Prêt à maîtriser Demonfall ?",
+    "description": "Rejoignez la communauté Demonfall sur Discord pour des guides, des mises à jour et des discussions !",
     "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Obtenir la démo sur Steam"
+    "joinGame": "Jouer sur Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Votre centre de ressources complet pour les braquages furtifs, les stratégies de coopération, les mods et les guides communautaires de Lucid Blocks.",
+    "title": "Wiki de Demonfall",
+    "description": "Votre centre de ressources complet pour les codes, styles de respiration, clans, armes, builds et guides de progression de Demonfall.",
     "resources": "Ressources",
     "community": "Communauté",
     "legal": "Légal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
+    "twitter": "Reddit",
+    "steamCommunity": "Jeu Roblox",
+    "steamStore": "Jouer sur Roblox",
     "about": "À propos",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "copyrightNotice": "Droits d'auteur",
-    "copyright": "© 2026 Lucid Blocks Wiki. Non affilié aux développeurs de Lucid Blocks.",
+    "copyright": "© 2026 Wiki de Demonfall. Non affilié aux développeurs de Demonfall.",
     "disclaimer": "Site web de ressources non officiel créé par des fans."
   },
   "pages": {

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Demonfall Wiki - Codes, Atemstile & Builds",
+      "description": "Das Demonfall Wiki behandelt Codes, Atemstile, Clans, Waffen, Karten, Bosse, Builds und Fortschrittsguides für Roblox-Demonfall-Spieler mit aktuellen Tipps.",
+      "keywords": "Demonfall, Roblox, Codes, Atemstile, Builds, Waffen, Clans, Bosse",
+      "ogTitle": "Demonfall Wiki - Codes, Atemstile & Builds",
+      "ogDescription": "Das Demonfall Wiki behandelt Codes, Atemstile, Clans, Waffen, Karten, Bosse, Builds und Fortschrittsguides für Roblox-Demonfall-Spieler mit aktuellen Tipps.",
+      "twitterTitle": "Demonfall Wiki - Codes, Atemstile & Builds",
+      "twitterDescription": "Das Demonfall Wiki behandelt Codes, Atemstile, Clans, Waffen, Karten, Bosse, Builds und Fortschrittsguides für Roblox-Demonfall-Spieler mit aktuellen Tipps."
     }
   },
   "nav": {
@@ -34,38 +34,38 @@
     "articlesComingSoon": "Artikel folgen bald"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Anime-Action-RPG-Abenteuer",
+    "title": "Demonfall Wiki",
+    "description": "Das Demonfall Wiki behandelt Atemstile, Dämonenkünste, Clans, Waffen, Bosse, Karten, Codes, Builds und Fortschrittsguides für Roblox-Demonfall-Spieler.",
+    "getFreeCodesCTA": "Kostenlose Codes",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "980M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "20+",
+        "label": "Breathing Styles & Arts"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "1+",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "Weekly",
+        "label": "Daily Updates"
       }
-    }
+    },
+    "playOnRobloxCTA": "Auf Roblox spielen"
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Demonfall Gameplay",
+    "description": "Meistere Atemstile, Dämonenkünste und Klingenkampf als Demon Slayer oder Dämon in diesem von Demon Slayer inspirierten Roblox-Action-RPG."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Demonfall",
     "titleHighlight": "Ressourcen",
-    "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
+    "subtitle": "Alles, was du brauchst, um Codes, Atemstile, Builds, Clans und Kampf in Demonfall zu meistern",
     "cards": [
       {
         "icon": "Herunterladen",
@@ -819,26 +819,26 @@
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
+    "title": "Bereit, Demonfall zu meistern?",
+    "description": "Tritt der Demonfall-Community auf Discord bei für Guides, Updates und Diskussionen!",
     "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "joinGame": "Auf Roblox spielen"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Demonfall Wiki",
+    "description": "Dein komplettes Ressourcen-Center für Demonfall-Codes, Atemstile, Clans, Waffen, Builds und Fortschrittsguides.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "twitter": "Reddit",
+    "steamCommunity": "Roblox-Spiel",
+    "steamStore": "Auf Roblox spielen",
     "about": "Über uns",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",
     "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
+    "copyright": "© 2026 Demonfall Wiki. Nicht mit den Entwicklern von Demonfall verbunden.",
     "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
   },
   "pages": {
