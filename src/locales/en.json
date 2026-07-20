@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -38,15 +38,15 @@
       },
       "stat2": {
         "value": "20+",
-        "label": "Breathing Styles & Arts"
+        "label": "Breathing & Blood Arts"
       },
       "stat3": {
-        "value": "1+",
-        "label": "Active Codes"
+        "value": "12+",
+        "label": "Clans & Races"
       },
       "stat4": {
         "value": "Weekly",
-        "label": "Daily Updates"
+        "label": "New Codes & Guides"
       }
     },
     "playOnRobloxCTA": "Play on Roblox"
@@ -58,728 +58,403 @@
   "tools": {
     "title": "Demonfall",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to master codes, breathing, builds, clans, and combat in Demonfall",
+    "subtitle": "Everything you need to master codes, breathing, builds, races, and combat in Demonfall",
     "cards": [
       {
+        "icon": "Ticket",
+        "title": "Demonfall Codes",
+        "description": "Active codes, rewards, and redemption steps"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Demonfall Beginner Guide",
+        "description": "First steps, combat basics, and early progression"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Wind",
+        "title": "Demonfall Breathing Tier List",
+        "description": "Rank every breathing style by strength and use"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Users",
+        "title": "Demonfall Races Guide",
+        "description": "Human, Demon, and Hybrid paths compared"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Map",
+        "title": "Demonfall Maps & Locations",
+        "description": "Villages, trainers, bosses, and quest zones"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Sword",
+        "title": "Demonfall Weapons & Skills",
+        "description": "Nichirin swords, breathing, and demon arts"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Skull",
+        "title": "Demonfall Boss Guide",
+        "description": "Boss strategies, drops, and preparation tips"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Bell",
+        "title": "Demonfall Updates",
+        "description": "Patches, balance changes, and new content"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "demonfallCodes": {
+      "title": "Demonfall Codes",
+      "displayType": "code-cards",
+      "intro": "This section collects Demonfall code information and explains how players can redeem codes through the game interface. Codes are commonly used for rewards such as spins, resets, and other progression bonuses.",
+      "codes": [
+        {
+          "code": "150KLIKES",
+          "reward": "Free rewards",
+          "status": "Active",
+          "howToRedeem": [
+            "Launch Demonfall on Roblox",
+            "Open the chat box",
+            "Enter the code",
+            "Confirm redemption"
+          ]
+        },
+        {
+          "code": "100KLIKES",
+          "reward": "Free rewards",
+          "status": "Active",
+          "howToRedeem": [
+            "Launch Demonfall on Roblox",
+            "Open the chat box",
+            "Enter the code",
+            "Confirm redemption"
+          ]
+        },
+        {
+          "code": "70KLIKES",
+          "reward": "Free rewards",
+          "status": "Active",
+          "howToRedeem": [
+            "Launch Demonfall on Roblox",
+            "Open the chat box",
+            "Enter the code",
+            "Confirm redemption"
+          ]
+        }
+      ],
+      "quickTip": "Codes are case-sensitive. Copy them exactly and redeem quickly before they expire."
+    },
+    "demonfallBeginnerGuide": {
+      "title": "Demonfall Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Demonfall is a Roblox action RPG inspired by Demon Slayer where players choose their path, learn combat techniques, and progress through quests and battles. This guide covers the essential first steps for new players.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Choose Your Path",
+          "description": "Start by deciding whether to follow the Human path as a Demon Slayer or become a Demon through the game's progression choices."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Learn Basic Combat",
+          "description": "Practice blocking, dodging, attacking, and using combos before fighting stronger enemies."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Complete Early Quests",
+          "description": "Follow early quests to gain experience, unlock progression systems, and understand the game's world."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Unlock Breathing Styles",
+          "description": "Human players can train to unlock Breathing Styles that improve combat abilities and define their fighting style."
+        },
+        {
+          "title": "Upgrade Your Build",
+          "description": "Improve your character by choosing suitable abilities, equipment, and progression paths."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Talk to NPCs in villages to unlock quests and learn new mechanics.",
+        "Save your spins for rare clans instead of rolling randomly early on.",
+        "Train breathing styles in safe zones before taking on boss fights.",
+        "Join a squad for boss raids to share drops and progress faster."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+    "demonfallBreathingTierList": {
+      "title": "Demonfall Breathing Styles Tier List",
+      "displayType": "tiers",
+      "intro": "Breathing Styles are important combat abilities used by Demon Slayers. Each style has different moves, strengths, and learning requirements. This tier list compares popular options so you can pick the one that fits your playstyle.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Top Tier",
+          "styles": [
+            {
+              "name": "Sun Breathing",
+              "description": "A powerful late-game Breathing Style with strong offensive abilities."
+            },
+            {
+              "name": "Moon Breathing",
+              "description": "A rare combat style known for powerful attacks and advanced moves."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Strong Pick",
+          "styles": [
+            {
+              "name": "Water Breathing",
+              "description": "A balanced style with reliable moves for general combat."
+            },
+            {
+              "name": "Mist Breathing",
+              "description": "A fast combat style focused on mobility and pressure."
+            },
+            {
+              "name": "Thunder Breathing",
+              "description": "A speed-focused style with quick attacks."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Solid Option",
+          "styles": [
+            {
+              "name": "Wind Breathing",
+              "description": "A combat style with useful area attacks and aggressive options."
+            },
+            {
+              "name": "Flame Breathing",
+              "description": "A straightforward offensive style with strong attack-focused abilities."
+            }
+          ]
+        }
+      ]
+    },
+    "demonfallRacesGuide": {
+      "title": "Demonfall Races Guide",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+      "intro": "Demonfall features different character paths that change how players progress and fight. Each path offers unique advantages and gameplay experiences.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Human",
+          "role": "Demon Slayer Path",
+          "description": "Humans can become Demon Slayers and learn Breathing Styles while using Nichirin weapons."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Demon",
+          "role": "Demon Path",
+          "description": "Demons use Blood Demon Arts and different abilities focused on demonic combat."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "name": "Hybrid",
+          "role": "Advanced Path",
+          "description": "Hybrid progression combines aspects of different paths and provides unique combat options."
         }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
+    "demonfallMapsAndLocations": {
+      "title": "Demonfall Maps and Locations",
+      "displayType": "table",
+      "intro": "This guide helps players find major destinations in Demonfall, including training areas, towns, quest zones, and locations connected to progression.",
+      "locations": [
+        {
+          "location": "Hayakawa Village",
+          "type": "Village",
+          "purpose": "Starting area for human players with early quests, NPC interactions, and progression routes",
+          "notable_features": [
+            "Starter quests",
+            "NPCs",
+            "Nearby exploration paths"
+          ]
+        },
+        {
+          "location": "Okuyia Village",
+          "type": "Village",
+          "purpose": "Important settlement with quests and access to different parts of the map",
+          "notable_features": [
+            "Quest NPCs",
+            "Travel routes",
+            "Player activities"
+          ]
+        },
+        {
+          "location": "Slayer Corps Base",
+          "type": "Faction Area",
+          "purpose": "Main location connected to Demon Slayer progression and training",
+          "notable_features": [
+            "Slayer-related NPCs",
+            "Training",
+            "Progression"
+          ]
+        },
+        {
+          "location": "Final Selection Area",
+          "type": "Challenge Area",
+          "purpose": "Trial location where players begin their Demon Slayer journey",
+          "notable_features": [
+            "Selection challenge",
+            "Demon enemies",
+            "Early rewards"
+          ]
+        },
+        {
+          "location": "Demon Hideouts",
+          "type": "Combat Area",
+          "purpose": "Areas where players fight demons and collect progression resources",
+          "notable_features": [
+            "Enemy encounters",
+            "Combat practice",
+            "Drops"
+          ]
+        }
+      ]
+    },
+    "demonfallWeaponsAndSkills": {
+      "title": "Demonfall Weapons and Skills",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+      "intro": "Demonfall features different combat paths based on weapons, breathing styles, and demon abilities. Players can choose upgrades that match their preferred fighting style.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Nichirin Sword",
+          "type": "Weapon",
+          "description": "The main sword weapon used by Demon Slayers for melee combat.",
+          "combat_role": "Close-range damage and breathing style usage"
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Water Breathing",
+          "type": "Breathing Style",
+          "description": "A balanced breathing style based on fluid sword techniques.",
+          "combat_role": "Beginner-friendly attacks with versatile combos"
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "Flame Breathing",
+          "type": "Breathing Style",
+          "description": "A powerful offensive style focused on aggressive sword techniques.",
+          "combat_role": "High damage combat approach"
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "name": "Thunder Breathing",
+          "type": "Breathing Style",
+          "description": "A fast-paced style focused on speed and burst attacks.",
+          "combat_role": "Quick movement and damage combos"
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Demon Blood Arts",
+          "type": "Demon Skill",
+          "description": "Special abilities available to demon players through Blood Demon Arts.",
+          "combat_role": "Unique ranged and utility combat options"
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "demonfallBossGuide": {
+      "title": "Demonfall Boss Guide",
+      "displayType": "accordion",
+      "intro": "Boss encounters in Demonfall require preparation, good timing, and knowledge of enemy attack patterns. This guide covers important fights and strategies.",
+      "bosses": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "boss": "Rui",
+          "location": "Spider Family area",
+          "strategy": "Avoid predictable attacks, manage distance, and punish openings after abilities.",
+          "preparation": [
+            "Upgrade your weapon",
+            "Learn enemy patterns",
+            "Bring healing resources"
+          ]
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "boss": "Akaza",
+          "location": "Boss encounter area",
+          "strategy": "Focus on movement, dodging combos, and attacking during recovery windows.",
+          "preparation": [
+            "Strong combat build",
+            "High stamina management",
+            "Team coordination"
+          ]
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "boss": "Gyutaro",
+          "location": "Boss encounter area",
+          "strategy": "Use mobility to avoid area attacks and maintain pressure when safe.",
+          "preparation": [
+            "Improved sword skills",
+            "Practice dodging",
+            "Upgrade equipment"
+          ]
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "boss": "Kaigaku",
+          "location": "Boss encounter area",
+          "strategy": "Watch lightning-based attacks and use openings between combos.",
+          "preparation": [
+            "Balanced build",
+            "Combat experience",
+            "Proper timing"
+          ]
         }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
+    "demonfallUpdatesAndNews": {
+      "title": "Demonfall Updates and News",
       "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+      "intro": "Keep track of Demonfall changes including gameplay adjustments, new content additions, and important announcements for returning players.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "title": "Content Updates",
+          "category": "New Features",
+          "description": "New gameplay additions, areas, quests, and systems introduced through major updates."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "title": "Balance Changes",
+          "category": "Combat",
+          "description": "Adjustments to weapons, breathing styles, abilities, and combat mechanics."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "title": "Bug Fixes",
+          "category": "Maintenance",
+          "description": "Updates focused on improving stability and fixing gameplay issues."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Community Announcements",
+          "category": "News",
+          "description": "Developer messages, event information, and important player notices."
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Demonfall",
+    "titleHighlight": "FAQ",
+    "subtitle": "Everything you need to know about Demonfall codes, breathing styles, races, and progression",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What are Demonfall codes and how do I redeem them?",
+        "answer": "Demonfall codes are free rewards released by the developers. Open the in-game chat, type the code exactly, and confirm to claim spins, resets, and other bonuses."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What is the best breathing style in Demonfall?",
+        "answer": "The best Demonfall breathing style depends on your playstyle. Sun and Moon Breathing are top-tier for damage, while Water and Thunder are strong beginner-friendly choices."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do I become a Demon in Demonfall?",
+        "answer": "In Demonfall, losing to a Demon as a Human or following specific story choices can turn your character into a Demon, which unlocks Blood Demon Arts instead of Breathing Styles."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Is Demonfall free to play on Roblox?",
+        "answer": "Yes. Demonfall is free to play on Roblox, with optional in-game purchases for cosmetics, spins, and progression boosts."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How do I reset my breathing or race in Demonfall?",
+        "answer": "Demonfall lets you reset breathing, race, and stats using reset items or codes. Some resets require Robux, while others come from free codes."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where do I find breathing trainers in Demonfall?",
+        "answer": "Demonfall breathing trainers are spread across villages and remote areas. Most require a minimum level before they teach you their breathing style."
       }
     ]
   },
   "cta": {
     "title": "Ready to Master Demonfall?",
-    "description": "Join the Demonfall community on Discord for guides, updates, and discussions!",
+    "description": "Join the Demonfall community on Discord and Reddit for codes, breathing guides, builds, and update discussions.",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Roblox"
   },
@@ -801,125 +476,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
+    "codes": {
+      "title": "Demonfall Codes",
+      "description": "All active Demonfall codes, redemption steps, and reward details in one place.",
+      "metaTitle": "Demonfall Codes - Active Codes & Free Rewards",
+      "metaDescription": "Find active Demonfall codes, learn how to redeem them, and claim free spins, resets, and progression rewards.",
+      "categoryLabel": "CODES & REWARDS",
+      "whatIs": "What are Demonfall Codes?",
+      "whatIsDescription": "Demonfall codes are free redeemable rewards released by the developers. They grant spins, resets, currency, and other progression bonuses.",
+      "why": "Why use Demonfall codes?",
+      "whySteps": {
+        "step1Title": "Free Progression",
+        "step1Description": "Claim spins, resets, and bonuses without spending Robux",
+        "step2Title": "Stay Updated",
+        "step2Description": "New codes drop alongside milestones and major updates",
+        "step3Title": "Save Resources",
+        "step3Description": "Use codes to try rare clans and breathing styles"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "breathing": {
+      "title": "Demonfall Breathing Styles",
+      "description": "Every Demonfall breathing style with moves, trainers, and tier rankings.",
+      "metaTitle": "Demonfall Breathing Styles - Moves, Trainers & Tier List",
+      "metaDescription": "Master every Demonfall breathing style with move lists, trainer locations, and a complete tier ranking.",
+      "categoryLabel": "BREATHING STYLES",
+      "whatIs": "What are Breathing Styles?",
+      "whatIsDescription": "Breathing Styles are combat abilities learned by Demon Slayers in Demonfall. Each style has unique moves, combos, and learning requirements.",
+      "why": "Why pick the right breathing style?",
+      "whySteps": {
+        "step1Title": "Match Your Playstyle",
+        "step1Description": "Choose aggressive, defensive, or mobility-focused combat",
+        "step2Title": "Unlock Stronger Moves",
+        "step2Description": "Train to unlock advanced combos and abilities",
+        "step3Title": "Win More Fights",
+        "step3Description": "Higher-tier styles perform better in PvP and boss raids"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Breathing Styles"
+    },
+    "builds": {
+      "title": "Demonfall Builds",
+      "description": "Slayer, Demon, and Hybrid builds with stat allocation and skill paths.",
+      "metaTitle": "Demonfall Builds - Best Stats, Skill Trees & Loadouts",
+      "metaDescription": "Optimize your Demonfall build with stat allocation, skill paths, and loadouts for Slayer, Demon, and Hybrid playstyles.",
+      "categoryLabel": "BUILDS & STATS",
+      "whatIs": "What are Demonfall Builds?",
+      "whatIsDescription": "Demonfall builds cover stat allocation, skill choices, and equipment that define how your character fights and progresses.",
+      "why": "Why plan your build?",
+      "whySteps": {
+        "step1Title": "Maximize Damage",
+        "step1Description": "Allocate stats to match your breathing or blood art",
+        "step2Title": "Optimize Skills",
+        "step2Description": "Pick skill upgrades that fit your combat style",
+        "step3Title": "Progress Faster",
+        "step3Description": "A clear build path speeds up leveling and boss fights"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Builds"
+    },
+    "weapons": {
+      "title": "Demonfall Weapons",
+      "description": "Nichirin swords, weapon stats, colors, and upgrade paths.",
+      "metaTitle": "Demonfall Weapons - Nichirin Swords, Colors & Upgrades",
+      "metaDescription": "Learn about every Demonfall weapon including Nichirin swords, colors, rarities, and upgrade paths.",
+      "categoryLabel": "WEAPONS & GEAR",
+      "whatIs": "What are Demonfall Weapons?",
+      "whatIsDescription": "Demonfall weapons include Nichirin swords and gear used by Demon Slayers, each with stats, colors, and upgrade options.",
+      "why": "Why upgrade your weapon?",
+      "whySteps": {
+        "step1Title": "Deal More Damage",
+        "step1Description": "Upgraded swords hit harder in combat",
+        "step2Title": "Unlock Colors",
+        "step2Description": "Different colors offer unique bonuses",
+        "step3Title": "Beat Bosses",
+        "step3Description": "Stronger weapons make raids and duels easier"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Weapons"
+    },
+    "clans": {
+      "title": "Demonfall Clans",
+      "description": "Clan tier list, buffs, rarities, and reset methods.",
+      "metaTitle": "Demonfall Clans - Tier List, Buffs & Rare Clans",
+      "metaDescription": "Browse the Demonfall clan tier list, learn clan buffs, rarities, and how to roll or reset for rare clans.",
+      "categoryLabel": "CLANS & BLOODLINES",
+      "whatIs": "What are Demonfall Clans?",
+      "whatIsDescription": "Demonfall clans are bloodlines that grant passive buffs and abilities. Rare clans provide stronger bonuses and unique perks.",
+      "why": "Why chase rare clans?",
+      "whySteps": {
+        "step1Title": "Stronger Buffs",
+        "step1Description": "Rare clans offer powerful passive bonuses",
+        "step2Title": "Unique Abilities",
+        "step2Description": "Some clans unlock exclusive moves",
+        "step3Title": "Better PvP",
+        "step3Description": "Top clans perform well in duels and raids"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Clans"
+    },
+    "maps": {
+      "title": "Demonfall Maps",
+      "description": "Villages, trainers, boss locations, and quest routes.",
+      "metaTitle": "Demonfall Maps - Villages, Trainers & Boss Locations",
+      "metaDescription": "Explore the Demonfall map with village locations, trainer spots, boss areas, and fast travel routes.",
+      "categoryLabel": "MAPS & LOCATIONS",
+      "whatIs": "What does the Demonfall map cover?",
+      "whatIsDescription": "The Demonfall map guides players to villages, trainers, quest zones, and boss locations across the game world.",
+      "why": "Why learn the map?",
+      "whySteps": {
+        "step1Title": "Find Trainers",
+        "step1Description": "Locate breathing trainers fast",
+        "step2Title": "Plan Routes",
+        "step2Description": "Travel efficiently between quests",
+        "step3Title": "Hunt Bosses",
+        "step3Description": "Know where each boss spawns"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Locations"
+    },
+    "bosses": {
+      "title": "Demonfall Bosses",
+      "description": "Boss skills, drops, strategies, and recommended builds.",
+      "metaTitle": "Demonfall Bosses - Strategies, Drops & Recommended Builds",
+      "metaDescription": "Defeat every Demonfall boss with strategy guides, drop tables, and recommended builds for each encounter.",
+      "categoryLabel": "BOSSES & RAIDS",
+      "whatIs": "What are Demonfall Bosses?",
+      "whatIsDescription": "Demonfall bosses are major encounters that drop progression resources and test your combat build and timing.",
+      "why": "Why fight bosses?",
+      "whySteps": {
+        "step1Title": "Earn Drops",
+        "step1Description": "Bosses drop valuable resources and gear",
+        "step2Title": "Progress Story",
+        "step2Description": "Many quests require boss defeats",
+        "step3Title": "Team Up",
+        "step3Description": "Raids are easier with a coordinated squad"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Bosses"
+    },
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Demonfall Guides",
+      "description": "Beginner walkthroughs, progression routes, and system tutorials.",
+      "metaTitle": "Demonfall Guides - Beginner Walkthroughs & Progression",
+      "metaDescription": "Read Demonfall guides covering beginner walkthroughs, progression routes, prestige, and endgame content.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIs": "What are Demonfall Guides?",
+      "whatIsDescription": "Demonfall guides cover beginner flow, systems, progression, and endgame content to help players at every stage.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Learn the Basics",
+        "step1Description": "Understand combat, races, and progression",
+        "step2Title": "Level Faster",
+        "step2Description": "Follow proven leveling routes",
+        "step3Title": "Reach Endgame",
+        "step3Description": "Plan prestige and late-game goals"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
     }
   }
 }
