@@ -153,7 +153,7 @@
     },
     "demonfallBeginnerGuide": {
       "title": "Demonfall初心者ガイド",
-      "displayType": "ステップ",
+      "displayType": "steps",
       "intro": "Demonfallは、「鬼滅の刃」にインスパイアされたRobloxのアクションRPGで、プレイヤーは自らの道を選び、戦闘技術を学び、クエストやバトルを通じて成長していきます。このガイドでは、新規プレイヤー向けの重要な最初のステップを解説します。",
       "steps": [
         {
@@ -186,7 +186,7 @@
     },
     "demonfallBreathingTierList": {
       "title": "Demonfall 呼吸法ティアリスト",
-      "displayType": "ティア",
+      "displayType": "tiers",
       "intro": "呼吸法は、鬼殺隊士が使用する重要な戦闘能力です。それぞれの呼吸法には異なる技、強み、習得条件があります。このティアリストでは人気の選択肢を比較しており、自分のプレイスタイルに合ったものを選ぶことができます。",
       "tiers": [
         {
@@ -239,7 +239,7 @@
     },
     "demonfallRacesGuide": {
       "title": "Demonfall 種族ガイド",
-      "displayType": "カード",
+      "displayType": "cards",
       "intro": "Demonfallには、プレイヤーの成長や戦い方を左右する様々なキャラクターパスがあります。各パスには独自の利点とゲーム体験が用意されています。",
       "cards": [
         {
@@ -261,7 +261,7 @@
     },
     "demonfallMapsAndLocations": {
       "title": "Demonfall マップと場所",
-      "displayType": "テーブル",
+      "displayType": "table",
       "intro": "このガイドは、修行場、町、クエストゾーン、成長に関連する場所など、Demonfallの主要な目的地を見つけるのに役立ちます。",
       "locations": [
         {
@@ -318,7 +318,7 @@
     },
     "demonfallWeaponsAndSkills": {
       "title": "Demonfallの武器とスキル",
-      "displayType": "アイテムカード",
+      "displayType": "itemCards",
       "intro": "Demonfallでは、武器、呼吸法、鬼の能力に基づいた様々な戦闘スタイルが存在します。プレイヤーは好みの戦闘スタイルに合わせた強化を選択できます。",
       "items": [
         {
@@ -355,7 +355,7 @@
     },
     "demonfallBossGuide": {
       "title": "Demonfall ボスガイド",
-      "displayType": "アコーディオン",
+      "displayType": "accordion",
       "intro": "Demonfallでのボス戦には、準備、適切なタイミング、そして敵の攻撃パターンの知識が必要です。このガイドでは、重要な戦闘と戦略について解説します。",
       "bosses": [
         {
@@ -402,7 +402,7 @@
     },
     "demonfallUpdatesAndNews": {
       "title": "Demonfallのアップデートとニュース",
-      "displayType": "カード",
+      "displayType": "cards",
       "intro": "ゲームプレイの調整、新しいコンテンツの追加、復帰プレイヤー向けの重要なお知らせなど、Demonfallの変更点を把握しましょう。",
       "items": [
         {

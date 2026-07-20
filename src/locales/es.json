@@ -153,7 +153,7 @@
     },
     "demonfallBeginnerGuide": {
       "title": "Guía para principiantes de Demonfall",
-      "displayType": "pasos",
+      "displayType": "steps",
       "intro": "Demonfall es un RPG de acción en Roblox inspirado en Demon Slayer donde los jugadores eligen su camino, aprenden técnicas de combate y progresan a través de misiones y batallas. Esta guía cubre los primeros pasos esenciales para nuevos jugadores.",
       "steps": [
         {
@@ -186,7 +186,7 @@
     },
     "demonfallBreathingTierList": {
       "title": "Tier List de Estilos de Respiración de Demonfall",
-      "displayType": "niveles",
+      "displayType": "tiers",
       "intro": "Los Estilos de Respiración son habilidades de combate importantes usadas por los Demon Slayers. Cada estilo tiene diferentes movimientos, fortalezas y requisitos de aprendizaje. Esta tier list compara opciones populares para que elijas la que mejor se adapte a tu estilo de juego.",
       "tiers": [
         {
@@ -239,7 +239,7 @@
     },
     "demonfallRacesGuide": {
       "title": "Guía de Razas de Demonfall",
-      "displayType": "tarjetas",
+      "displayType": "cards",
       "intro": "Demonfall cuenta con diferentes caminos de personajes que cambian la forma en que los jugadores progresan y luchan. Cada camino ofrece ventajas y experiencias de juego únicas.",
       "cards": [
         {
@@ -261,7 +261,7 @@
     },
     "demonfallMapsAndLocations": {
       "title": "Mapas y ubicaciones de Demonfall",
-      "displayType": "tabla",
+      "displayType": "table",
       "intro": "Esta guía ayuda a los jugadores a encontrar los destinos principales en Demonfall, incluyendo zonas de entrenamiento, pueblos, zonas de misiones y ubicaciones conectadas con la progresión.",
       "locations": [
         {
@@ -355,7 +355,7 @@
     },
     "demonfallBossGuide": {
       "title": "Guía de jefes de Demonfall",
-      "displayType": "acordeón",
+      "displayType": "accordion",
       "intro": "Los encuentros con jefes en Demonfall requieren preparación, buena sincronización y conocimiento de los patrones de ataque del enemigo. Esta guía cubre combates y estrategias importantes.",
       "bosses": [
         {
@@ -402,7 +402,7 @@
     },
     "demonfallUpdatesAndNews": {
       "title": "Actualizaciones y noticias de Demonfall",
-      "displayType": "tarjetas",
+      "displayType": "cards",
       "intro": "Realiza un seguimiento de los cambios de Demonfall, incluidos los ajustes de jugabilidad, las adiciones de nuevo contenido y los anuncios importantes para los jugadores que regresan.",
       "items": [
         {

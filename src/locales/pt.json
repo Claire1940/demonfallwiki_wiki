@@ -153,7 +153,7 @@
     },
     "demonfallBeginnerGuide": {
       "title": "Guia de Iniciante do Demonfall",
-      "displayType": "passos",
+      "displayType": "steps",
       "intro": "Demonfall é um RPG de ação no Roblox inspirado em Demon Slayer, onde os jogadores escolhem seu caminho, aprendem técnicas de combate e progridem através de missões e batalhas. Este guia cobre os primeiros passos essenciais para novos jogadores.",
       "steps": [
         {
@@ -261,7 +261,7 @@
     },
     "demonfallMapsAndLocations": {
       "title": "Mapas e Locais de Demonfall",
-      "displayType": "tabela",
+      "displayType": "table",
       "intro": "Este guia ajuda os jogadores a encontrar os principais destinos em Demonfall, incluindo áreas de treinamento, cidades, zonas de missões e locais conectados à progressão.",
       "locations": [
         {
