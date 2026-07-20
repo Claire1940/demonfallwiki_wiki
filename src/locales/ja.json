@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Demonfall Wiki - コード、呼吸、ビルド",
+      "description": "Demonfall Wikiでは、RobloxのDemonfallプレイヤー向けに、コード、呼吸法、一族、武器、マップ、ボス、ビルド、進行ガイドなどの最新情報を網羅しています。",
+      "keywords": "Demonfall, Roblox, コード, 呼吸法, ビルド, 武器, 一族, ボス",
+      "ogTitle": "Demonfall Wiki - コード、呼吸、ビルド",
+      "ogDescription": "Demonfall Wikiでは、RobloxのDemonfallプレイヤー向けに、コード、呼吸法、一族、武器、マップ、ボス、ビルド、進行ガイドなどの最新情報を網羅しています。",
+      "twitterTitle": "Demonfall Wiki - コード、呼吸、ビルド",
+      "twitterDescription": "Demonfall Wikiでは、RobloxのDemonfallプレイヤー向けに、コード、呼吸法、一族、武器、マップ、ボス、ビルド、進行ガイドなどの最新情報を網羅しています。"
+    }
+  },
   "nav": {
     "codes": "コード",
     "guide": "ガイド",
@@ -6,5 +17,591 @@
     "clans": "一族",
     "combat": "戦闘",
     "weapons": "武器"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Robloxでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定です"
+  },
+  "hero": {
+    "badge": "アニメアクションRPGアドベンチャー",
+    "title": "Demonfall Wiki",
+    "description": "Demonfall Wikiでは、RobloxのDemonfallプレイヤー向けに、呼吸法、血鬼術、一族、武器、ボス、マップ、コード、ビルド、進行ガイドを網羅しています。",
+    "getFreeCodesCTA": "無料コードを入手",
+    "stats": {
+      "stat1": {
+        "value": "9億8000万+",
+        "label": "総訪問数"
+      },
+      "stat2": {
+        "value": "20+",
+        "label": "呼吸と血鬼術"
+      },
+      "stat3": {
+        "value": "12+",
+        "label": "一族と種族"
+      },
+      "stat4": {
+        "value": "毎週",
+        "label": "新しいコードとガイド"
+      }
+    },
+    "playOnRobloxCTA": "Robloxでプレイ"
+  },
+  "gameFeature": {
+    "title": "Demonfallのゲームプレイ",
+    "description": "『鬼滅の刃』にインスパイアされたこのRobloxアクションRPGで、鬼殺隊士または鬼として、呼吸法、血鬼術、そして剣術を極めよう。"
+  },
+  "tools": {
+    "title": "Demonfall",
+    "titleHighlight": "リソース",
+    "subtitle": "Demonfallでコード、呼吸、ビルド、種族、そして戦闘を極めるために必要なすべてがここに",
+    "cards": [
+      {
+        "icon": "チケット",
+        "title": "Demonfallのコード",
+        "description": "有効なコード、報酬、および引き換え手順"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Demonfall 初心者ガイド",
+        "description": "序盤の手引き、戦闘の基本、および序盤の進め方"
+      },
+      {
+        "icon": "Wind",
+        "title": "Demonfall 呼吸ティアリスト",
+        "description": "すべての呼吸法を強さと使いやすさでランク付け"
+      },
+      {
+        "icon": "Users",
+        "title": "Demonfall 種族ガイド",
+        "description": "人間、鬼、ハイブリッドのルートを比較"
+      },
+      {
+        "icon": "Map",
+        "title": "Demonfallのマップとロケーション",
+        "description": "村、トレーナー、ボス、クエストエリア"
+      },
+      {
+        "icon": "Sword",
+        "title": "Demonfallの武器とスキル",
+        "description": "日輪刀、呼吸、血鬼術"
+      },
+      {
+        "icon": "Skull",
+        "title": "Demonfall ボス攻略ガイド",
+        "description": "ボス攻略法、ドロップアイテム、対策と準備のコツ"
+      },
+      {
+        "icon": "Bell",
+        "title": "Demonfall アップデート情報",
+        "description": "パッチノート、バランス調整、新コンテンツ"
+      }
+    ]
+  },
+  "modules": {
+    "demonfallCodes": {
+      "title": "Demonfallのコード",
+      "displayType": "code-cards",
+      "intro": "このセクションでは、Demonfallのコード情報をまとめ、ゲーム内のインターフェースからコードを引き換える方法を説明します。コードは通常、スピンやリセット、その他の進行状況ボーナスなどの報酬を獲得するために使用されます。",
+      "codes": [
+        {
+          "code": "150KLIKES",
+          "reward": "無料報酬",
+          "status": "有効",
+          "howToRedeem": [
+            "RobloxでDemonfallを起動する",
+            "チャットボックスを開く",
+            "コードを入力する",
+            "引き換えを確定する"
+          ]
+        },
+        {
+          "code": "100KLIKES",
+          "reward": "無料報酬",
+          "status": "有効",
+          "howToRedeem": [
+            "RobloxでDemonfallを起動する",
+            "チャットボックスを開く",
+            "コードを入力する",
+            "引き換えを確定する"
+          ]
+        },
+        {
+          "code": "70KLIKES",
+          "reward": "無料報酬",
+          "status": "有効",
+          "howToRedeem": [
+            "RobloxでDemonfallを起動する",
+            "チャットボックスを開く",
+            "コードを入力する",
+            "引き換えを確定する"
+          ]
+        }
+      ],
+      "quickTip": "コードは大文字と小文字を区別します。正確にコピーし、期限が切れる前に素早く引き換えてください。"
+    },
+    "demonfallBeginnerGuide": {
+      "title": "Demonfall初心者ガイド",
+      "displayType": "ステップ",
+      "intro": "Demonfallは、「鬼滅の刃」にインスパイアされたRobloxのアクションRPGで、プレイヤーは自らの道を選び、戦闘技術を学び、クエストやバトルを通じて成長していきます。このガイドでは、新規プレイヤー向けの重要な最初のステップを解説します。",
+      "steps": [
+        {
+          "title": "進む道を選ぶ",
+          "description": "ゲーム内の進行状況の選択肢を通じて、鬼殺隊士として人間の道を進むか、あるいは鬼になるかを決めることから始めましょう。"
+        },
+        {
+          "title": "基本戦闘を学ぶ",
+          "description": "より強い敵と戦う前に、ガード、回避、攻撃、そしてコンボの使用を練習しましょう。"
+        },
+        {
+          "title": "序盤のクエストをクリアする",
+          "description": "序盤のクエストを進めて経験値を獲得し、育成システムを解放し、ゲームの世界観を理解しましょう。"
+        },
+        {
+          "title": "呼吸法を解放する",
+          "description": "人間のプレイヤーは、戦闘能力を向上させ、自身の戦闘スタイルを決定づける「呼吸法」を修行によって解放できます。"
+        },
+        {
+          "title": "ビルドを強化する",
+          "description": "適切なアビリティ、装備、育成ルートを選択して、キャラクターを強化しましょう。"
+        }
+      ],
+      "quickTips": [
+        "村のNPCに話しかけてクエストを解放し、新しいゲームシステムを学びましょう。",
+        "序盤にランダムにスピンを使うのではなく、レアな一族（クラン）のためにスピンを取っておきましょう。",
+        "ボス戦に挑む前に、安全地帯で呼吸法を練習しておきましょう。",
+        "ボスレイドの分隊（スクワッド）に参加して、ドロップアイテムを共有し、より早く進行しましょう。"
+      ]
+    },
+    "demonfallBreathingTierList": {
+      "title": "Demonfall 呼吸法ティアリスト",
+      "displayType": "ティア",
+      "intro": "呼吸法は、鬼殺隊士が使用する重要な戦闘能力です。それぞれの呼吸法には異なる技、強み、習得条件があります。このティアリストでは人気の選択肢を比較しており、自分のプレイスタイルに合ったものを選ぶことができます。",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "トップティア",
+          "styles": [
+            {
+              "name": "日の呼吸",
+              "description": "強力な攻撃能力を持つ、ゲーム終盤向けの強力な呼吸法。"
+            },
+            {
+              "name": "月の呼吸",
+              "description": "強力な攻撃と高度な技で知られる、希少な戦闘スタイル。"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "強力な選択",
+          "styles": [
+            {
+              "name": "水の呼吸",
+              "description": "一般的な戦闘に適した、信頼性の高い技を持つバランスの取れたスタイル。"
+            },
+            {
+              "name": "霞の呼吸",
+              "description": "機動力とプレッシャーに特化した、スピード感のある戦闘スタイル。"
+            },
+            {
+              "name": "雷の呼吸",
+              "description": "素早い攻撃を繰り出す、速度重視のスタイル。"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "堅実な選択",
+          "styles": [
+            {
+              "name": "風の呼吸",
+              "description": "有用な範囲攻撃と攻撃的な選択肢を備えた戦闘スタイル。"
+            },
+            {
+              "name": "炎の呼吸",
+              "description": "強力な攻撃アビリティを持つ、真っ向勝負の攻撃スタイル。"
+            }
+          ]
+        }
+      ]
+    },
+    "demonfallRacesGuide": {
+      "title": "Demonfall 種族ガイド",
+      "displayType": "カード",
+      "intro": "Demonfallには、プレイヤーの成長や戦い方を左右する様々なキャラクターパスがあります。各パスには独自の利点とゲーム体験が用意されています。",
+      "cards": [
+        {
+          "name": "人間",
+          "role": "鬼殺隊ルート",
+          "description": "人間は鬼殺隊になり、日輪刀を使いながら呼吸の型を習得できます。"
+        },
+        {
+          "name": "鬼",
+          "role": "鬼ルート",
+          "description": "鬼は血鬼術や、鬼としての戦闘に特化した様々な能力を使用します。"
+        },
+        {
+          "name": "ハイブリッド",
+          "role": "上級ルート",
+          "description": "ハイブリッドの成長過程は異なるパスの要素を組み合わせ、独自の戦闘の選択肢を提供します。"
+        }
+      ]
+    },
+    "demonfallMapsAndLocations": {
+      "title": "Demonfall マップと場所",
+      "displayType": "テーブル",
+      "intro": "このガイドは、修行場、町、クエストゾーン、成長に関連する場所など、Demonfallの主要な目的地を見つけるのに役立ちます。",
+      "locations": [
+        {
+          "location": "早川村",
+          "type": "村",
+          "purpose": "人間プレイヤーの初期エリアで、序盤のクエスト、NPCとの交流、成長ルートがあります。",
+          "notable_features": [
+            "初心者クエスト",
+            "NPC",
+            "付近の探索ルート"
+          ]
+        },
+        {
+          "location": "奥屋村",
+          "type": "村",
+          "purpose": "クエストやマップの各所へのアクセスが可能な重要な拠点。",
+          "notable_features": [
+            "クエストNPC",
+            "移動ルート",
+            "プレイヤーのアクティビティ"
+          ]
+        },
+        {
+          "location": "鬼殺隊の拠点",
+          "type": "陣営エリア",
+          "purpose": "鬼殺隊の育成と修行に関連する主要な場所",
+          "notable_features": [
+            "鬼殺隊関連のNPC",
+            "修行",
+            "育成"
+          ]
+        },
+        {
+          "location": "最終選別エリア",
+          "type": "チャレンジエリア",
+          "purpose": "プレイヤーが鬼殺隊としての旅を始める試練の場所",
+          "notable_features": [
+            "選別の試練",
+            "鬼の敵",
+            "初期報酬"
+          ]
+        },
+        {
+          "location": "鬼の隠れ家",
+          "type": "戦闘エリア",
+          "purpose": "プレイヤーが鬼と戦い、育成素材を集めるエリア",
+          "notable_features": [
+            "敵との遭遇",
+            "戦闘訓練",
+            "ドロップ"
+          ]
+        }
+      ]
+    },
+    "demonfallWeaponsAndSkills": {
+      "title": "Demonfallの武器とスキル",
+      "displayType": "アイテムカード",
+      "intro": "Demonfallでは、武器、呼吸法、鬼の能力に基づいた様々な戦闘スタイルが存在します。プレイヤーは好みの戦闘スタイルに合わせた強化を選択できます。",
+      "items": [
+        {
+          "name": "日輪刀",
+          "type": "武器",
+          "description": "鬼殺隊が近接戦闘で使用する主要な刀剣武器。",
+          "combat_role": "近接ダメージと呼吸法の使用"
+        },
+        {
+          "name": "水の呼吸",
+          "type": "呼吸法",
+          "description": "流れるような剣技に基づいた、バランスの取れた呼吸法。",
+          "combat_role": "多彩なコンボが可能な初心者向けの攻撃"
+        },
+        {
+          "name": "炎の呼吸",
+          "type": "呼吸法",
+          "description": "攻撃的な剣技に特化した、強力な攻めの呼吸法。",
+          "combat_role": "高火力の戦闘スタイル"
+        },
+        {
+          "name": "雷の呼吸",
+          "type": "呼吸法",
+          "description": "速度と瞬間的な攻撃に特化した、スピード感のある呼吸法。",
+          "combat_role": "素早い移動とダメージコンボ"
+        },
+        {
+          "name": "血鬼術",
+          "type": "鬼のスキル",
+          "description": "鬼のプレイヤーが血鬼術を通じて使用できる特殊能力。",
+          "combat_role": "ユニークな遠距離・ユーティリティ戦闘オプション"
+        }
+      ]
+    },
+    "demonfallBossGuide": {
+      "title": "Demonfall ボスガイド",
+      "displayType": "アコーディオン",
+      "intro": "Demonfallでのボス戦には、準備、適切なタイミング、そして敵の攻撃パターンの知識が必要です。このガイドでは、重要な戦闘と戦略について解説します。",
+      "bosses": [
+        {
+          "boss": "累",
+          "location": "蜘蛛の家族エリア",
+          "strategy": "予測可能な攻撃を避け、間合いを管理し、スキル後の隙を突きましょう。",
+          "preparation": [
+            "武器を強化する",
+            "敵のパターンを覚える",
+            "回復アイテムを持参する"
+          ]
+        },
+        {
+          "boss": "猗窩座",
+          "location": "ボス戦エリア",
+          "strategy": "移動、コンボの回避、そして敵の硬直時間中の攻撃に集中しましょう。",
+          "preparation": [
+            "強力な戦闘ビルド",
+            "高度なスタミナ管理",
+            "チームの連携"
+          ]
+        },
+        {
+          "boss": "妓夫太郎",
+          "location": "ボス戦エリア",
+          "strategy": "機動力を活かして範囲攻撃を回避し、安全な時はプレッシャーを与え続けましょう。",
+          "preparation": [
+            "剣術スキルの向上",
+            "回避の練習",
+            "装備を強化する"
+          ]
+        },
+        {
+          "boss": "獪岳",
+          "location": "ボス戦エリア",
+          "strategy": "雷系の攻撃に注意し、コンボの合間の隙を狙いましょう。",
+          "preparation": [
+            "バランスの取れたビルド",
+            "戦闘経験",
+            "適切なタイミング"
+          ]
+        }
+      ]
+    },
+    "demonfallUpdatesAndNews": {
+      "title": "Demonfallのアップデートとニュース",
+      "displayType": "カード",
+      "intro": "ゲームプレイの調整、新しいコンテンツの追加、復帰プレイヤー向けの重要なお知らせなど、Demonfallの変更点を把握しましょう。",
+      "items": [
+        {
+          "title": "コンテンツアップデート",
+          "category": "新機能",
+          "description": "メジャーアップデートで導入された新しいゲームプレイ要素、エリア、クエスト、システム。"
+        },
+        {
+          "title": "バランス調整",
+          "category": "戦闘",
+          "description": "武器、呼吸、アビリティ、戦闘メカニクスへの調整。"
+        },
+        {
+          "title": "不具合修正",
+          "category": "メンテナンス",
+          "description": "安定性の向上とゲームプレイ上の問題の修正に焦点を当てたアップデート。"
+        },
+        {
+          "title": "コミュニティのお知らせ",
+          "category": "ニュース",
+          "description": "開発者からのメッセージ、イベント情報、およびプレイヤーへの重要なお知らせ。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Demonfall",
+    "titleHighlight": "FAQ",
+    "subtitle": "Demonfallのコード、呼吸法、種族、育成に関するすべての情報",
+    "questions": [
+      {
+        "question": "Demonfallのコードとは何ですか？また、どのように引き換えますか？",
+        "answer": "Demonfallのコードは、開発者から配布される無料の特典です。ゲーム内チャットを開き、コードを正確に入力して確定すると、スピンやリセット、その他のボーナスを受け取ることができます。"
+      },
+      {
+        "question": "Demonfallで最強の呼吸法は何ですか？",
+        "answer": "Demonfallにおける最適な呼吸法は、あなたのプレイスタイルによって異なります。日の呼吸と月の呼吸はダメージにおいてトップクラスですが、水の呼吸と雷の呼吸は初心者向けの強力な選択肢です。"
+      },
+      {
+        "question": "Demonfallで鬼になるにはどうすればよいですか？",
+        "answer": "Demonfallでは、人間として鬼に敗北するか、特定のストーリーの選択肢を選ぶことでキャラクターが鬼になり、呼吸法の代わりに血鬼術が解放されます。"
+      },
+      {
+        "question": "DemonfallはRobloxで無料でプレイできますか？",
+        "answer": "はい。DemonfallはRobloxで無料でプレイできます。スキン、スピン、育成ブーストなどのゲーム内課金（オプション）があります。"
+      },
+      {
+        "question": "Demonfallで呼吸法や種族をリセットするにはどうすればよいですか？",
+        "answer": "Demonfallでは、リセットアイテムやコードを使用して、呼吸法、種族、ステータスをリセットできます。一部のリセットにはRobuxが必要ですが、無料のコードから入手できるものもあります。"
+      },
+      {
+        "question": "Demonfallの呼吸のトレーナーはどこにいますか？",
+        "answer": "Demonfallの呼吸のトレーナーは、村や人里離れた場所に散らばっています。ほとんどの場合、呼吸法を教えてもらうには最低レベルに達している必要があります。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Demonfallを極める準備はできましたか？",
+    "description": "DiscordやRedditのDemonfallコミュニティに参加して、コード、呼吸法ガイド、ビルド、アップデートに関する議論をチェックしましょう。",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "Robloxでプレイする"
+  },
+  "footer": {
+    "title": "Demonfall Wiki",
+    "description": "Demonfallのコード、呼吸法、一族、武器、ビルド、育成ガイドに関する完全なリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "Reddit",
+    "steamCommunity": "Robloxゲーム",
+    "steamStore": "Robloxでプレイする",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Demonfall Wiki. Demonfallの開発者とは提携していません。",
+    "disclaimer": "非公式のファン作成リソースウェブサイト。"
+  },
+  "pages": {
+    "codes": {
+      "title": "Demonfallのコード",
+      "description": "すべての有効なDemonfallのコード、引き換え手順、特典の詳細を1か所にまとめました。",
+      "metaTitle": "Demonfallのコード - 有効なコードと無料特典",
+      "metaDescription": "有効なDemonfallのコードを見つけ、引き換え方法を学び、無料のスピン、リセット、進行報酬を受け取りましょう。",
+      "categoryLabel": "コード＆報酬",
+      "whatIs": "Demonfallのコードとは何ですか？",
+      "whatIsDescription": "Demonfallのコードは、開発者から配布される無料の引き換え報酬です。スピン、リセット、ゲーム内通貨、その他の進行ボーナスを獲得できます。",
+      "why": "なぜDemonfallのコードを使用するのですか？",
+      "whySteps": {
+        "step1Title": "無料の育成",
+        "step1Description": "Robuxを消費せずにスピン、リセット、ボーナスを受け取る",
+        "step2Title": "最新情報をチェック",
+        "step2Description": "マイルストーンの達成や大型アップデートに合わせて新しいコードが配布されます",
+        "step3Title": "リソースを節約",
+        "step3Description": "コードを使用して、レアな一族や呼吸法を試す"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのコード"
+    },
+    "guide": {
+      "title": "Demonfallガイド",
+      "description": "初心者向け攻略、進行ルート、システムチュートリアル。",
+      "metaTitle": "Demonfallガイド - 初心者向け攻略＆進行",
+      "metaDescription": "初心者向け攻略、進行ルート、プレステージ、エンドゲームコンテンツをカバーするDemonfallのガイドをお読みください。",
+      "categoryLabel": "ゲームガイド",
+      "whatIs": "Demonfallガイドとは何ですか？",
+      "whatIsDescription": "Demonfallガイドは、あらゆる段階のプレイヤーを支援するために、初心者の流れ、システム、進行、そしてエンドゲームコンテンツを網羅しています。",
+      "why": "なぜガイドを読むのですか？",
+      "whySteps": {
+        "step1Title": "基本を学ぶ",
+        "step1Description": "戦闘、種族、進行状況を理解する",
+        "step2Title": "より早くレベルアップ",
+        "step2Description": "実証済みのレベリングルートをたどる",
+        "step3Title": "エンドゲームに到達",
+        "step3Description": "プレステージやゲーム終盤の目標を計画する"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのガイド"
+    },
+    "breathing": {
+      "title": "Demonfallの呼吸法",
+      "description": "すべてのDemonfallの呼吸法、技、トレーナー、ティアランキング。",
+      "metaTitle": "Demonfallの呼吸法 - 技、トレーナー＆ティアリスト",
+      "metaDescription": "呼吸法",
+      "categoryLabel": "呼吸法とは何ですか？",
+      "whatIs": "呼吸法は、Demonfallで鬼殺隊士が習得する戦闘能力です。各流派には独自の技、コンボ、習得条件があります。",
+      "whatIsDescription": "なぜ適切な呼吸法を選ぶのですか？",
+      "why": "プレイスタイルに合わせる",
+      "whySteps": {
+        "step1Title": "攻撃的、防御的、または機動力重視の戦闘スタイルを選択する",
+        "step1Description": "より強力な技を解放する",
+        "step2Title": "より強力な技を解放する",
+        "step2Description": "高度なコンボやアビリティを解放するために修行しましょう",
+        "step3Title": "より多くの戦いに勝利する",
+        "step3Description": "上位ティアのスタイルはPvPやボスレイドでより高いパフォーマンスを発揮します"
+      },
+      "featured": "おすすめ＆必須ガイド",
+      "all": "全呼吸法一覧"
+    },
+    "clans": {
+      "title": "Demonfallのクラン",
+      "description": "クランのティアリスト、バフ、レア度、リセット方法。",
+      "metaTitle": "Demonfall クラン - ティアリスト、バフ、レアクラン",
+      "metaDescription": "Demonfallのクランティアリストを閲覧し、バフやレア度、レアクランを引くためのリセット方法を学びましょう。",
+      "categoryLabel": "クラン＆血統",
+      "whatIs": "Demonfallのクランとは？",
+      "whatIsDescription": "Demonfallのクランは、パッシブバフやアビリティを付与する血統です。レアなクランほど強力なボーナスや独自の特典が得られます。",
+      "why": "なぜレアなクランを狙うのか？",
+      "whySteps": {
+        "step1Title": "より強力なバフ",
+        "step1Description": "レアクランは強力なパッシブボーナスを提供します",
+        "step2Title": "独自の能力",
+        "step2Description": "一部のクランは専用の技を解放します",
+        "step3Title": "PvPで有利に",
+        "step3Description": "上位クランは決闘やレイドで真価を発揮します"
+      },
+      "featured": "おすすめ＆必須ガイド",
+      "all": "全クラン一覧"
+    },
+    "combat": {
+      "title": "Demonfallの戦闘",
+      "description": "Demonfallの戦闘メカニクス、呼吸のコンボ、血鬼術、PvP戦略。",
+      "metaTitle": "Demonfall 戦闘 - メカニクス、コンボ、PvP戦略",
+      "metaDescription": "呼吸のコンボ、血鬼術、PvP戦略、ボス戦の戦術を駆使して、Demonfallの戦闘を極めましょう。",
+      "categoryLabel": "戦闘＆PvP",
+      "whatIs": "Demonfallの戦闘とは？",
+      "whatIsDescription": "Demonfallの戦闘は、呼吸法、血鬼術、クラン、武器の仕組みを融合させた、PvEおよびPvP向けのスキル重視のアクションシステムです。",
+      "why": "なぜ戦闘を極めるのか？",
+      "whySteps": {
+        "step1Title": "移動と回避",
+        "step1Description": "ガード、回避、間合いの取り方を学び、ボスの攻撃を生き延びましょう",
+        "step2Title": "コンボを繋ぐ",
+        "step2Description": "呼吸の技と血鬼術を組み合わせて、強力なコンボを叩き込みましょう",
+        "step3Title": "PvPやレイドで勝利する",
+        "step3Description": "決闘、ボスレイド、無限城で戦闘スキルを活かしましょう"
+      },
+      "featured": "おすすめ＆必須ガイド",
+      "all": "全戦闘ガイド一覧"
+    },
+    "weapons": {
+      "title": "Demonfallの武器",
+      "description": "日輪刀、武器ステータス、色、強化ルート。",
+      "metaTitle": "Demonfall 武器 - 日輪刀、色、強化",
+      "metaDescription": "日輪刀、色、レア度、強化ルートなど、Demonfallのすべての武器について学びましょう。",
+      "categoryLabel": "武器＆装備",
+      "whatIs": "Demonfallの武器とは？",
+      "whatIsDescription": "Demonfallの武器には、鬼殺隊が使用する日輪刀や装備が含まれ、それぞれにステータス、色、強化オプションがあります。",
+      "why": "なぜ武器を強化するのか？",
+      "whySteps": {
+        "step1Title": "与ダメージの増加",
+        "step1Description": "強化された刀は戦闘でより高い威力を発揮します",
+        "step2Title": "色の解放",
+        "step2Description": "色によって異なるユニークなボーナスが得られます",
+        "step3Title": "ボスを倒す",
+        "step3Description": "武器が強くなれば、レイドやデュエルがより有利になります"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべての武器"
+    }
   }
 }

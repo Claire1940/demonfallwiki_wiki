@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Demonfall Wiki - Códigos, Respirações e Builds",
+      "description": "A Demonfall Wiki cobre códigos, estilos de respiração, clãs, armas, mapas, chefes, builds e guias de progressão para jogadores de Demonfall no Roblox com dicas atualizadas.",
+      "keywords": "Demonfall, Roblox, códigos, estilos de respiração, builds, armas, clãs, chefes",
+      "ogTitle": "Demonfall Wiki - Códigos, Respirações e Builds",
+      "ogDescription": "A Demonfall Wiki cobre códigos, estilos de respiração, clãs, armas, mapas, chefes, builds e guias de progressão para jogadores de Demonfall no Roblox com dicas atualizadas.",
+      "twitterTitle": "Demonfall Wiki - Códigos, Respirações e Builds",
+      "twitterDescription": "A Demonfall Wiki cobre códigos, estilos de respiração, clãs, armas, mapas, chefes, builds e guias de progressão para jogadores de Demonfall no Roblox com dicas atualizadas."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guia",
@@ -6,5 +17,591 @@
     "clans": "Clãs",
     "combat": "Combate",
     "weapons": "Armas"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Aventura de RPG de Ação de Anime",
+    "title": "Demonfall Wiki",
+    "description": "A Demonfall Wiki cobre estilos de respiração, artes demoníacas, clãs, armas, chefes, mapas, códigos, builds e guias de progressão para jogadores de Demonfall no Roblox.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "stats": {
+      "stat1": {
+        "value": "980M+",
+        "label": "Visitas Totais"
+      },
+      "stat2": {
+        "value": "20+",
+        "label": "Respirações e Artes de Sangue"
+      },
+      "stat3": {
+        "value": "12+",
+        "label": "Clãs e Raças"
+      },
+      "stat4": {
+        "value": "Semanalmente",
+        "label": "Novos Códigos e Guias"
+      }
+    },
+    "playOnRobloxCTA": "Jogar no Roblox"
+  },
+  "gameFeature": {
+    "title": "Gameplay de Demonfall",
+    "description": "Domine estilos de respiração, artes demoníacas e combate com lâminas como um Demon Slayer ou Demônio neste RPG de ação do Roblox inspirado em Demon Slayer."
+  },
+  "tools": {
+    "title": "Demonfall",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para dominar códigos, respirações, builds, raças e combate em Demonfall",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Códigos de Demonfall",
+        "description": "Códigos ativos, recompensas e passos para resgate"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia de Iniciante de Demonfall",
+        "description": "Primeiros passos, o básico do combate e progressão inicial"
+      },
+      {
+        "icon": "Vento",
+        "title": "Tier List de Respirações de Demonfall",
+        "description": "Classificação de cada estilo de respiração por força e utilidade"
+      },
+      {
+        "icon": "Usuários",
+        "title": "Guia de Raças de Demonfall",
+        "description": "Comparação entre os caminhos Humano, Demônio e Híbrido"
+      },
+      {
+        "icon": "Mapa",
+        "title": "Mapas e Locais de Demonfall",
+        "description": "Vilas, treinadores, chefes e zonas de missões"
+      },
+      {
+        "icon": "Espada",
+        "title": "Armas e Habilidades de Demonfall",
+        "description": "Espadas Nichirin, respirações e artes demoníacas"
+      },
+      {
+        "icon": "Caveira",
+        "title": "Guia de Chefes de Demonfall",
+        "description": "Estratégias de chefes, drops e dicas de preparação"
+      },
+      {
+        "icon": "Sino",
+        "title": "Atualizações de Demonfall",
+        "description": "Patches, mudanças de equilíbrio e novos conteúdos"
+      }
+    ]
+  },
+  "modules": {
+    "demonfallCodes": {
+      "title": "Códigos de Demonfall",
+      "displayType": "code-cards",
+      "intro": "Esta seção reúne informações sobre códigos de Demonfall e explica como os jogadores podem resgatá-los através da interface do jogo. Os códigos são comumente usados para recompensas como spins, resets e outros bônus de progressão.",
+      "codes": [
+        {
+          "code": "150KLIKES",
+          "reward": "Recompensas gratuitas",
+          "status": "Ativo",
+          "howToRedeem": [
+            "Inicie o Demonfall no Roblox",
+            "Abra a caixa de chat",
+            "Insira o código",
+            "Confirme o resgate"
+          ]
+        },
+        {
+          "code": "100KLIKES",
+          "reward": "Recompensas gratuitas",
+          "status": "Ativo",
+          "howToRedeem": [
+            "Inicie o Demonfall no Roblox",
+            "Abra a caixa de chat",
+            "Insira o código",
+            "Confirme o resgate"
+          ]
+        },
+        {
+          "code": "70KLIKES",
+          "reward": "Recompensas grátis",
+          "status": "Ativo",
+          "howToRedeem": [
+            "Inicie o Demonfall no Roblox",
+            "Abra a caixa de chat",
+            "Insira o código",
+            "Confirme o resgate"
+          ]
+        }
+      ],
+      "quickTip": "Os códigos diferenciam maiúsculas de minúsculas. Copie-os exatamente e resgate-os rapidamente antes que expirem."
+    },
+    "demonfallBeginnerGuide": {
+      "title": "Guia de Iniciante do Demonfall",
+      "displayType": "passos",
+      "intro": "Demonfall é um RPG de ação no Roblox inspirado em Demon Slayer, onde os jogadores escolhem seu caminho, aprendem técnicas de combate e progridem através de missões e batalhas. Este guia cobre os primeiros passos essenciais para novos jogadores.",
+      "steps": [
+        {
+          "title": "Escolha Seu Caminho",
+          "description": "Comece decidindo se deseja seguir o caminho Humano como um Demon Slayer ou se tornar um Demônio através das escolhas de progressão do jogo."
+        },
+        {
+          "title": "Aprenda o Combate Básico",
+          "description": "Pratique bloquear, esquivar, atacar e usar combos antes de lutar contra inimigos mais fortes."
+        },
+        {
+          "title": "Complete as Missões Iniciais",
+          "description": "Siga as missões iniciais para ganhar experiência, desbloquear sistemas de progressão e entender o mundo do jogo."
+        },
+        {
+          "title": "Desbloqueie Estilos de Respiração",
+          "description": "Jogadores humanos podem treinar para desbloquear Estilos de Respiração que melhoram as habilidades de combate e definem seu estilo de luta."
+        },
+        {
+          "title": "Melhore Sua Build",
+          "description": "Melhore seu personagem escolhendo habilidades, equipamentos e caminhos de progressão adequados."
+        }
+      ],
+      "quickTips": [
+        "Fale com NPCs nas vilas para desbloquear missões e aprender novas mecânicas.",
+        "Guarde seus giros para clãs raros em vez de rodar aleatoriamente no início.",
+        "Treine os estilos de respiração em zonas seguras antes de enfrentar lutas contra chefes.",
+        "Junte-se a um esquadrão para raids de chefes para compartilhar drops e progredir mais rápido."
+      ]
+    },
+    "demonfallBreathingTierList": {
+      "title": "Tier List de Estilos de Respiração do Demonfall",
+      "displayType": "tiers",
+      "intro": "Os Estilos de Respiração são habilidades de combate importantes usadas por Demon Slayers. Cada estilo tem movimentos, pontos fortes e requisitos de aprendizado diferentes. Esta tier list compara as opções populares para que você possa escolher a que melhor se adapta ao seu estilo de jogo.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Nível Máximo",
+          "styles": [
+            {
+              "name": "Respiração do Sol",
+              "description": "Um poderoso Estilo de Respiração de fim de jogo com fortes habilidades ofensivas."
+            },
+            {
+              "name": "Respiração da Lua",
+              "description": "Um estilo de combate raro conhecido por ataques poderosos e movimentos avançados."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Escolha Forte",
+          "styles": [
+            {
+              "name": "Respiração da Água",
+              "description": "Um estilo equilibrado com movimentos confiáveis para o combate geral."
+            },
+            {
+              "name": "Respiração da Névoa",
+              "description": "Um estilo de combate rápido focado em mobilidade e pressão."
+            },
+            {
+              "name": "Respiração do Trovão",
+              "description": "Um estilo focado em velocidade com ataques rápidos."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Opção Sólida",
+          "styles": [
+            {
+              "name": "Respiração do Vento",
+              "description": "Um estilo de combate com ataques em área úteis e opções agressivas."
+            },
+            {
+              "name": "Respiração das Chamas",
+              "description": "Um estilo ofensivo direto com habilidades fortes focadas em ataque."
+            }
+          ]
+        }
+      ]
+    },
+    "demonfallRacesGuide": {
+      "title": "Guia de Raças de Demonfall",
+      "displayType": "cards",
+      "intro": "Demonfall apresenta diferentes caminhos de personagem que mudam a forma como os jogadores progridem e lutam. Cada caminho oferece vantagens únicas e experiências de jogabilidade.",
+      "cards": [
+        {
+          "name": "Humano",
+          "role": "Caminho de Caçador de Demônios",
+          "description": "Humanos podem se tornar Caçadores de Demônios e aprender Estilos de Respiração enquanto usam armas Nichirin."
+        },
+        {
+          "name": "Demônio",
+          "role": "Caminho de Demônio",
+          "description": "Demônios usam Artes de Sangue Demoníaco e diferentes habilidades focadas em combate demoníaco."
+        },
+        {
+          "name": "Híbrido",
+          "role": "Caminho Avançado",
+          "description": "A progressão de Híbrido combina aspectos de diferentes caminhos e fornece opções de combate únicas."
+        }
+      ]
+    },
+    "demonfallMapsAndLocations": {
+      "title": "Mapas e Locais de Demonfall",
+      "displayType": "tabela",
+      "intro": "Este guia ajuda os jogadores a encontrar os principais destinos em Demonfall, incluindo áreas de treinamento, cidades, zonas de missões e locais conectados à progressão.",
+      "locations": [
+        {
+          "location": "Vila Hayakawa",
+          "type": "Vila",
+          "purpose": "Área inicial para jogadores humanos com missões iniciais, interações com NPCs e rotas de progressão",
+          "notable_features": [
+            "Missões iniciais",
+            "NPCs",
+            "Caminhos de exploração próximos"
+          ]
+        },
+        {
+          "location": "Vila Okuyia",
+          "type": "Vila",
+          "purpose": "Assentamento importante com missões e acesso a diferentes partes do mapa",
+          "notable_features": [
+            "NPCs de missão",
+            "Rotas de viagem",
+            "Atividades de jogador"
+          ]
+        },
+        {
+          "location": "Base da Corporação de Exterminadores",
+          "type": "Área de Facção",
+          "purpose": "Localização principal conectada à progressão e treinamento de Exterminador de Demônios",
+          "notable_features": [
+            "NPCs relacionados a Exterminadores",
+            "Treinamento",
+            "Progressão"
+          ]
+        },
+        {
+          "location": "Área da Seleção Final",
+          "type": "Área de Desafio",
+          "purpose": "Local de provação onde os jogadores começam sua jornada de Exterminador de Demônios",
+          "notable_features": [
+            "Desafio de seleção",
+            "Inimigos demônios",
+            "Recompensas iniciais"
+          ]
+        },
+        {
+          "location": "Esconderijos de Demônios",
+          "type": "Área de Combate",
+          "purpose": "Áreas onde os jogadores lutam contra demônios e coletam recursos de progressão",
+          "notable_features": [
+            "Encontros com inimigos",
+            "Prática de combate",
+            "Drops"
+          ]
+        }
+      ]
+    },
+    "demonfallWeaponsAndSkills": {
+      "title": "Armas e Habilidades de Demonfall",
+      "displayType": "itemCards",
+      "intro": "Demonfall apresenta diferentes caminhos de combate baseados em armas, estilos de respiração e habilidades de demônio. Os jogadores podem escolher melhorias que combinem com seu estilo de luta preferido.",
+      "items": [
+        {
+          "name": "Espada Nichirin",
+          "type": "Arma",
+          "description": "A principal arma de espada usada por Exterminadores de Demônios para combate corpo a corpo.",
+          "combat_role": "Dano de curto alcance e uso de estilo de respiração"
+        },
+        {
+          "name": "Respiração da Água",
+          "type": "Estilo de Respiração",
+          "description": "Um estilo de respiração equilibrado baseado em técnicas fluidas de espada.",
+          "combat_role": "Ataques amigáveis para iniciantes com combos versáteis"
+        },
+        {
+          "name": "Respiração das Chamas",
+          "type": "Estilo de Respiração",
+          "description": "Um estilo ofensivo poderoso focado em técnicas agressivas de espada.",
+          "combat_role": "Abordagem de combate de alto dano"
+        },
+        {
+          "name": "Respiração do Trovão",
+          "type": "Estilo de Respiração",
+          "description": "Um estilo de ritmo acelerado focado em velocidade e ataques explosivos.",
+          "combat_role": "Movimento rápido e combos de dano"
+        },
+        {
+          "name": "Artes de Sangue Demoníaco",
+          "type": "Habilidade de Demônio",
+          "description": "Habilidades especiais disponíveis para jogadores demônios através de Artes de Sangue Demoníaco.",
+          "combat_role": "Opções de combate utilitárias e à distância únicas"
+        }
+      ]
+    },
+    "demonfallBossGuide": {
+      "title": "Guia de Chefes de Demonfall",
+      "displayType": "accordion",
+      "intro": "Os confrontos contra chefes em Demonfall exigem preparação, bom timing e conhecimento dos padrões de ataque dos inimigos. Este guia cobre lutas e estratégias importantes.",
+      "bosses": [
+        {
+          "boss": "Rui",
+          "location": "Área da Família Aranha",
+          "strategy": "Evite ataques previsíveis, gerencie a distância e puna aberturas após as habilidades.",
+          "preparation": [
+            "Melhore sua arma",
+            "Aprenda os padrões dos inimigos",
+            "Traga recursos de cura"
+          ]
+        },
+        {
+          "boss": "Akaza",
+          "location": "Área de confronto com o chefe",
+          "strategy": "Foque na movimentação, em esquivar de combos e em atacar durante as janelas de recuperação.",
+          "preparation": [
+            "Build de combate forte",
+            "Alto gerenciamento de stamina",
+            "Coordenação de equipe"
+          ]
+        },
+        {
+          "boss": "Gyutaro",
+          "location": "Área de confronto com o chefe",
+          "strategy": "Use a mobilidade para evitar ataques em área e manter a pressão quando for seguro.",
+          "preparation": [
+            "Habilidades de espada aprimoradas",
+            "Pratique a esquiva",
+            "Melhore o equipamento"
+          ]
+        },
+        {
+          "boss": "Kaigaku",
+          "location": "Área de confronto com o chefe",
+          "strategy": "Fique atento aos ataques baseados em raios e use as aberturas entre os combos.",
+          "preparation": [
+            "Build equilibrada",
+            "Experiência de combate",
+            "Timing correto"
+          ]
+        }
+      ]
+    },
+    "demonfallUpdatesAndNews": {
+      "title": "Atualizações e Novidades de Demonfall",
+      "displayType": "cards",
+      "intro": "Acompanhe as mudanças de Demonfall, incluindo ajustes de jogabilidade, adições de novos conteúdos e anúncios importantes para jogadores que estão retornando.",
+      "items": [
+        {
+          "title": "Atualizações de Conteúdo",
+          "category": "Novos Recursos",
+          "description": "Novas adições de jogabilidade, áreas, missões e sistemas introduzidos por meio de grandes atualizações."
+        },
+        {
+          "title": "Ajustes de Balanceamento",
+          "category": "Combate",
+          "description": "Ajustes em armas, estilos de respiração, habilidades e mecânicas de combate."
+        },
+        {
+          "title": "Correções de Bugs",
+          "category": "Manutenção",
+          "description": "Atualizações focadas em melhorar a estabilidade e corrigir problemas de jogabilidade."
+        },
+        {
+          "title": "Anúncios da Comunidade",
+          "category": "Notícias",
+          "description": "Mensagens dos desenvolvedores, informações sobre eventos e avisos importantes para os jogadores."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Demonfall",
+    "titleHighlight": "Perguntas Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre códigos de Demonfall, estilos de respiração, raças e progressão",
+    "questions": [
+      {
+        "question": "O que são os códigos de Demonfall e como posso resgatá-los?",
+        "answer": "Os códigos de Demonfall são recompensas gratuitas lançadas pelos desenvolvedores. Abra o chat do jogo, digite o código exatamente como está e confirme para resgatar giros, resets e outros bônus."
+      },
+      {
+        "question": "Qual é o melhor estilo de respiração em Demonfall?",
+        "answer": "O melhor estilo de respiração de Demonfall depende do seu estilo de jogo. A Respiração do Sol e a da Lua são excelentes para causar dano, enquanto a da Água e a do Trovão são ótimas escolhas para iniciantes."
+      },
+      {
+        "question": "Como se tornar um Demônio no Demonfall?",
+        "answer": "No Demonfall, perder para um Demônio sendo Humano ou seguir escolhas específicas na história pode transformar seu personagem em um Demônio, o que desbloqueia Artes de Sangue Demoníaco em vez de Estilos de Respiração."
+      },
+      {
+        "question": "O Demonfall é gratuito para jogar no Roblox?",
+        "answer": "Sim. O Demonfall é gratuito para jogar no Roblox, com compras opcionais no jogo para cosméticos, giros e boosts de progressão."
+      },
+      {
+        "question": "Como faço para resetar minha respiração ou raça no Demonfall?",
+        "answer": "O Demonfall permite que você resete sua respiração, raça e atributos usando itens de reset ou códigos. Alguns resets exigem Robux, enquanto outros vêm de códigos gratuitos."
+      },
+      {
+        "question": "Onde encontro os treinadores de respiração no Demonfall?",
+        "answer": "Os treinadores de respiração do Demonfall estão espalhados por vilas e áreas remotas. A maioria exige um nível mínimo antes de lhe ensinar o estilo de respiração deles."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para dominar o Demonfall?",
+    "description": "Junte-se à comunidade de Demonfall no Discord e no Reddit para obter códigos, guias de respiração, builds e discussões sobre atualizações.",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Demonfall Wiki",
+    "description": "Seu hub de recursos completo para códigos de Demonfall, estilos de respiração, clãs, armas, builds e guias de progressão.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Avisos Legais",
+    "discord": "Discord",
+    "twitter": "Reddit",
+    "steamCommunity": "Jogo no Roblox",
+    "steamStore": "Jogar no Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Demonfall Wiki. Não afiliado aos desenvolvedores de Demonfall.",
+    "disclaimer": "Site não oficial de recursos feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Demonfall",
+      "description": "Todos os códigos ativos de Demonfall, etapas de resgate e detalhes de recompensas em um só lugar.",
+      "metaTitle": "Códigos de Demonfall - Códigos Ativos e Recompensas Gratuitas",
+      "metaDescription": "Encontre códigos ativos de Demonfall, aprenda a resgatá-los e garanta spins grátis, resets e recompensas de progressão.",
+      "categoryLabel": "CÓDIGOS E RECOMPENSAS",
+      "whatIs": "O que são os Códigos de Demonfall?",
+      "whatIsDescription": "Códigos de Demonfall são recompensas gratuitas resgatáveis lançadas pelos desenvolvedores. Eles concedem spins, resets, moedas e outros bônus de progressão.",
+      "why": "Por que usar códigos de Demonfall?",
+      "whySteps": {
+        "step1Title": "Progressão Gratuita",
+        "step1Description": "Resgate spins, resets e bônus sem gastar Robux",
+        "step2Title": "Fique Atualizado",
+        "step2Description": "Novos códigos são lançados junto com metas e grandes atualizações",
+        "step3Title": "Economize Recursos",
+        "step3Description": "Use códigos para testar clãs raros e estilos de respiração"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Códigos"
+    },
+    "guide": {
+      "title": "Guias de Demonfall",
+      "description": "Passo a passo para iniciantes, rotas de progressão e tutoriais de sistemas.",
+      "metaTitle": "Guias de Demonfall - Passo a Passo e Progressão para Iniciantes",
+      "metaDescription": "Leia guias de Demonfall que cobrem passo a passo para iniciantes, rotas de progressão, prestígio e conteúdo de endgame.",
+      "categoryLabel": "GUIAS DO JOGO",
+      "whatIs": "O que são os Guias de Demonfall?",
+      "whatIsDescription": "Os guias de Demonfall cobrem o fluxo inicial, sistemas, progressão e conteúdo de endgame para ajudar jogadores em todas as fases.",
+      "why": "Por que ler guias?",
+      "whySteps": {
+        "step1Title": "Aprenda o Básico",
+        "step1Description": "Entenda o combate, raças e progressão",
+        "step2Title": "Suba de Nível Mais Rápido",
+        "step2Description": "Siga rotas de nível comprovadas",
+        "step3Title": "Chegue ao Endgame",
+        "step3Description": "Planeje o prestígio e objetivos de fim de jogo"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "breathing": {
+      "title": "Estilos de Respiração de Demonfall",
+      "description": "Todos os estilos de respiração de Demonfall com habilidades, treinadores e rankings.",
+      "metaTitle": "Estilos de Respiração de Demonfall - Habilidades, Treinadores e Tier List",
+      "metaDescription": "Domine cada estilo de respiração de Demonfall com listas de habilidades, localizações de treinadores e um ranking completo.",
+      "categoryLabel": "ESTILOS DE RESPIRAÇÃO",
+      "whatIs": "O que são Estilos de Respiração?",
+      "whatIsDescription": "Estilos de Respiração são habilidades de combate aprendidas por Demon Slayers em Demonfall. Cada estilo possui habilidades, combos e requisitos de aprendizado únicos.",
+      "why": "Por que escolher o estilo de respiração certo?",
+      "whySteps": {
+        "step1Title": "Combine com seu Estilo de Jogo",
+        "step1Description": "Escolha um combate focado em agressividade, defesa ou mobilidade",
+        "step2Title": "Desbloqueie Habilidades Mais Fortes",
+        "step2Description": "Treine para desbloquear combos e habilidades avançadas",
+        "step3Title": "Vença Mais Lutas",
+        "step3Description": "Estilos de tier mais alto têm melhor desempenho em PvP e raids de chefes"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Estilos de Respiração"
+    },
+    "clans": {
+      "title": "Clãs de Demonfall",
+      "description": "Tier list de clãs, buffs, raridades e métodos de reset.",
+      "metaTitle": "Clãs de Demonfall - Tier List, Buffs e Clãs Raros",
+      "metaDescription": "Explore a tier list de clãs de Demonfall, aprenda sobre buffs, raridades e como girar ou resetar para clãs raros.",
+      "categoryLabel": "CLÃS E LINHAGENS",
+      "whatIs": "O que são os Clãs de Demonfall?",
+      "whatIsDescription": "Os clãs de Demonfall são linhagens que concedem buffs passivos e habilidades. Clãs raros oferecem bônus mais fortes e vantagens únicas.",
+      "why": "Por que buscar clãs raros?",
+      "whySteps": {
+        "step1Title": "Buffs Mais Fortes",
+        "step1Description": "Clãs raros oferecem bônus passivos poderosos",
+        "step2Title": "Habilidades Únicas",
+        "step2Description": "Alguns clãs desbloqueiam movimentos exclusivos",
+        "step3Title": "Melhor PvP",
+        "step3Description": "Clãs de elite têm bom desempenho em duelos e raids"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Clãs"
+    },
+    "combat": {
+      "title": "Combate de Demonfall",
+      "description": "Mecânicas de combate de Demonfall, combos de respiração, Blood Demon Arts e estratégias de PvP.",
+      "metaTitle": "Combate de Demonfall - Mecânicas, Combos e Estratégias de PvP",
+      "metaDescription": "Domine o combate de Demonfall com combos de respiração, Blood Demon Arts, estratégias de PvP e táticas de luta contra chefes.",
+      "categoryLabel": "COMBATE E PVP",
+      "whatIs": "O que é o Combate de Demonfall?",
+      "whatIsDescription": "O combate de Demonfall mistura estilos de respiração, Blood Demon Arts, clãs e mecânicas de armas em um sistema de ação baseado em habilidade para lutas PvE e PvP.",
+      "why": "Por que dominar o combate?",
+      "whySteps": {
+        "step1Title": "Movimentação e Esquiva",
+        "step1Description": "Aprenda a bloquear, esquivar e manter distância para sobreviver aos ataques dos chefes",
+        "step2Title": "Encadeie Combos",
+        "step2Description": "Combine movimentos de respiração e artes demoníacas em combos mortais",
+        "step3Title": "Vença no PvP e em Raids",
+        "step3Description": "Aplique habilidades de combate em duelos, raids de chefes e no Infinity Castle"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Combate"
+    },
+    "weapons": {
+      "title": "Armas de Demonfall",
+      "description": "Espadas Nichirin, atributos de armas, cores e caminhos de melhoria.",
+      "metaTitle": "Armas de Demonfall - Espadas Nichirin, Cores e Melhorias",
+      "metaDescription": "Saiba mais sobre todas as armas de Demonfall, incluindo espadas Nichirin, cores, raridades e caminhos de upgrade.",
+      "categoryLabel": "ARMAS E EQUIPAMENTOS",
+      "whatIs": "O que são as Armas de Demonfall?",
+      "whatIsDescription": "As armas de Demonfall incluem espadas Nichirin e equipamentos usados por Demon Slayers, cada um com atributos, cores e opções de upgrade.",
+      "why": "Por que melhorar sua arma?",
+      "whySteps": {
+        "step1Title": "Causar Mais Dano",
+        "step1Description": "Espadas melhoradas causam mais dano em combate",
+        "step2Title": "Desbloquear Cores",
+        "step2Description": "Cores diferentes oferecem bônus únicos",
+        "step3Title": "Derrotar Chefes",
+        "step3Description": "Armas mais fortes facilitam raids e duelos"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Armas"
+    }
   }
 }
