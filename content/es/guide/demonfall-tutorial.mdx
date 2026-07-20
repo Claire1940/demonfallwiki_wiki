@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tutorial de Demonfall: Guía de Inicio Paso a Paso",
+  description: "Domina los conceptos básicos de Demonfall con nuestro tutorial completo. Aprende sobre clanes, razas, la Selección Final, estilos de respiración y cómo subir de nivel rápido.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Demonfall+Tutorial",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Demonfall",
+  slug: "demonfall-tutorial",
+  keywords: "demonfall tutorial, guía de inicio, clanes demonfall, selección final, estilos de respiración"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Tutorial principal**: Lee nuestro **tutorial de demonfall** paso a paso para dominar las mecánicas iniciales del juego, seleccionar el mejor clan y completar el Examen de Cazador.
+- **Prioridad de clan**: Intenta conseguir el **clan Kamado** (0.5% de probabilidad) para obtener un enorme aumento del 20% de EXP e inmunidad al sol si juegas como Demonio.
+- **Primera elección**: Derrota al demonio inicial para convertirte en un **Cazador (Slayer)**, o deja que te derrote para comenzar tu viaje como un **Demonio**.
+- **Selección Final**: Evita luchar contra el **Demonio Azul** durante el examen, ya que es una pérdida de tiempo con errores (bugs) y sin recompensas actuales.
+- **Entrenador de respiración**: Visita la **Aldea Okuya** para comprar calabazas por 500 Yen y aumentar tu nivel de respiración.
+</Callout>
+
+Comenzar tu viaje en este popular juego de Roblox inspirado en el anime puede ser increíblemente abrumador. Este **tutorial de demonfall** integral está diseñado para guiarte durante tus primeros días, ayudándote a optimizar la creación de tu personaje, conquistar el examen de la Selección Final, elegir tu estilo de respiración y subir de nivel de manera eficiente sin perderte en el enorme mapa del mundo.
+
+<Section icon={Sparkles} title="Tutorial de Demonfall: Creación de Personaje y Tier List de Clanes">
+
+Cuando inicies el juego por primera vez, te encontrarás en la pantalla de personalización de personaje. Aquí, puedes personalizar tu apariencia y girar (roll) para obtener tu clan familiar. Tu clan determina tus habilidades pasivas, que influyen enormemente en tu velocidad de progresión, eficiencia en combate y estilo de juego general.
+
+**Puntos destacados del video:**
+- **Guía de Trello**: Mantén abierto el Trello oficial para consultar las pasivas de las familias y las ubicaciones en el mapa.
+- **Selección de Clan**: Gira por Kamado si es posible para maximizar tu velocidad de nivelación.
+- **Preparación para la Selección Final**: Compra pan para la regeneración de salud antes de dirigirte al examen.
+- **Entrenamiento con Calabazas**: Compra calabazas en la Aldea Okuya para aumentar tu nivel de respiración de 0 a 10.
+
+<YouTubeEmbed videoId="bDeZsObG9YQ" title="Guía de inicio del día 1 de Demonfall (Nivelación, Razas, Selección Final)" />
+
+El clan Kamado es ampliamente considerado la mejor familia del juego para PvE y nivelación debido a su aumento permanente del 20% de EXP. Si planeas jugar como Demonio, el clan Kamado también te otorga inmunidad a la luz solar, eliminando una de las mecánicas más castigadoras de la senda del Demonio. Otros clanes como Tokito y Ubuyashiki ofrecen aumentos de EXP más pequeños, mientras que clanes como Kanroji se centran puramente en el daño bruto.
+
+| Clan | Probabilidad | Efectos Pasivos Clave | Tier |
+| :--- | :--- | :--- | :--- |
+| **Kamado** | 0.5% | +20% EXP, Resistencia al Sol (Demonios) | S |
+| **Kanroji** | Raro | +20% de daño en todos los ataques | S |
+| **Tomioka** | Raro | Comienza con Lunge y Shoulder Bash, 11ª Postura | A |
+| **Himejima** | Raro | +20% de Salud, pantalla ligeramente borrosa | A |
+| **Rengoku** | Raro | Aumento de daño de fuego, acceso a la 7ª postura | A |
+| **Tokito** | Raro | +10% EXP, potencial para Respiración Lunar | B |
+| **Ubuyashiki** | Raro | +10% EXP, +2 puntos de habilidad iniciales | B |
+| **Agatsuma** | Raro | Pasiva de auto-revivir en combates PvP | B |
+| **Iguro** | Raro | Maestría en Dash, +2 velocidad al caminar | C |
+| **Hashibira** | Raro | +10% regen de HP, hambre drena 10% más rápido | C |
+
+<Callout type="warning" title="Consejo sobre Rerolls">
+No gastes el Yen que tanto te costó ganar en cambiar tu clan al principio del juego. Ahorra tu moneda del juego para calabazas y armas, o usa códigos promocionales de Roblox y Robux si necesitas desesperadamente cambiar tu familia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Eligiendo tu Senda: Cazador vs. Demonio">
+
+Inmediatamente después de la personalización del personaje, se te lanza a un combate tutorial jugable contra un demonio. El resultado de esta pelea determina tu raza y toda la trayectoria de tu juego.
+
+Si derrotas al demonio usando tu katana oxidada básica, seguirás siendo humano y procederás a la senda del Cazador de Demonios (Slayer). Para ganar esta pelea, usa combos de ataque ligero básico (M1) y ataques pesados (M2) para romper la guardia del demonio cuando bloquee. Si tienes dificultades, usa tu dash-flip para crear distancia y esperar una apertura.
+
+Si dejas que el demonio te derrote, tu personaje se transformará en un Demonio. Esta senda te otorga habilidades sobrenaturales únicas llamadas Técnicas de Sangre Demoniaca, pero te hace vulnerable a la luz solar y a las espadas Nichirin.
+
+| Aspecto | Senda del Cazador | Senda del Demonio |
+| :--- | :--- | :--- |
+| **Arma Principal** | Katana Nichirin (forjada tras el examen) | Puños, Garras y Técnicas de Sangre |
+| **Fuente de Poder** | Estilos de Respiración (Viento, Llama, Rayo, etc.) | Técnicas de Sangre y Habilidades de Demonio |
+| **Peligros Ambientales** | Daño por caída estándar y ataques enemigos | Daño severo al exponerse a la luz solar |
+| **Objetivo de Progresión** | Completar Selección Final, unirse al Cuerpo | Consumir almas humanas, derrotar Cazadores |
+| **Dificultad de Nivelación** | Moderada (requiere misiones y calabazas) | Más difícil al inicio, alto potencial PvP |
+
+<Callout type="info" title="Dominancia de los Cazadores">
+Aproximadamente el 80% de la base de jugadores elige la senda del Cazador debido a los icónicos Estilos de Respiración y la progresión estructurada. Si eres principiante, se recomienda encarecidamente empezar como Cazador para una curva de aprendizaje más sencilla.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Superando el Examen de la Selección Final">
+
+Para convertirte en un miembro oficial del Cuerpo de Cazadores de Demonios, debes viajar al Pasaje Sakura y completar el examen de la Selección Final. Este examen requiere que sobrevivas en un bosque infestado de demonios y derrotes a 30 de ellos.
+
+<Steps>
+  <Step num="1" title="Prepara tu Inventario">
+    Antes de ir al examen, viaja a la Aldea Okuya y visita la tienda local. Compra abundante pan. El hambre drena rápido, y tener comida es vital para la regeneración pasiva de salud durante el largo examen.
+  </Step>
+  <Step num="2" title="Adquiere la Misión de Cuernos de Demonio">
+    Habla con el Entrenador de Viento ubicado justo a las afueras de la Aldea Okuya. Él te encargará recolectar 20 cuernos de demonio. Al aceptar esta misión antes del examen, los 30 demonios que mates durante la selección soltarán automáticamente los cuernos que necesitas.
+  </Step>
+  <Step num="3" title="Navega hacia el Pasaje Sakura">
+    Sigue el camino a la derecha de la Aldea Okuya hasta que veas el cartel del Pasaje Sakura. Camina por esta zona para llegar a las puertas del Examen de Cazador.
+  </Step>
+  <Step num="4" title="Derrota a 30 Demonios con Seguridad">
+    Una vez dentro, enfócate en atraer 1-2 demonios estándar a la vez. Usa secuencias básicas de M1. Si un demonio bloquea, usa un dash-flip para reiniciar o ejecuta un ataque pesado con clic derecho para romper su guardia.
+  </Step>
+  <Step num="5" title="Forja tu Espada Nichirin">
+    Tras sobrevivir al examen, habla con el NPC de la forja para fabricar tu Katana Nichirin personalizada usando el Mineral de Sol que recibiste como recompensa. El color de la hoja es aleatorio pero puede cambiarse más tarde.
+  </Step>
+</Steps>
+
+| Tipo de Enemigo | Nivel de Peligro | Ataques Clave | Estrategia |
+| :--- | :--- | :--- | :--- |
+| **Demonio Estándar** | Bajo | Garras básicas, IA defensiva | Spam de M1, romper guardia con clic derecho |
+| **Demonio de Sombras** | Medio | Ataques rápidos de carga, combos veloces | Bloqueo perfecto a su carga inicial, contraataque |
+| **Demonio Azul** | Alto (Jefe) | Pisotones, pilares de fuego/piedra | **Evitar por completo**. Huye si te detecta |
+
+<Callout type="warning" title="No luches contra el Demonio Azul">
+El Demonio Azul es un jefe opcional diseñado para probar a jugadores de alto nivel. Es una absoluta pérdida de tiempo para los principiantes y no ofrece recompensas únicas al ser derrotado. Evítalo a toda costa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estilos de Respiración y Entrenamiento con Calabazas">
+
+Los Estilos de Respiración son el sistema de combate central para los Cazadores. Para desbloquear y usar tus habilidades de respiración de manera efectiva, debes entrenar tus pulmones usando calabazas. Este proceso se conoce como Entrenamiento con Calabazas.
+
+Puedes comprar calabazas al comerciante en la Aldea Okuya por 500 Yen cada una. Para entrenar, equipa la calabaza y haz clic para soplar en ella. Aparecerá un minijuego donde debes mantener una barra de progreso en la zona segura central. Si dejas que la barra llegue a la zona roja, la calabaza explotará, desperdiciando tu inversión.
+
+Tu nivel de respiración comienza en 0 y llega hasta el nivel 10. A medida que rompes calabazas, tu nivel aumenta, permitiéndote ejecutar habilidades más poderosas sin quedarte sin aliento.
+
+<CardGrid cols={3}>
+  <Card title="Respiración del Viento">
+    - **Ubicación del Entrenador**: Aldea Okuya
+    - **Dificultad**: Muy Fácil (Requiere 20 Cuernos + Pelea con Jefe)
+    - **Estilo de Juego**: Alta movilidad, control de masas, movimientos con hiper-armadura
+  </Card>
+  <Card title="Respiración del Rayo">
+    - **Ubicación del Entrenador**: Casa en la Colina
+    - **Dificultad**: Media (Requiere 4,000 Yen)
+    - **Estilo de Juego**: Velocidad extrema, combos de carga rápida, alto daño de ráfaga
+  </Card>
+  <Card title="Respiración de la Llama">
+    - **Ubicación del Entrenador**: Montaña del Entrenador de Llama
+    - **Dificultad**: Difícil (Requiere una cadena de misiones compleja)
+    - **Estilo de Juego**: Gran daño por quemadura, ataques de área (AOE) de alto impacto
+  </Card>
+</CardGrid>
+
+| Nivel de Respiración | Tipo de Calabaza Requerida | Costo en Yen por Unidad | Beneficio Clave |
+| :--- | :--- | :--- | :--- |
+| **Nivel 0 a 3** | Calabaza Pequeña | 500 Yen | Desbloquea nodos de habilidades básicas |
+| **Nivel 4 to 7** | Calabaza Mediana | 1,200 Yen | Aumenta la capacidad máxima de la barra |
+| **Nivel 8 to 10** | Calabaza Grande | 3,000 Yen | Maximiza la velocidad de recuperación |
+
+<Callout type="success" title="Ventaja de la Respiración del Viento">
+Para principiantes, se recomienda encarecidamente la Respiración del Viento. La misión solo requiere derrotar al entrenador en un duelo de espadas sencillo donde puedes vencerlo fácilmente usando el clic derecho para romper su guardia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Nivelación Inicial y Rutas de Progresión">
+
+Una vez que tengas tu Estilo de Respiración y tu Espada Nichirin, tu objetivo principal es subir de nivel, ganar Yen y desbloquear habilidades activas en tu árbol de habilidades.
+
+Para ganar Yen rápidamente al principio, busca en el suelo de las aldeas objetos valiosos (trinkets) para vender a los comerciantes. También puedes comprar un pico para minar vetas de mineral esparcidas por las regiones montañosas.
+
+Para obtener puntos de experiencia, activa tu Cuervo en el menú de ajustes. El Cuervo te asignará periódicamente misiones de exterminio y entrega que otorgan una cantidad sustancial de EXP y Yen. Aunque algunos jugadores intentan la Mazmorra de Okuro (Luna Inferior 6) pronto, tiene muchos errores y no se recomienda para principiantes en solitario.
+
+<Checklist
+  id="demonfall-milestones"
+  title="Hitos de Progresión Inicial:"
+  items={[
+    "Alcanzar el Nivel 15 usando misiones de exterminio del Cuervo",
+    "Maximizar tu Estilo de Respiración al Nivel 10 mediante calabazas",
+    "Farmear 5,000 Yen buscando objetos y minando",
+    "Desbloquear al menos tres habilidades activas centrales en tu árbol",
+    "Formar un equipo con amigos para enfrentar grupos de demonios de alto nivel"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia de Bug en la Mazmorra de Okuro">
+La pelea contra el jefe Okuro es famosamente inestable. El jefe usa un pisotón de fuego que puede lanzar a tu personaje por los aires, activando la detección de hacks del juego y causando una expulsión inmediata del servidor. Evita esta misión hasta que esté totalmente parcheada.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes y Solución de Problemas">
+
+Esta sección aborda las preguntas más comunes que encuentran los jugadores durante sus primeras horas en Demonfall.
+
+<FAQ items={[
+  {
+    question: "¿Cómo reinicio mi estilo de respiración o mi raza en Demonfall?",
+    answer: "Puedes reiniciar tu estilo de respiración consumiendo un objeto 'Breath Indict', que puedes comprar a otros jugadores o ganar en raids. Para reiniciar tu raza, debes usar una 'Wipe Potion' o gastar Robux en el menú de personalización."
+  },
+  {
+    question: "¿Cuál es la mejor forma de farmear Yen rápido al principio?",
+    answer: "La forma más rápida es recolectando objetos del suelo en las aldeas Hayakawa y Okuya, minando mineral con un pico o completando misiones de entrega y exterminio del Cuervo."
+  },
+  {
+    question: "¿Por qué mi pantalla está borrosa al jugar con el clan Himejima?",
+    answer: "El clan Himejima otorga un aumento masivo del 20% de salud, pero viene con una pasiva temática de ceguera que desenfoca ligeramente tu pantalla. Es una mecánica de equilibrio intencional."
+  },
+  {
+    question: "¿Cómo me uno a un grupo o escuadrón con mis amigos?",
+    answer: "Haz clic en el botón 'Squad' ubicado en la esquina superior izquierda de tu pantalla. Escribe el nombre de usuario de tu amigo para invitarlo. Esto les permite entrar juntos a la Selección Final y otras mazmorras."
+  }
+]} />
+
+<Callout type="info" title="Trello de la Comunidad">
+Consulta siempre el Trello oficial de Demonfall para actualizaciones en tiempo real, códigos activos y tasas de drop de armas detalladas, gestionado directamente por el equipo de desarrollo.
+</Callout>
+
+</Section>

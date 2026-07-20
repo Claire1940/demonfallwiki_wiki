@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Demonfall Combat: Mechanics, Breathing Styles & PvP Guide",
+  description: "Master Demonfall combat with our guide on breathing styles, clans, races, and PvP strategies. Learn controls, combos, and boss fights.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/800000/fff?text=Demonfall+Combat+Guide",
+  date: "2026-07-21",
+  author: "demonfall Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Mechanic**: Mastering **demonfall combat** relies on managing your stamina, executing perfectly timed blocks, and choosing the right breathing style.
+- **Faction Choice**: Select between Human, Demon, or Hybrid, as each path offers distinct defensive and offensive combat mechanics.
+- **Stamina Management**: Running out of stamina leaves you vulnerable to devastating block breaks and combo punishments.
+- **Top Breathing Styles**: Sun and Moon Breathing dominate the S-tier, offering massive damage and excellent range.
+- **PvP Strategy**: Focus on baiting enemy dodges and securing perfect parries to turn the tide of battle.
+</Callout>
+
+<Section icon={Swords} title="Demonfall Combat Basics: Core Mechanics & Controls">
+
+Engaging in **demonfall combat** requires precise timing, quick reflexes, and an understanding of spacing. Unlike standard action RPGs, button-mashing will quickly lead to defeat. Every strike, dash, and block must be calculated to prevent your opponent from exploiting your recovery frames. 
+
+The foundation of survival lies in mastering the basic controls. Below is a comprehensive breakdown of the essential inputs required to navigate both PvE and PvP encounters.
+
+| Action | Keybind | Combat Utility |
+| :--- | :--- | :--- |
+| **Light Attack** | Left Click | Fast melee strikes to build combos and chip away at enemy posture |
+| **Heavy Attack** | Right Click | Slower, high-damage strike used to break guards and knock back foes |
+| **Block** | F | Reduces incoming damage, though vulnerable to heavy block-breakers |
+| **Dash** | Q | Quick directional movement to evade attacks or close the distance |
+| **Breathe** | G | Charges your breathing bar, essential for executing breathing techniques |
+
+Stamina is the lifeblood of your defensive play. Every block and dash consumes stamina. If your stamina bar empties completely while blocking an opponent's heavy attack, you will suffer a posture break, leaving you stunned and exposed to a full combo. 
+
+To prevent posture breaks, you must practice perfect blocking. Pressing the block key right before an enemy attack lands triggers a parry, which stuns the attacker and gives you a brief window to launch a counter-offensive.
+
+<Callout type="warning" title="Guard Breaking Risk">
+Heavy attacks (Right Click) are designed to shatter an opponent's block. If you see an enemy charging a heavy attack, do not attempt to block it. Instead, use your dash (Q) to move sideways and punish their recovery frames.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Races and Combat Paths: Humans, Demons, and Hybrids">
+
+Your choice of race defines your starting attributes, progression route, and overall combat style. Each path alters how you approach battles, manage resources, and engage with endgame content.
+
+<CardGrid cols={3}>
+  <Card title="Human Path">
+    - **High versatility**
+    - Uses Nichirin Swords
+    - Access to Breathing Styles
+    - Beginner-friendly progression
+  </Card>
+  <Card title="Demon Path">
+    - **Passive health regeneration**
+    - Uses Blood Demon Arts
+    - Consumes meat to heal
+    - High close-quarters power
+  </Card>
+  <Card title="Hybrid Path">
+    - **Combines human and demon traits**
+    - Dual resource management
+    - High stat ceilings
+    - Advanced playstyle requirements
+  </Card>
+</CardGrid>
+
+To help you decide which path fits your preferred playstyle, consider how each faction matches up across key combat metrics.
+
+| Faction | Core Mechanic | Combat Role | Difficulty |
+| :--- | :--- | :--- | :--- |
+| **Human** | Breathing Styles & Swordplay | Balanced Attacker / Duelist | Moderate |
+| **Demon** | Blood Demon Arts & Health Regen | Aggressive Brawler / Sustain | Moderate |
+| **Hybrid** | Mixed Breathing & Demonic Skills | High-Damage Specialist | Hard |
+
+Humans rely heavily on elemental breathing styles to control the battlefield. They must constantly balance their breathing bar with their stamina bar. Demons, on the other hand, do not use swords; they rely on raw physical power and supernatural Blood Demon Arts. Demons regenerate health rapidly in the dark but take massive damage from sunlight and Nichirin weapons. Hybrids offer the ultimate high-risk, high-reward combat experience, allowing you to use breathing styles while retaining some demonic healing capabilities.
+
+<Callout type="info" title="Hybrid Requirements">
+Becoming a Hybrid is an advanced progression route. You must reach level 50 and possess at least one Prestige level before you can undergo the transformation process.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Breathing Styles Tier List: S-Tier to B-Tier Ranked">
+
+For Human and Hybrid players, Breathing Styles are the defining element of your offensive arsenal. These styles grant unique active skills that can chain into basic attack combos.
+
+| Breathing Style | Tier | Combat Focus | Key Move |
+| :--- | :--- | :--- | :--- |
+| **Sun Breathing** | S-Tier | High burn damage and long combos | Hinokami Kagura |
+| **Moon Breathing** | S-Tier | Massive area-of-effect and range | Evening Palace |
+| **Water Breathing** | A-Tier | Defensive counters and fluid combos | Constant Flux |
+| **Mist Breathing** | A-Tier | High mobility and visual obscuration | Obscuring Clouds |
+| **Thunder Breathing** | A-Tier | Rapid dash attacks and burst damage | Rice Spirit |
+| **Wind Breathing** | B-Tier | Crowd control and knockbacks | Gale Sudden Gusts |
+| **Flame Breathing** | B-Tier | High raw damage but predictable patterns | Purgatory |
+
+### S-Tier Styles
+Sun and Moon Breathing represent the pinnacle of swordsmanship. Sun Breathing inflicts a lingering burn status effect that prevents enemies from passive healing, making it exceptionally deadly in long PvP duels. Moon Breathing excels at keeping multiple opponents at bay with wide, sweeping crescent slashes that deal high damage across a large radius.
+
+### A-Tier Styles
+Water, Mist, and Thunder Breathing are highly competitive options that perform exceptionally well in most combat scenarios. Water Breathing is the most balanced style, offering excellent defensive counter moves that reset enemy combos. Mist Breathing utilizes clones and teleportation mechanics to disorient opponents, while Thunder Breathing focuses on instantaneous gap-closers to catch running targets.
+
+### B-Tier Styles
+Wind and Flame Breathing are solid choices but suffer from predictable animation wind-ups. Wind Breathing is excellent for PvE crowd control, allowing you to gather and knock back groups of enemies. Flame Breathing deals high burst damage, but experienced PvP players can easily parry its highly telegraphed moves.
+
+<Callout type="success" title="Beginner Recommendation">
+If you are new to the game, start with Water Breathing. Its defensive moves are highly forgiving, and the training quest is straightforward to complete in the early game.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Progression: How to Build Your Combat Character">
+
+Building a powerful character requires a structured approach to leveling, skill point allocation, and gear acquisition. Follow these steps to optimize your combat build efficiently.
+
+<Steps>
+  <Step num="1" title="Select Your Faction and Clan">
+    Create your character and roll for a clan. High-tier clans provide passive stat bonuses, such as increased health, stamina, or unique family moves that enhance your base combat capabilities.
+  </Step>
+  <Step num="2" title="Grind Starter Quests in Hayakawa Village">
+    Complete early delivery and hunting quests around Hayakawa Village to secure basic experience points and Yen. Use this currency to purchase your first real weapon or unlock basic skills.
+  </Step>
+  <Step num="3" title="Locate a Trainer and Unlock Your Style">
+    Travel across the map to locate your chosen trainer. Complete their specific trials—which may include physical training or defeating enemies—to unlock your first set of active combat skills.
+  </Step>
+  <Step num="4" title="Defeat Bosses to Farm Resources">
+    Group up with other players to hunt down major bosses. Use the dropped materials to forge advanced Nichirin swords or obtain rare progression items like Breath Indictments.
+  </Step>
+  <Step num="5" title="Prestige to Raise Your Level Cap">
+    Once you hit the maximum level, speak to the Prestige NPC to reset your level to one. This process increases your maximum level cap, grants permanent skill points, and boosts your overall power.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Prestige Benefits">
+Prestiging resets your level and story progress, but you retain your clan, breathing style, and unlocked cosmetic items. The extra skill points gained from prestiging are mandatory for creating competitive endgame builds.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Endgame Challenges: Boss Fight Strategies">
+
+Defeating endgame bosses is the primary method for acquiring rare crafting materials, Yen, and massive experience points. However, boss encounters feature unique mechanics that can easily wipe unprepared players.
+
+| Boss | Location | Combat Strategy | Recommended Level |
+| :--- | :--- | :--- | :--- |
+| **Rui** | Spider Forest | Dodge thread traps, attack during recovery windows | Level 25+ |
+| **Akaza** | Central Wastelands | Keep moving to avoid shockwave strikes, parry his punches | Level 40+ |
+| **Gyutaro** | Entertainment District | Bring poison resistance, dodge his sweeping sickle moves | Level 45+ |
+| **Kaigaku** | Infinity Castle | Space out to avoid lightning strikes, interrupt his casting | Level 50+ |
+
+### Rui Strategy
+Rui relies on ranged thread attacks that can bind you in place, followed by a high-damage slam. To defeat him, maintain a medium distance and wait for him to execute his thread-pull move. Dash sideways immediately as the animation begins, then close the distance to land a full light-attack combo.
+
+### Akaza Strategy
+Akaza is a hyper-aggressive boss who utilizes rapid fist strikes and explosive shockwaves. Trying to block his entire combo will quickly break your posture. Instead, focus on parrying his initial strike to interrupt his flow, or use high-mobility breathing moves to chip away at his health while backing away.
+
+<Checklist
+  id="boss-prep"
+  title="Combat Preparation Checklist:"
+  items={[
+    "Fully charge your breathing bar before initiating the fight",
+    "Equip your highest damage Nichirin sword or Blood Demon Art",
+    "Stock up on healing food and stamina potions",
+    "Form a party of at least two players to share boss aggression"
+  ]}
+/>
+
+<Callout type="info" title="Team Coordination">
+When fighting bosses in a group, avoid attacking simultaneously. Alternate your combos to keep the boss constantly staggered, preventing them from activating their high-damage area-of-effect abilities.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions: Demonfall Combat Solved">
+
+Understanding the nuances of combat can be challenging. Here are answers to the most common questions regarding mechanics, builds, and progression.
+
+<FAQ items={[
+  {
+    question: "How do I reset my stats or breathing style in Demonfall?",
+    Answer: "You can reset your character stats or breathing style by consuming a Breath Indictment or a Wipe Potion. These items can be purchased from mysterious merchants or obtained by redeeming active promo codes."
+  },
+  {
+    question: "What is the best clan for PvP combat?",
+    Answer: "The Kamado clan is highly regarded for PvP due to its passive stamina regeneration boost and unique fire resistance, which directly counters Sun Breathing users."
+  },
+  {
+    question: "Can I switch from a Demon back to a Human?",
+    Answer: "Yes, but you must use a Wipe Potion to completely reset your character data. This will revert you to a human but will also reset your level and story progression."
+  },
+  {
+    question: "How do I deal with players who constantly block in PvP?",
+    Answer: "Use heavy attacks (Right Click) to deplete their stamina and break their guard. Alternatively, use unblockable skills from styles like Flame or Wind Breathing to bypass their defense."
+  }
+]} />
+
+<Callout type="tip" title="Wipe Potion Farming">
+Wipe Potions can occasionally be found as rare drops from defeating endgame bosses or purchased from the Black Market dealer in Okuyia Village for a high amount of Yen.
+</Callout>
+
+</Section>

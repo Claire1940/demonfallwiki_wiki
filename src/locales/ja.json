@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "codes": "コード",
+    "guide": "ガイド",
+    "breathing": "呼吸",
+    "clans": "一族",
+    "combat": "戦闘",
+    "weapons": "武器"
+  }
+}

@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "breathing": "Respiração",
+    "clans": "Clãs",
+    "combat": "Combate",
+    "weapons": "Armas"
+  }
+}

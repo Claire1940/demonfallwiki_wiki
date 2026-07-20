@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Coins } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Progressão no Demonfall: Guia de Leveling e Evolução de Raça 2026",
+  description: "Domine a progressão no Demonfall com nosso guia de 2026. Aprenda métodos rápidos de leveling, estratégias de seleção de raça e requisitos de prestígio para dominar o jogo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Demonfall+Progression+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki do Demonfall",
+  keywords: "demonfall, progressão, guia de leveling, evolução de raça, prestígio, tutorial iniciante"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **progressão no Demonfall** começa com a luta contra Charles, que determina sua raça inicial dependendo se você vence ou perde.
+- O **leveling rápido** é melhor alcançado através do farm de chefes (Uto e Kaaku) e Raids de alto nível após atingir o Prestígio 5.
+- O **crescimento econômico** baseia-se em vasculhar a Caverna Okia em busca de cristais Perfeitos (Perfect) e Verdes para vender por altas recompensas em Yen.
+- O **sistema de Prestígio** é obrigatório para o poder de late-game, resetando seu nível, mas aumentando seu limite de nível e potencial de pontos de habilidade.
+- A **evolução de raça** permite que Slayers eventualmente se tornem Híbridos, combinando as forças de Slayers e Demônios.
+</Callout>
+
+<Section icon={Map} title="Seleção de Raça Inicial e Fluxo da História">
+
+A jornada no Demonfall começa imediatamente ao spawnar no mundo. Seu primeiro encontro é com um demônio comumente chamado pela comunidade de Charles. Esta luta é o momento mais crítico na sua **progressão inicial no demonfall**, pois o resultado dita sua raça inicial e a história subsequente que você seguirá.
+
+**Destaques do Vídeo:**
+- **Escolha Inicial**: Vencer ou perder a primeira luta contra o demônio determina sua raça (Slayer ou Demônio).
+- **NPC da História**: Slayers falam com Hayaka; Demônios falam com o NPC na caverna.
+- **Meta de Leveling**: Farm de chefes e Raids são as formas mais rápidas de ganhar XP.
+- **Farm de Dinheiro**: O farm de cristais na Caverna Okia é a fonte de Yen mais eficiente.
+
+<YouTubeEmbed videoId="bbE3PubmeWg" title="Demon Fall 2025 UPDATE BEGINNER’S GUIDE!" />
+
+Se você derrotar o demônio com sucesso, será teletransportado para o mundo principal do jogo para começar o caminho de Slayer. Se perder, o demônio o consome e você renasce como um Demônio. Embora ambos os caminhos ofereçam uma jogabilidade única, os Slayers eventualmente têm a opção de se tornarem Híbridos, o que é frequentemente considerado o auge das builds de personagem no meta de 2026.
+
+| Raça | Como Obter | Foco Principal da Gameplay | Duração da História |
+| :--- | :--- | :--- | :--- |
+| **Slayer** | Derrotar Charles na intro | Estilos de Respiração / Combate de Katana | Longa / Detalhada |
+| **Demônio** | Perder para Charles na intro | Blood Demon Arts / Regeneração | Curta / Focada em Combate |
+| **Híbrido** | Prestígio 1 + Nível 50 (como Slayer) | Mistura de Respiração e BDA | Extensão do Slayer |
+
+<Callout type="tip" title="Dica Pro: Reroll de Raça">
+Se você não estiver satisfeito com sua raça ou clã, pode usar Poções de Wipe ou Robux para resetar. Em 2026, muitos jogadores buscam os clãs Kamado ou Tokito devido aos seus bônus massivos de ganho de XP e poder de habilidade.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Leveling Inicial e Missões">
+
+Assim que sua raça for estabelecida, seu objetivo principal é alcançar a Seleção Final (para Slayers) ou dominar sua primeira Blood Demon Art (para Demônios). Para Slayers, você se encontrará na Vila Hayakawa. Você deve falar com Hayaka, que serve como sua principal doadora de missões para os estágios iniciais do jogo.
+
+<Steps>
+  <Step num="1" title="A Fase de Treinamento">
+    Fale com Hayaka e complete as missões iniciais de entrega e combate. Isso fará você chegar ao nível 10-15 rapidamente, permitindo que você procure um Treinador de Respiração.
+  </Step>
+  <Step num="2" title="Aprendendo um Estilo de Respiração">
+    Localize um treinador para estilos como Água, Chamas ou Vento. Cada um requer uma missão específica (geralmente envolvendo parkour ou coleta de recursos) e uma taxa de 2.000 Yen.
+  </Step>
+  <Step num="3" title="Seleção Final">
+    Ao atingir o nível 20, viaje para a área da Seleção Final. Você deve sobreviver por sete dias (tempo do jogo) e derrotar um número específico de demônios para se juntar oficialmente ao Corpo de Slayers.
+  </Step>
+</Steps>
+
+Para os Demônios, a **progressão no demonfall** é um pouco mais simplificada. Você interagirá com um NPC na caverna dos demônios que fornece uma história mais curta e intensiva em combate. Seu foco será consumir almas para aumentar seu poder e falar com o NPC de BDA para rolar suas habilidades demoníacas específicas.
+
+| Atividade | Rendimento de XP | Requisito de Nível | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| **Missões do Corvo** | Baixo-Médio | Nível 1+ | Leveling inicial solo |
+| **Seleção Final** | Alto (Única vez) | Nível 20 | Desbloquear rank de Slayer |
+| **Chefe Demônio Azul** | Médio | Nível 15+ | Farm em grupo inicial |
+| **Missões de História** | Alto | Variável | Progressão principal |
+
+<Callout type="warning" title="Eficiência de Missões">
+Evite as missões de "Caçar Demônios" do Corvo. Elas frequentemente exigem encontrar demônios específicos pelo mapa, o que leva significativamente mais tempo do que simplesmente farmar spawns estáticos de chefes ou completar objetivos da história.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégias de Farm de Chefes no Mid-Game">
+
+A transição do nível 30 para o 50 é onde muitos jogadores sentem o peso do grind. Para otimizar sua **progressão no demonfall**, você deve parar de depender de missões padrão e mudar seu foco para os chefes mundiais. Os alvos mais populares em 2026 continuam sendo Uto e Kaaku.
+
+Farmar esses chefes é significativamente mais eficiente quando feito em grupo. Usar o servidor oficial do Discord para encontrar "Help Requests" permite que você entre em servidores onde esses chefes já spawnaram.
+
+| Nome do Chefe | Localização | Drops Notáveis | Recompensa de XP |
+| :--- | :--- | :--- | :--- |
+| **Uto** | Vários Spawns | Partes de Demônio, Minério | Muito Alta |
+| **Kaaku** | Vários Spawns | Materiais Raros de Crafting | Alta |
+| **Zenitsu** | Litoral | Essência do Trovão | Média-Alta |
+| **Giyuu** | Floresta Nevada | Essência da Água | Média-Alta |
+
+<CardGrid cols={2}>
+  <Card title="Estratégia de Boss Hopping">
+    - Entre no Discord da comunidade.
+    - Monitore o canal #help-requests.
+    - Adicione jogadores com chefes ativos.
+    - Ciclo entre servidores para minimizar o tempo de espera.
+  </Card>
+  <Card title="Otimização de Combate">
+    - Use formas de Respiração que atordoam (stun).
+    - Foque em combos M1 entre as habilidades.
+    - Garanta que pelo menos um jogador tenha cura.
+    - Não tente solar chefes até o nível 45+.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Otimização de XP">
+Se você for membro do clã Kamado, seu ganho de XP é naturalmente impulsionado. Sempre priorize o farm de chefes sobre qualquer outra atividade se tiver este bônus de clã, pois ele escala excepcionalmente bem com alvos de alto XP como o Uto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="End-Game: Raids e o Sistema de Prestígio">
+
+O verdadeiro end-game do Demonfall gira em torno do sistema de Prestígio. Alcançar o limite de nível é apenas o começo. Ao falar com NPCs específicos, você pode realizar o Prestígio, que reseta seu nível para 1, mas concede um aumento permanente no limite de nível e pontos de habilidade adicionais.
+
+Para alcançar o nível necessário para o Prestígio rapidamente, as Raids são o meta absoluto. No entanto, as Raids na Vila Kamakura normalmente exigem que você seja Prestígio 5 para entrar nos níveis mais recompensadores.
+
+<Checklist
+  id="endgame-goals"
+  title="Checklist de Progressão End-Game:"
+  items={[
+    "Alcançar o Nível 50 para desbloquear o primeiro Prestígio",
+    "Coletar 5 Poções de Breath Indict/Combat para resets de build",
+    "Completar o Castelo Infinito pelo menos uma vez",
+    "Farmar Raids de Kamakura para ganhos massivos de XP",
+    "Desbloquear o status de Híbrido (se estiver no caminho de Slayer)"
+  ]}
+/>
+
+| Nível de Prestígio | Limite de Nível Máx | Bônus de Pontos de Habilidade | Requisito |
+| :--- | :--- | :--- | :--- |
+| **Prestígio 0** | 50 | Base | Nível 50 |
+| **Prestígio 1** | 55 | +2 Pontos | Nível 50 |
+| **Prestígio 5** | 75 | +10 Pontos | Nível 70 |
+| **Prestígio 10** | 100 | Potencial Máximo | Nível 95 |
+
+<Callout type="info" title="Explicação das Raids">
+Raids são modos de sobrevivência baseados em ondas. Se você entrar com um grupo, todo o grupo é teletransportado. Limpar todas as ondas com sucesso fornece o maior pagamento único de XP no jogo, muitas vezes subindo vários níveis de um jogador em uma única partida.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Progressão Econômica: Farmando Yen Rápido">
+
+Dinheiro (Yen) é vital para comprar poções, itens de reset e aprimorar armas. Embora as missões deem pequenas quantias, a maneira mais rápida de construir riqueza em 2026 é o farm de cristais na Caverna Okia. Esta caverna está localizada nos arredores da Vila Okia e contém uma seção de escalada específica que leva a spawns de itens de alto valor.
+
+| Item | Preço de Venda (Yen) | Raridade |
+| :--- | :--- | :--- |
+| **Cristal Perfeito** | 6.000 | Raro |
+| **Cristal Verde** | 3.000 | Incomum |
+| **Trinkets** | 200 - 1.000 | Comum |
+| **Chifres de Demônio** | 100 | Comum |
+
+<Steps>
+  <Step num="1" title="Viaje para a Vila Okia">
+    Defina seu spawn na Vila Okia para fácil acesso.
+  </Step>
+  <Step num="2" title="Navegue pela Caverna">
+    Localize a Caverna Okia e use o caminho de escalada "estranho" para alcançar a borda superior onde os cristais spawnarem.
+  </Step>
+  <Step num="3" title="Server Hopping">
+    Pegue todos os cristais e trinkets e troque de servidor imediatamente. Você spawnará de volta no mesmo local, permitindo verificar novos spawns instantaneamente.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Eficiência de Cristais">
+Não ignore os trinkets menores. Embora os Cristais Perfeitos sejam o objetivo, uma bolsa cheia de trinkets comuns ainda pode render de 2.000 a 3.000 Yen por corrida, tornando o processo consistente mesmo quando a sorte está baixa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ de Progressão no Demonfall">
+
+<FAQ items={[
+  {
+    question: "Como me torno um Híbrido no Demonfall?",
+    answer: "Para se tornar um Híbrido, você deve ter pelo menos Prestígio 1 e Nível 50 como um Slayer. Assim que cumprir esses requisitos, encontre Kokushibo e complete sua linha de missões para se transformar."
+  },
+  {
+    question: "Qual é a maneira mais rápida de subir de nível solo?",
+    answer: "Jogadores solo devem focar primeiro nas missões da história principal, depois transicionar para o farm do chefe Zenitsu ou completar corridas no Castelo Infinito com jogadores aleatórios encontrados no Discord."
+  },
+  {
+    question: "Eu perco meus itens quando faço Prestígio?",
+    answer: "Sim, o Prestígio reseta seu nível, Yen e inventário. No entanto, você mantém seu Clã, sua Raça (a menos que escolha mudar) e quaisquer gamepasses permanentes ou cosméticos."
+  },
+  {
+    question: "Qual chefe dá mais XP?",
+    answer: "Atualmente, o Uto fornece o maior rendimento de XP para chefes mundiais, mas completar uma corrida completa das Raids de Kamakura é o método de XP por hora mais eficiente para jogadores de alto prestígio."
+  }
+]} />
+
+</Section>

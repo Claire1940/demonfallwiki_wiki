@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Historia de Demonfall: Guía de Recorrido y Progresión",
+  description: "Domina la historia de Demonfall con nuestra guía detallada que cubre el Examen de Cazador, Akuro, Rui y las batallas contra jefes de la Luna Inferior 2 para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/ffffff?text=Demonfall+Storyline+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Demonfall",
+  keywords: "Demonfall, historia, guía, Examen de Cazador, Akuro, Rui, Luna Inferior 2"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La progresión de la **historia de Demonfall** sigue un camino lineal desde la tragedia familiar inicial hasta la Selección Final y los principales encuentros con jefes.
+- Los **Jefes Clave** incluyen a Akuro (Antigua Luna Inferior 6), Rui (Luna Inferior 5) y el desafiante jefe de la Luna Inferior 2.
+- La **Especialidad de Yoriichi (Yoriichi Spec)** otorga ventajas masivas en velocidad, estamina (500) y PV (550), lo que facilita significativamente el speedrun de la historia.
+- El **Examen de Cazador** requiere derrotar a 30 demonios, incluido el formidable Demonio Azul, para unirse oficialmente al Cuerpo de Cazadores de Demonios.
+- El **Flujo de Misiones** transiciona desde el entrenamiento con Urokodaki hasta la defensa de aldeas y, finalmente, enfrentar a las Lunas.
+</Callout>
+
+<Section icon={Map} title="Despertar Inicial y el Camino del Cazador">
+
+El viaje a través de la **historia de Demonfall** comienza con una experiencia cinematográfica desgarradora donde tu familia es atacada. Esto sirve como catalizador para el crecimiento de tu personaje, ya sea que elijas el camino de un Humano o eventualmente desciendas para convertirte en un Demonio. Para aquellos que siguen el camino del Cazador, el encuentro inicial con el demonio principiante es tu primera prueba de competencia en combate.
+
+**Puntos Destacados del Video:**
+- Demostración de la velocidad y el poder extremos de la Especialidad de Yoriichi durante las primeras misiones.
+- Navegación por la casa familiar inicial y el primer encuentro con un demonio.
+- Interacción con NPCs clave como Miranda para reiniciar o comenzar el viaje.
+- Limpieza eficiente de las secuencias de diálogo iniciales para llegar a la fase de entrenamiento.
+
+<YouTubeEmbed videoId="mFOFXWP3WhE" title="Speedrun de la HISTORIA con la ESPECIALIDAD DE YORIICHI en DEMONFALL" />
+
+Después de la tragedia, debes dirigirte a la aldea más cercana. La interacción en la choza de sopa es un hito notable, donde te encuentras con el NPC "Señora Antipática". Esta secuencia conduce a la introducción de la dinámica de la familia Rengoku, preparando el escenario para tu eventual entrenamiento y entrada al Cuerpo de Cazadores de Demonios.
+
+| Hito | Objetivo | Recompensa Principal |
+| :--- | :--- | :--- |
+| **Tragedia Familiar** | Derrota al Demonio Inicial | Progresión de la Historia |
+| **Llegada a la Aldea** | Habla con el NPC de la Choza de Sopa | Acceso a Hayakawa |
+| **El Duelo** | Interactúa con Rengoku | Experiencia de Combate |
+| **Inicio del Entrenamiento** | Localiza a Akira Urokodaki | Entrada a la Selección Final |
+
+<Callout type="tip" title="Estrategia de Speedrun">
+Si estás utilizando una Especialidad de alto nivel como Yoriichi, tu velocidad al caminar aumenta significativamente. Úsala para correr pasando de largo a los enemigos no esenciales en el juego temprano para llegar a Urokodaki más rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El Examen de Cazador y la Selección Final">
+
+Para progresar en la **historia de Demonfall**, todo aspirante a Cazador debe aprobar la Selección Final. Este agotador examen tiene lugar en un bosque infestado de demonios donde la supervivencia es el único objetivo. Se te requiere eliminar un número específico de demonios para demostrar tu valor al Cuerpo.
+
+<Steps>
+  <Step num="1" title="Localiza a Urokodaki">
+    Encuentra a Akira Urokodaki para iniciar la misión de la Selección Final. Él te proporcionará la orientación necesaria y la icónica máscara requerida para el examen.
+  </Step>
+  <Step num="2" title="Entra al Bosque">
+    Viaja al sitio del examen. Una vez dentro, no puedes salir hasta que se cumpla el objetivo o seas derrotado.
+  </Step>
+  <Step num="3" title="Eliminación de Demonios">
+    Debes derrotar a 30 demonios en total. Esto incluye demonios estándar y el más peligroso Demonio Azul, que posee más vida y ataques más fuertes.
+  </Step>
+  <Step num="4" title="Finalización">
+    Después de asegurar las 30 eliminaciones, regresa a la salida para recibir tu uniforme de Cazador de Demonios y tu primer rango oficial dentro de la organización.
+  </Step>
+</Steps>
+
+| Tipo de Demonio | Dificultad | Estrategia |
+| :--- | :--- | :--- |
+| **Demonio Estándar** | Baja | Combos básicos de M1 y ataques pesados |
+| **Demonio Azul** | Media | Usa técnicas de respiración para romper su guardia |
+| **Grupos de Enemigos** | Alta | Las habilidades de área (AoE) como "Cielo Azul Despejado" son esenciales |
+
+<Callout type="warning" title="Requisitos del Examen">
+No intentes salir del bosque antes de alcanzar el umbral de 30 muertes. El juego rastrea tu progreso, y salir temprano resultará en un intento fallido, obligándote a reiniciar el examen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Enfrentando a las Lunas Inferiores">
+
+Una vez que te has unido al Cuerpo, la **historia de Demonfall** cambia hacia misiones de alto riesgo asignadas por Kagaya Ubuyashiki. Estas misiones implican defender a civiles inocentes y cazar a las Doce Lunas Demoníacas (Kizuki). La dificultad aumenta significativamente al encontrarte con jefes que poseen Técnicas de Sangre Demoníaca únicas.
+
+<CardGrid cols={3}>
+  <Card title="Akuro (Luna Inferior 6)">
+    - **Ubicación**: Seguimiento de la Selección Final
+    - **Dificultad**: Moderada
+    - **Consejo Clave**: Enfócate en golpes a las piernas para limitar su movilidad
+  </Card>
+  <Card title="Rui (Luna Inferior 5)">
+    - **Ubicación**: Montaña Natagumo
+    - **Dificultad**: Alta
+    - **Consejo Clave**: Pégate a la pared izquierda para saltar directamente a la sala del jefe
+  </Card>
+  <Card title="Luna Inferior 2">
+    - **Ubicación**: Capítulo Final de la Historia
+    - **Dificultad**: Extrema
+    - **Consejo Clave**: Requiere parries perfectos y gestión de estamina
+  </Card>
+</CardGrid>
+
+La pelea contra Akuro sirve como tu introducción a las mecánicas de jefes, requiriendo que esquives ataques telegrafiados y aproveches las aperturas. Rui, sin embargo, introduce ataques de hilos de largo alcance que pueden atraparte y drenar tu vida rápidamente. El encuentro con la Luna Inferior 2 es actualmente la cima de la progresión de la historia, poniendo a prueba todo lo que has aprendido sobre tu Estilo de Respiración elegido.
+
+| Nombre del Jefe | Vida | Botín Notable |
+| :--- | :--- | :--- |
+| **Akuro** | ~1,500 PV | EXP, Yen, Aumento de Rango de Cazador |
+| **Rui** | ~2,500 PV | EXP Masiva, Materiales Raros |
+| **Luna Inferior 2** | ~4,000 PV | EXP de alto nivel, Finalización de la Historia |
+
+<Callout type="success" title="Eficiencia en Combate">
+Usar técnicas de Respiración Solar como "Neblina de Calor Solar" o "Cielo Azul Despejado" proporciona la mejor relación daño-estamina para las peleas contra jefes. Mantén siempre al menos un 20% de estamina para asegurarte de poder alejarte de los ataques definitivos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defensa de la Aldea y Misiones del Cuerpo">
+
+Entre las grandes batallas contra jefes, la **historia de Demonfall** requiere que completes varias misiones del cuerpo. Estas misiones a menudo implican viajar a aldeas bajo ataque. Kagaya Ubuyashiki te convocará a la sede para informarte sobre estas emergencias.
+
+<Checklist
+  id="corps-missions"
+  title="Objetivos de la Misión:"
+  items={[
+    "Habla con Kagaya Ubuyashiki en la Sede del Cuerpo",
+    "Viaja a la aldea atacada cerca de la sede",
+    "Elimina a todos los demonios invasores (aprox. 10-15)",
+    "Protege a los aldeanos inocentes restantes",
+    "Regresa a la Sede para la siguiente asignación"
+  ]}
+/>
+
+La misión de Defensa de la Aldea es una prueba de resistencia. Los demonios aparecerán en oleadas y debes eliminarlos eficientemente para evitar que el contador de "inocentes" baje demasiado. Esta misión es un requisito previo para desbloquear la pelea contra el jefe Rui y progresar más en el contenido de juego tardío.
+
+| Fase de la Misión | Cantidad de Enemigos | Criterios de Completado |
+| :--- | :--- | :--- |
+| **Llegada** | 5 Demonios | Despeja la puerta de entrada |
+| **Barrido Interior** | 10 Demonios | Protege el centro de la aldea |
+| **Oleada Final** | 5 Demonios Élite | Derrota a todos los objetivos marcados |
+
+<Callout type="info" title="Interacciones con NPCs">
+Cuando Kagaya te llama "Hijo mío", significa que tu estatus está subiendo dentro del Cuerpo. Estas secuencias de diálogo son esenciales para desbloquear los niveles de misión de mayor dificultad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión Avanzada y Especialidades">
+
+Llegar al final de la **historia de Demonfall** actual permite a los jugadores enfocarse en perfeccionar sus builds. Para aquellos con la suerte suficiente de obtener la Especialidad de Yoriichi, la jugabilidad cambia de una lucha por la supervivencia a una fantasía de poder dominante. Las estadísticas proporcionadas por esta especialidad no tienen rival en el meta de 2026.
+
+| Atributo | Cazador Estándar | Especialidad de Yoriichi |
+| :--- | :--- | :--- |
+| **PV Máximos** | 100 - 300 | 550 |
+| **Estamina Máxima** | 100 - 200 | 500 |
+| **Velocidad al Caminar** | Base | Mejorada (Velocidad Sónica) |
+| **Habilidad Única** | Ninguna | Maestría en Respiración Solar |
+
+Para mantener este poder, los jugadores deben farmear continuamente a los jefes de las Lunas Inferiores para obtener experiencia. Incluso después de completar la historia principal, la pelea contra la "Luna Inferior 2" sigue siendo la forma más eficiente de alcanzar el nivel máximo y prepararse para futuras actualizaciones de contenido que involucren a las Lunas Superiores.
+
+<Callout type="tip" title="Ciclo de Farmeo">
+Una vez finalizada la historia, el mejor ciclo para obtener EXP es: Luna Inferior 2 -> Rui -> Defensa de la Aldea. Este ciclo maximiza tu EXP por hora mientras mantiene tus reservas de Yen altas para rerolls.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusión y Preguntas Frecuentes">
+
+La **historia de Demonfall** es un viaje exhaustivo que te lleva de ser un sobreviviente novato a un maestro espadachín. Siguiendo el camino estructurado del Examen de Cazador, dominando las misiones de Defensa de la Aldea y derrotando sistemáticamente a las Lunas Inferiores, puedes alcanzar los rangos más altos dentro del juego.
+
+<FAQ items={[
+  {
+    question: "¿Cuántos demonios necesito matar para la Selección Final?",
+    answer: "Debes derrotar exactamente a 30 demonios dentro del bosque para aprobar el Examen de Cazador y progresar en la historia."
+  },
+  {
+    question: "¿Dónde puedo encontrar al jefe Rui?",
+    answer: "Rui se encuentra en la Montaña Natagumo. Puedes saltarte la mayor parte del camino de la montaña pegándote a la pared izquierda para llegar directamente a su arena de combate."
+  },
+  {
+    question: "¿Cuál es el jefe final actual en la historia de Demonfall?",
+    answer: "A partir de las últimas actualizaciones de 2026, el último encuentro importante en la historia es la pelea contra la Luna Inferior 2."
+  },
+  {
+    question: "¿Puedo repetir la historia si me convierto en Demonio?",
+    answer: "Convertirse en Demonio reinicia tu progresión y te otorga una historia completamente diferente centrada en el escondite de los Demonios y las Doce Lunas Demoníacas."
+  }
+]} />
+
+<Callout type="success" title="Nota Final">
+Asegúrate siempre de que tu juego se guarde interactuando con los NPCs designados después de las grandes batallas contra jefes. Si el juego no te teletransporta de regreso a la Sede después de la Luna Inferior 2, volver a entrar rápidamente suele solucionar el marcador de progresión.
+</Callout>
+
+</Section>

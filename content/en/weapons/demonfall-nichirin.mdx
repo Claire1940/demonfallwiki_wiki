@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Demonfall Nichirin: 2026 Weapon Tier List & Crafting Guide",
+  description: "Master your combat potential in Demonfall with our detailed Nichirin weapon guide. Discover top-tier blades, crafting requirements, and stat breakdowns for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Demonfall+Nichirin+Guide",
+  date: "2026-07-21",
+  author: "demonfall Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Demonfall Nichirin** blades are essential for maximizing your combat efficiency against demons and human opponents.
+- **Crafting requirements** typically include specific boss drops, materials like Sun Ore, and completion of the Final Selection.
+- **Stat scaling** varies per blade, with some offering unique buffs like cooldown reduction or increased attack speed.
+- **Tiering** is determined by damage output, unique passives, and versatility in both PVE and PVP scenarios.
+</Callout>
+
+<Section icon={Swords} title="Understanding Nichirin Mechanics">
+
+Selecting the right blade is vital for your progression. Every **Demonfall Nichirin** sword utilizes a base damage value, and percentage buffs are calculated based on this foundation. Maxing out your Kendo tree is the most effective way to ensure your weapon performs at its peak potential.
+
+**Video Highlights:**
+- Detailed breakdown of every available Nichirin blade in the game.
+- Explanation of base damage mechanics and how buffs are applied.
+- Step-by-step requirements for crafting unique swords.
+- Tier list analysis for current meta-defining weapons.
+
+<YouTubeEmbed videoId="pFSnmpgaxMo" title="the ULTIMATE Demonfall Nichirin Guide" />
+
+The distinction between blades often comes down to their specific passives. While a basic sword provides standard utility, specialized blades like the **Moon Breathing** or **Kamado** sword offer distinct advantages that significantly alter your damage output depending on your target.
+
+<Callout type="tip" title="Stat Optimization">
+Always prioritize maxing your Kendo skill tree before finalizing your weapon choice. This provides a consistent 17.5% damage buff to your M1 attacks, which serves as the foundation for your total DPS.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Crafting and Acquisition">
+
+Obtaining a high-tier blade requires gathering specific resources from across the map. Most custom blades require a visit to the forge after you have secured rare materials like Crystal Essence or Sun Ore.
+
+| Material | Primary Source | Usage |
+| :--- | :--- | :--- |
+| Crystal Essence | Crystal Boss | Custom Nichirin Crafting |
+| Sun Ore | Hayakawa Caves | Weapon Enhancement |
+| Green Demon Horn | Green Demon Boss | Special Blade Crafting |
+| Demon Collar | Demon Axe Boss | Special Blade Crafting |
+
+<Steps>
+  <Step num="1" title="Final Selection">
+    Complete the Final Selection process to become a Slayer and gain access to basic Nichirin crafting.
+  </Step>
+  <Step num="2" title="Resource Farming">
+    Acquire necessary items like Sun Ore from mining or specific boss drops from caves outside major settlements.
+  </Step>
+  <Step num="3" title="Forge Interaction">
+    Visit the master smith, Jako, with your materials to craft your desired custom blade.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Note">
+Some weapons, such as the Stone Flail, cannot be sheathed. Be prepared to have your weapon visible at all times if you choose to utilize these specific tools.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Weapon Tier Rankings">
+
+Not all blades are created equal. We have categorized the most prominent weapons based on their damage scaling, unique abilities, and overall effectiveness in the current 2026 meta.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier">
+    - **Moon Breathing**
+    - High M2 damage
+    - Cooldown reduction
+  </Card>
+  <Card title="A-Tier">
+    - **Mist Nichirin**
+    - High M1 damage
+    - Opponent blinding effect
+  </Card>
+  <Card title="B-Tier">
+    - **Water Blade**
+    - Skill damage buffs
+    - Reliable versatility
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Meta Insight">
+The **Kamado Nichirin** currently stands out as the premier choice against demons due to its massive damage multiplier, making it a must-have for high-level PVE content.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Weapon Data Comparison">
+
+Understanding the raw numbers helps in making informed decisions for your loadout. The following table highlights the performance of key weapons when the Kendo tree is fully maximized.
+
+| Weapon | M1 Damage | M2 Damage | Key Passive |
+| :--- | :--- | :--- | :--- |
+| Rusty Nichirin | 4.8 | 9.6 | None |
+| Slayer Nichirin | 6.0 | 12.0 | +25% M1 Damage |
+| Love Nichirin | 7.2 | 14.4 | +50% M1 Damage |
+| Wind Blade | 8.4 | 16.8 | +75% M1 / +1 Speed |
+| Kamado Blade | 9.6 | 19.2 | +100% Demon Damage |
+
+<Checklist
+  id="nichirin-goals"
+  title="Progression Checklist:"
+  items={[
+    "Complete the Final Selection",
+    "Farm 60 Sun Ore for elite crafting",
+    "Defeat the Crystal Boss for Essence",
+    "Obtain a specialized breathing-based blade"
+  ]}
+/>
+
+<Callout type="info" title="Expert Advice">
+If you are playing as a hybrid or demon, focus on weapons like **Dark Thunder** or **Moon Breathing**, as these are specifically tuned for those archetypes and offer superior scaling compared to standard Slayer blades.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I change my Demonfall Nichirin color?",
+    answer: "You can obtain a custom color by talking to Kato. Note that some unique weapons have fixed color schemes that cannot be modified."
+  },
+  {
+    question: "Is the Rusty Nichirin worth keeping?",
+    answer: "No, the Rusty Nichirin is considered the weakest weapon in the game. It should be replaced as soon as you have the materials for a custom Slayer blade."
+  },
+  {
+    question: "Do hybrid players use the same Nichirin as Slayers?",
+    answer: "Hybrids and demons have access to specific blades like the Moon Breathing sword, which offer different damage multipliers and unique move sets compared to standard Slayer weapons."
+  }
+]} />
+
+</Section>

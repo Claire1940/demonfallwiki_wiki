@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Flame, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Selección Final de Demonfall: Guía de Supervivencia Paso a Paso",
+  description: "Domina la selección final de Demonfall con nuestra guía de supervivencia de 2026. Aprende los requisitos, estrategias de combate y recompensas para convertirte en un Cazador de Demonios.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/ed1c24?text=Final+Selection+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Demonfall"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Selección final de Demonfall**: La prueba obligatoria para que los jugadores humanos pasen a la facción de los Cazadores de Demonios.
+- **Requisito**: Los jugadores deben alcanzar al menos el **Nivel 5** antes de intentar el desafío de selección.
+- **Objetivo**: Sobrevivir en el bosque y eliminar a **30 demonios** para superar la prueba con éxito.
+- **Preparación**: Abastécete de **Sopa** y **Vendajes** en la Aldea Hayakawa para mantener tu salud y saciar tu hambre.
+- **Recompensa clave**: Superar la prueba desbloquea el rango del **Cuerpo de Cazadores** (Slayer Corps), una Espada Nichirin y el acceso a los Estilos de Respiración.
+</Callout>
+
+<Section icon={Target} title="Comprendiendo la Prueba de la Selección Final">
+
+La **selección final de Demonfall** es el hito más crítico para cualquier aspirante a guerrero en el mundo de Demonfall. Ubicada en un área de desafío especializada, esta prueba sirve como puerta de entrada entre ser un simple humano y convertirse en un miembro formal del Cuerpo de Cazadores. Dentro del denso bosque rodeado de glicinas, los jugadores deben poner a prueba su destreza en combate contra diversas entidades demoníacas para demostrar su valía.
+
+En el meta actual de 2026, la prueba sigue siendo un filtro indispensable para progresar. Si fallas, seguirás siendo un Ronin o deberás reiniciar tu personaje para intentar un camino diferente. El éxito, sin embargo, te otorga las herramientas necesarias para cazar jefes de mayor nivel y participar en incursiones (raids) de juego avanzado. El entorno es oscuro y traicionero, lo que requiere que los jugadores gestionen no solo su salud, sino también sus barras de resistencia (stamina) y hambre simultáneamente.
+
+| Característica | Detalles |
+| :--- | :--- |
+| **Ubicación** | Área de la Selección Final (Al norte de la Aldea Okuyia) |
+| **Nivel Mínimo** | Nivel 5 |
+| **Objetivo Principal** | Matar a 30 demonios |
+| **Cambio de Facción** | De Humano a Cazador de Demonios |
+| **Penalización por Muerte** | Reinicio de la prueba y teletransporte al punto de aparición |
+
+<Callout type="tip" title="Consejo Pro">
+Antes de entrar, asegúrate de que tu barra de hambre esté completamente llena. La regeneración es significativamente más lenta cuando tienes hambre, lo que puede llevar a una muerte rápida durante el proceso de conseguir las 30 bajas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparación y Requisitos">
+
+El éxito en la **selección final de Demonfall** comienza mucho antes de adentrarte en el bosque. La mayoría de los jugadores se apresuran a entrar en el Nivel 5 sin objetos, solo para verse abrumados por la gran cantidad de demonios. Una preparación adecuada implica visitar la **Aldea Hayakawa** o la **Aldea Okuyia** para recolectar recursos y, potencialmente, realizar giros (rolls) para obtener una mejora de Clan beneficiosa.
+
+Tu elección de Clan puede alterar drásticamente la dificultad de la selección. Por ejemplo, el clan **Kamado** proporciona un enorme aumento de resistencia, mientras que el clan **Tokito** permite ganar experiencia más rápido. Incluso si no tienes un clan legendario, debes concentrarte en dominar los combos básicos de M1 (Ataque Ligero) y M2 (Ataque Pesado) con tu katana de madera inicial.
+
+| Categoría de Preparación | Objetos/Estado Recomendados |
+| :--- | :--- |
+| **Consumibles** | 5x Sopa, 3x Vendajes |
+| **Inversión de Estadísticas** | 2 puntos en Fuerza, 2 puntos en Vitalidad |
+| **Habilidad de Combate** | Dominar la técnica de "Bloqueo y Contraataque" |
+| **Prioridad de Clan** | Cualquier clan con mejoras de Vida o Resistencia |
+| **Economía** | Al menos 100 Yenes para suministros de emergencia |
+
+<CardGrid cols={3}>
+  <Card title="La Build de Tanque">
+    - **Enfoque**: Vitalidad y Defensa
+    - **Beneficio**: Te permite sobrevivir a errores y golpes pesados de los demonios.
+    - **Requisito**: Nivel 5+
+  </Card>
+  <Card title="La Build de Atacante">
+    - **Enfoque**: Fuerza y Velocidad
+    - **Beneficio**: Elimina a los demonios rápidamente para evitar que te rodeen.
+    - **Requisito**: Nivel 7+ recomendado
+  </Card>
+  <Card title="La Build Equilibrada">
+    - **Enfoque**: Distribución equitativa
+    - **Beneficio**: Flexible para diversos patrones de ataque de los demonios.
+    - **Requisito**: Nivel 5+
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia Importante">
+No intentes la prueba si tienes latencia alta o lag. El tiempo para desviar (parry) los ataques de los demonios depende de los fotogramas, y un solo bloqueo fallido puede resultar en un combo que te quite el 50% de tu vida.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía Paso a Paso de la Selección">
+
+Navegar por la **selección final de Demonfall** requiere un enfoque metódico. El bosque es vasto, y perderse puede llevarte a "zonas calientes" donde aparecen múltiples demonios a la vez. Sigue estos pasos para asegurar una transición fluida al Cuerpo de Cazadores.
+
+<Steps>
+  <Step num="1" title="Localiza al NPC de la Selección">
+    Viaja a la entrada del Área de la Selección Final. Encontrarás a dos NPCs de pie cerca de los árboles de glicinas. Habla con ellos para confirmar que cumples con el requisito de Nivel 5 e iniciar el teletransporte.
+  </Step>
+  <Step num="2" title="Establece un Perímetro">
+    Una vez dentro, no corras hacia el centro del bosque. Quédate cerca de los bordes, donde las apariciones de enemigos son más predecibles. Esto te permite atraer a los demonios uno por uno en lugar de luchar contra una multitud.
+  </Step>
+  <Step num="3" title="El Desafío de las 30 Bajas">
+    Enfréntate a los demonios usando el combo M1-M1-M1-M2. Mantén siempre tu bloqueo (tecla F) inmediatamente después de que termine un combo. Necesitas 30 bajas confirmadas para activar la fase de finalización.
+  </Step>
+  <Step num="4" title="Gestiona tus Recursos">
+    Cada 10 bajas, retírate a un árbol o roca segura para consumir Sopa. Si tu salud es baja, usa un Vendaje para detener cualquier efecto de sangrado causado por los ataques más poderosos de los demonios.
+  </Step>
+  <Step num="5" title="Sal por la Puerta">
+    Once the counter hits 30, a notification will appear. Head back to the starting gate (marked by glowing lanterns) to exit the trial and receive your rewards.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia de Éxito">
+Atrae a los demonios hacia los árboles de glicina si te persiguen demasiados. Los demonios reciben daño pasivo y eventualmente se desintegran cuando se acercan demasiado al borde de glicinas, lo que te dará un respiro muy necesario.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tipos de Enemigos y Tácticas de Combate">
+
+Los demonios que se encuentran dentro de la **selección final de Demonfall** varían en fuerza y habilidad. Aunque la mayoría son "Demonios Genéricos", de vez en cuando puedes encontrarte con variantes más rápidas que utilizan Técnicas de Sangre Demoniaca básicas o ataques de embestida pesados. Comprender sus patrones marca la diferencia entre la victoria y un largo camino de regreso a la aldea.
+
+| Tipo de Demonio | Nivel de Peligro | Estrategia de Combate |
+| :--- | :--- | :--- |
+| **Demonio Débil** | Bajo | Combos M1 estándar, fácil de encadenar aturdimientos. |
+| **Demonio Rápido** | Medio | Espera su embestida, esquiva a la izquierda y luego contraataca. |
+| **Demonio Pesado** | Alto | Nunca intercambies golpes. Bloquea su M2 y luego castiga. |
+| **Demonio Azul** | Muy Alto | Aparición rara. Usa un fuerte retroceso para mantener la distancia. |
+
+<CardGrid cols={2}>
+  <Card title="Maniobras Defensivas">
+    - **Bloqueo Perfecto**: Sincroniza tu bloqueo justo cuando el golpe impacte para aturdir al demonio.
+    - **Recuperación de Desplazamiento**: Usa Q para esquivar hacia atrás si tu barra de bloqueo está casi rota.
+  </Card>
+  <Card title="Cadenas Ofensivas">
+    - **Combo Aéreo**: Lanza a los demonios por los aires con M2 y continúa el combo para causar daño adicional.
+    - **Acorralamiento contra la Pared**: Atrapa a los demonios contra los árboles para evitar que se escapen esquivando.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Combate">
+Mantén siempre un ojo en tu barra de Resistencia (la azul). Si te quedas sin resistencia, no podrás bloquear ni esquivar, dejándote completamente vulnerable al movimiento final de un demonio.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas y Objetivos Post-Selección">
+
+Superar la **selección final de Demonfall** es solo el comienzo de tu viaje. Una vez que sales del bosque, el mundo del juego se abre significativamente. Ya no eres un "Humano" a los ojos de los sistemas del juego; eres un Cazador de Demonios, lo que te otorga acceso a las mecánicas principales de progresión de Demonfall.
+
+<Checklist
+  id="post-selection-tasks"
+  title="Tareas Inmediatas Después de Aprobar:"
+  items={[
+    "Equípate tu nuevo Uniforme de Cazador para obtener mejoras defensivas",
+    "Habla con el Forjador de Espadas para recibir tu Espada Nichirin",
+    "Encuentra un Entrenador de Respiración (se recomiendan Agua, Llama o Rayo)",
+    "Únete a un Grupo de Cazadores para comenzar a farmear a los jefes Rui o Akaza",
+    "Invierte los puntos de habilidad obtenidos en el Árbol de Habilidades de Respiración"
+  ]}
+/>
+
+| Objeto de Recompensa | Utilidad |
+| :--- | :--- |
+| **Espada Nichirin** | Arma principal para todos los Estilos de Respiración. |
+| **Rango de Cazador** | Desbloquea misiones diarias y misiones del Cuerpo. |
+| **Bonificación de EXP** | Una cantidad significativa de experiencia para alcanzar el Nivel 10+. |
+| **Minerales/Materiales** | Se utilizan para futuras mejoras y personalización de la espada. |
+
+<Callout type="info" title="Nota Final">
+El color de tu espada Nichirin se determina de forma aleatoria al completar la prueba. Aunque es puramente cosmético, muchos jugadores consideran que ciertos colores como el "Sol" (Rojo) o la "Luna" (Morado) son símbolos prestigiosos de una prueba superada con éxito.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué pasa si muero durante la selección final de Demonfall?",
+    answer: "Si mueres, serás teletransportado de regreso a tu último punto de aparición guardado (generalmente una aldea). Tu contador de bajas se reiniciará y deberás viajar de regreso al Área de Selección para intentarlo de nuevo."
+  },
+  {
+    question: "¿Necesito un Estilo de Respiración para superar la Selección Final?",
+    answer: "No, de hecho no puedes obtener un Estilo de Respiración completo hasta después de haber aprobado. Debes confiar en tus habilidades básicas con la katana y en los fundamentos del combate para conseguir las 30 bajas."
+  },
+  {
+    question: "¿Puedo llevar amigos conmigo a la Selección Final?",
+    answer: "La prueba es una instancia individual. Aunque puedes ver a otros jugadores en el vestíbulo, una vez que entras al bosque, debes sobrevivir por tu propio mérito."
+  },
+  {
+    question: "¿Hay un límite de tiempo para las 30 bajas?",
+    answer: "No hay un temporizador estricto, pero tu hambre y sed se agotarán de forma natural. Si tardas demasiado sin suministros, eventualmente morirás de hambre o perderás la capacidad de curarte."
+  }
+]} />
+
+</Section>

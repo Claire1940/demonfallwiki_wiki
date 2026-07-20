@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "controles do demonfall: guia de configuração para controle e teclado 2026",
+  description: "Domine os controles do Demonfall tanto para controles quanto para teclados. Aprenda comandos avançados de combate, passos de parkour e navegação de menu em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Demonfall+Keybinds+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki do Demonfall",
+  keywords: "controles do demonfall, configuração de controle, teclado demonfall, combate demonfall"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Dominar os **controles do demonfall** oficiais é essencial para dominar o combate PvE e PvP.
+- **Mecânica chave**: Ative o shift lock usando combinações de botões superiores (bumpers) do controle para melhorar significativamente sua precisão de combate.
+- **Melhor estratégia**: Mantenha sua barra de fome cheia com sopa para garantir que sua regeneração de vida permaneça ativa durante as lutas.
+- **Dica crítica**: Os pontos da árvore de habilidades são permanentes por prestígio; distribua seus pontos com cuidado para evitar o desperdício de recursos.
+</Callout>
+
+<Section icon={Map} title="Layout do Controle e Visão Geral de Configuração">
+
+Demonfall melhorou significativamente seu suporte para consoles e controles, diminuindo a distância entre jogadores de PC e console. Anteriormente, navegar pelos menus, realizar escaladas de parede e gerenciar os ângulos da câmera de combate eram tarefas altamente desafiadoras sem um mouse e teclado. A integração de mapeamentos dedicados para controles transformou completamente a experiência de jogo, permitindo que os jogadores de console compitam no mais alto nível.
+
+**Destaques do Vídeo:**
+- Aprenda como alternar o shift lock perfeitamente nos controles de console.
+- Entenda a navegação de menus e como equipar itens do inventário em slots ativos.
+- Domine as combinações exatas de botões para combate, carregar e finalizar (grip).
+- Descubra como resolver bugs comuns de interação com NPCs no console.
+
+<YouTubeEmbed videoId="Sj-T7d8cKSs" title="Atualização de Controles para Controle no Demonfall" />
+
+Um dos recursos mais solicitados pelos usuários de controle era uma alternância dedicada para o shift lock. Essa mecânica agora está totalmente funcional e permite que os jogadores travem a perspectiva da câmera, o que é crucial para acertar técnicas de respiração precisas e executar manobras complexas de parkour. 
+
+| Ação | Entrada no Controle | Entrada no Teclado |
+| --- | --- | --- |
+| Alternar Shift Lock | LB + RB | Shift |
+| Abrir Menu / Jogadores | Direcional para Baixo | Tab / M |
+| Abrir Árvore de Habilidades | Direcional para a Direita | K |
+| Carregar Respiração | Direcional para Cima | G |
+| Interagir com NPC | Direcional para a Esquerda | E |
+
+<Callout type="warning" title="Bug de Interação com NPC">
+Alguns NPCs podem sofrer de bugs de posicionamento que os tornam difíceis de conversar usando o controle. Se o prompt de interação não aparecer, tente ficar extremamente perto do NPC ou reposicionar sua câmera diretamente acima da cabeça dele antes de pressionar o Direcional para a Esquerda.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas de Combate e Mapeamento de Controles">
+
+O combate em Demonfall é rápido, punitivo e recompensa muito o tempo de reação (timing) e o posicionamento. Seja executando combos básicos de ataque leve (M1) ou desferindo ataques pesados devastadores, conhecer o layout do seu controle ou teclado de cor é vital. A natureza focada em ação do jogo significa que um único erro de comando pode resultar na perda de uma grande parte da sua barra de vida.
+
+Para jogadores de controle, o layout utiliza os botões frontais para ataques básicos e movimentação, enquanto utiliza os gatilhos para navegar pelas habilidades ativas. Jogadores de teclado dependem dos cliques padrão do mouse e de teclas de atalho para alternar entre seus estilos de respiração ou Artes de Demônio de Sangue (BDA).
+
+| Ação | Entrada no Xbox | Entrada no PlayStation |
+| --- | --- | --- |
+| Ataque Leve (M1) | Botão X | Botão Quadrado |
+| Ataque Pesado (M2) | Botão Y | Botão Triângulo |
+| Esquiva (Dash) | Botão B | Botão Círculo |
+| Pular | Botão A | Botão X |
+| Carregar Oponente | RB + B | R1 + Círculo |
+| Finalizar Oponente (Grip) | RB + Y | R1 + Triângulo |
+
+| Ação | Tecla Padrão do PC | Função de Combate |
+| --- | --- | --- |
+| Ataque Leve (M1) | Clique Esquerdo | Iniciador de combo principal e ferramenta de pressão |
+| Ataque Pesado (M2) | Clique Direito | Quebra de guarda e finalizador de alto dano |
+| Esquiva (Dash) | Tecla Q | Esquiva rápida para se reposicionar ou escapar de combos |
+| Bloquear | Tecla F | Mitiga o dano recebido de ataques frontais |
+| Carregar Oponente | Tecla V | Carrega jogadores ou NPCs caídos |
+| Finalizar Oponente (Grip) | Tecla B | Executa alvos caídos para obter EXP ou vida |
+
+<Callout type="tip" title="Contra-ataque com Bloqueio Perfeito">
+Você pode executar um Bloqueio Perfeito (PB) bloqueando logo antes do ataque de um oponente atingir você. Realizar um PB com sucesso ativa um chute de contra-ataque automático que empurra seu oponente de volta, dando a você uma abertura imediata para contra-atacar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Movimentação Avançada e Tutorial de Parkour">
+
+A mobilidade vertical é um aspecto central da exploração do mundo em Demonfall. Os jogadores frequentemente precisam escalar penhascos altos, navegar por telhados e subir cordilheiras para alcançar treinadores de respiração, NPCs ocultos ou objetivos de missões. Como o pulo duplo padrão é insuficiente para escalar paredes verticais altas, os jogadores devem dominar a mecânica de combo de escalada de parede.
+
+O uso do shift lock é altamente recomendado durante o parkour. Travar a câmera torna muito mais fácil controlar a orientação do seu personagem enquanto você pula entre superfícies verticais.
+
+<Steps>
+  <Step num="1" title="Ativar o Shift Lock">
+    Pressione LB e RB simultaneamente (no controle) ou a tecla Shift (no teclado) para travar a perspectiva da câmera. Isso garante que seu personagem sempre fique de frente para a direção da sua câmera.
+  </Step>
+  <Step num="2" title="Pular na Parede">
+    Corra em direção à superfície vertical e pressione o botão de pulo (A no Xbox, X no PlayStation, Barra de Espaço no PC) para fazer o contato inicial com a parede.
+  </Step>
+  <Step num="3" title="Rotacionar e Pular Novamente">
+    Enquanto toca na parede, gire rapidamente a câmera para ficar de frente para a parede ou ângulo oposto e, em seguida, pressione o botão de pulo novamente para saltar para cima.
+  </Step>
+  <Step num="4" title="Encadear Pulos até o Topo">
+    Repita a sequência de rotação de câmera e pulo em rápida sucessão. Isso permite escalar paredes incrivelmente altas sem escorregar de volta para baixo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Estamina de Movimento">
+Escalar paredes não consome sua barra de respiração, mas esquivar (dash) consome. Certifique-se de que sua barra de estamina esteja totalmente carregada antes de tentar sequências de parkour de longa distância para evitar cair no meio da escalada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sobrevivência e Gerenciamento de Inventário">
+
+A sobrevivência em Demonfall requer um gerenciamento cuidadoso das suas barras de status. Além da vida e da estamina, os jogadores devem monitorar de perto a barra de fome. Se a sua barra de fome esvaziar, a regeneração natural de vida do seu personagem para completamente, tornando você altamente vulnerável a qualquer dano recebido.
+
+Gerenciar seu inventário com eficiência garante que você possa se recuperar rapidamente durante ou após confrontos intensos de combate.
+
+<CardGrid cols={3}>
+  <Card title="Sobrevivência de Caçador (Slayer)">
+    Os Caçadores dependem muito da compra de sopa dos vendedores das vilas. Consumir sopa restaura sua barra de fome e permite a regeneração contínua de vida durante longas sessões de PvE.
+  </Card>
+  <Card title="Sobrevivência de Demônio">
+    Os demônios devem se alimentar de NPCs humanos derrotados ou jogadores para satisfazer sua fome. Se a barra de fome de um demônio esvaziar, ele não poderá regenerar vida, levando a uma derrota rápida no combate.
+  </Card>
+  <Card title="Barras de Atalho do Inventário">
+    Os itens devem ser equipados nos slots Z e X a partir do menu da sua bolsa. Use os gatilhos (RT/LT) para destacar esses slots e pressione o botão de interação para consumir itens como sopa no meio da luta.
+  </Card>
+</CardGrid>
+
+| Indicador | Localização na Tela | Penalidade de Esvaziamento | Método de Recuperação Principal |
+| --- | --- | --- | --- |
+| Barra de Vida | Centro Inferior | O personagem morre e perde EXP | Regeneração natural (requer saciedade) |
+| Barra de Estamina | Canto Inferior Esquerdo (Azul) | Não é possível esquivar ou ativar habilidades | Recuperação automática ao longo do tempo |
+| Barra de Fome | Canto Inferior Direito | Interrompe toda a regeneração de vida | Consumir sopa, carne ou alimentar-se |
+
+<Callout type="success" title="Eficiência da Sopa">
+Sempre carregue um estoque cheio de sopa em seu inventário. É o método mais econômico e confiável para manter sua barra de fome, garantindo que você esteja sempre pronto para encontros PvP inesperados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Árvore de Habilidades e Marcos de Progressão">
+
+A força do seu personagem é determinada pelo seu nível e por como você distribui os pontos na sua árvore de habilidades. O acesso à árvore de habilidades no controle é feito pressionando o Direcional para a Direita, o que abre um menu dividido em técnicas de respiração, melhorias corporais e habilidades de espada. Para demônios, o lado da respiração é substituído pelas Artes de Demônio de Sangue (BDA).
+
+Planejar sua build com segurança é crítico porque os pontos de habilidade não podem ser desequipados depois de gastos. A única maneira de resetar suas habilidades é usando uma Poção de Wipe (Wipe Potion) ou realizando o prestígio do seu personagem.
+
+<Checklist
+  id="progression-milestones"
+  title="Marcos de Progressão Essenciais:"
+  items={[
+    "Domine a técnica de parkour de escalada de parede para acessar treinadores ocultos.",
+    "Alcance o nível máximo para se preparar para o seu primeiro ciclo de prestígio.",
+    "Equipe suas habilidades principais de respiração ou BDA na sua barra de atalhos ativa.",
+    "Acumule ienes suficientes para manter um suprimento constante de sopa em sua bolsa.",
+    "Decore os controles de combate do seu controle ou teclado para realizar bloqueios perfeitos."
+  ]}
+/>
+
+| Aba do Menu | Ação no Controle | Função Principal |
+| --- | --- | --- |
+| Engrenagem de Configurações | Selecionar ícone pelo menu | Resgatar códigos ativos, alternar contadores de dano ou renascer (respawn) |
+| Carrinho de Loja | Selecionar ícone pelo menu | Comprar itens premium e opções de personalização cosmética |
+| Inventário de Bolsa | Selecionar ícone pelo menu | Visualizar relíquias (trinkets) e acessórios possuídos, e equipar itens ativos |
+
+<Callout type="warning" title="Distribuição Permanente de Pontos de Habilidade">
+Verifique duas vezes o caminho da sua build antes de clicar em qualquer nó de habilidade. Como os pontos de habilidade são permanentes, um clique acidental pode arruinar uma build especializada, forçando você a usar itens raros de reset.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para ativar o shift lock usando os controles do Demonfall no controle?",
+    answer: "Você pode alternar o shift lock no controle pressionando o Botão Superior Esquerdo (LB) e o Botão Superior Direito (RB) simultaneamente. No teclado, basta pressionar a tecla Shift."
+  },
+  {
+    question: "O que acontece se a minha barra de fome chegar a zero no Demonfall?",
+    answer: "Quando sua barra de fome estiver completamente vazia, sua regeneração natural de vida é desativada. Isso torna você extremamente frágil, pois você não recuperará vida após receber dano."
+  },
+  {
+    question: "Posso resetar meus pontos de habilidade gastos se eu cometer um erro?",
+    answer: "Não, você não pode desequipar manualmente habilidades individuais. Para resetar sua árvore de habilidades, você deve usar uma Poção de Wipe (Wipe Potion), consumir um Breath Indict (para estilos de respiração) ou realizar o prestígio do seu personagem."
+  },
+  {
+    question: "Como faço para carregar e finalizar (grip) jogadores usando um controle?",
+    answer: "Para carregar um oponente caído, pressione RB + B (no Xbox) ou R1 + Círculo (no PlayStation). Para finalizar (grip) e executá-lo, pressione RB + Y (no Xbox) ou R1 + Triângulo (no PlayStation)."
+  }
+]} />
+
+<Callout type="tip" title="Navegação por Placas de Trânsito">
+Se você se perder ao explorar o mapa massivo, preste muita atenção nas placas de trânsito de madeira espalhadas pelos caminhos. Elas apontam diretamente para as principais cidades, treinadores e locais de missões.
+</Callout>
+
+</Section>

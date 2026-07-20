@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Combate em Demonfall: Mecânicas, Estilos de Respiração e Guia de PvP",
+  description: "Domine o combate em Demonfall com nosso guia sobre estilos de respiração, clãs, raças e estratégias de PvP. Aprenda controles, combos e lutas contra chefes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/800000/fff?text=Demonfall+Combat+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Demonfall"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica Principal**: Dominar o **combate em demonfall** depende do gerenciamento da sua stamina, execução de bloqueios no tempo perfeito e escolha do estilo de respiração correto.
+- **Escolha de Facção**: Selecione entre Humano, Demônio ou Híbrido, pois cada caminho oferece mecânicas de combate defensivas e ofensivas distintas.
+- **Gerenciamento de Stamina**: Ficar sem stamina deixa você vulnerável a quebras de guarda devastadoras e punições de combo.
+- **Melhores Estilos de Respiração**: As respirações do Sol e da Lua dominam o nível S (S-tier), oferecendo dano massivo e excelente alcance.
+- **Estratégia de PvP**: Foque em induzir esquivas inimigas e garantir parries perfeitos para virar a maré da batalha.
+</Callout>
+
+<Section icon={Swords} title="Básicos do Combate em Demonfall: Mecânicas Principais e Controles">
+
+Engajar-se no **combate em demonfall** exige timing preciso, reflexos rápidos e compreensão de espaçamento. Ao contrário dos RPGs de ação padrão, apertar botões aleatoriamente levará rapidamente à derrota. Cada golpe, dash e bloqueio deve ser calculado para evitar que seu oponente explore seus frames de recuperação.
+
+A base da sobrevivência reside em dominar os controles básicos. Abaixo está um detalhamento abrangente dos comandos essenciais necessários para navegar em encontros PvE e PvP.
+
+| Ação | Tecla | Utilidade em Combate |
+| :--- | :--- | :--- |
+| **Ataque Leve** | Clique Esquerdo | Golpes corpo a corpo rápidos para construir combos e desgastar a postura inimiga |
+| **Ataque Pesado** | Clique Direito | Golpe mais lento e de alto dano usado para quebrar guardas e repelir inimigos |
+| **Bloqueio** | F | Reduz o dano recebido, embora vulnerável a quebras de guarda pesadas |
+| **Dash (Esquiva)** | Q | Movimento direcional rápido para evitar ataques ou fechar a distância |
+| **Respirar** | G | Carrega sua barra de respiração, essencial para executar técnicas de respiração |
+
+A stamina é o sangue vital do seu jogo defensivo. Cada bloqueio e dash consome stamina. Se sua barra de stamina esvaziar completamente enquanto você bloqueia um ataque pesado de um oponente, você sofrerá uma quebra de postura, ficando atordoado e exposto a um combo completo.
+
+Para evitar quebras de postura, você deve praticar o bloqueio perfeito. Pressionar a tecla de bloqueio logo antes de um ataque inimigo atingir você ativa um parry, que atordoa o atacante e lhe dá uma breve janela para lançar uma contra-ofensiva.
+
+<Callout type="warning" title="Risco de Quebra de Guarda">
+Os ataques pesados (Clique Direito) são projetados para estilhaçar o bloqueio de um oponente. Se você vir um inimigo carregando um ataque pesado, não tente bloqueá-lo. Em vez disso, use seu dash (Q) para se mover lateralmente e punir seus frames de recuperação.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Raças e Caminhos de Combate: Humanos, Demônios e Híbridos">
+
+Sua escolha de raça define seus atributos iniciais, rota de progressão e estilo de combate geral. Cada caminho altera a forma como você aborda as batalhas, gerencia recursos e interage com o conteúdo de endgame.
+
+<CardGrid cols={3}>
+  <Card title="Caminho Humano">
+    - **Alta versatilidade**
+    - Usa Espadas Nichirin
+    - Acesso a Estilos de Respiração
+    - Progressão amigável para iniciantes
+  </Card>
+  <Card title="Caminho Demônio">
+    - **Regeneração passiva de vida**
+    - Usa Artes de Sangue Demoníaco
+    - Consome carne para curar
+    - Alto poder em combate próximo
+  </Card>
+  <Card title="Caminho Híbrido">
+    - **Combina traços de humanos e demônios**
+    - Gerenciamento duplo de recursos
+    - Limites de atributos elevados
+    - Requisitos de estilo de jogo avançados
+  </Card>
+</CardGrid>
+
+Para ajudar você a decidir qual caminho se adapta ao seu estilo de jogo preferido, considere como cada facção se compara em métricas de combate importantes.
+
+| Facção | Mecânica Principal | Função em Combate | Dificuldade |
+| :--- | :--- | :--- | :--- |
+| **Humano** | Estilos de Respiração e Esgrima | Atacante Equilibrado / Duelista | Moderada |
+| **Demônio** | Artes de Sangue e Regen de Vida | Brawler Agressivo / Sustentação | Moderada |
+| **Híbrido** | Respiração Mista e Habilidades Demoníacas | Especialista em Alto Dano | Difícil |
+
+Os humanos dependem fortemente de estilos de respiração elementais para controlar o campo de batalha. Eles devem equilibrar constantemente sua barra de respiração com sua barra de stamina. Os demônios, por outro lado, não usam espadas; eles dependem de força física bruta e Artes de Sangue Demoníaco sobrenaturais. Os demônios regeneram vida rapidamente no escuro, mas recebem dano massivo da luz solar e de armas Nichirin. Os híbridos oferecem a experiência definitiva de combate de alto risco e alta recompensa, permitindo o uso de estilos de respiração enquanto mantêm algumas capacidades de cura demoníaca.
+
+<Callout type="info" title="Requisitos para Híbrido">
+Tornar-se um Híbrido é uma rota de progressão avançada. Você deve atingir o nível 50 e possuir pelo menos um nível de Prestígio antes de poder passar pelo processo de transformação.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tier List de Estilos de Respiração: Ranking do Tier S ao B">
+
+Para jogadores Humanos e Híbridos, os Estilos de Respiração são o elemento definidor do seu arsenal ofensivo. Esses estilos concedem habilidades ativas únicas que podem ser encadeadas em combos de ataque básico.
+
+| Estilo de Respiração | Tier | Foco em Combate | Movimento Chave |
+| :--- | :--- | :--- | :--- |
+| **Respiração do Sol** | Tier S | Alto dano de queimadura e combos longos | Hinokami Kagura |
+| **Respiração da Lua** | Tier S | Área de efeito massiva e alcance | Evening Palace |
+| **Respiração da Água** | Tier A | Contra-ataques defensivos e combos fluidos | Constant Flux |
+| **Respiração da Névoa** | Tier A | Alta mobilidade e ocultação visual | Obscuring Clouds |
+| **Respiração do Trovão** | Tier A | Ataques de dash rápidos e dano explosivo | Rice Spirit |
+| **Respiração do Vento** | Tier B | Controle de grupo e repelimento | Gale Sudden Gusts |
+| **Respiração da Chama** | Tier B | Alto dano bruto, mas padrões previsíveis | Purgatory |
+
+### Estilos Tier S
+As Respirações do Sol e da Lua representam o auge da esgrima. A Respiração do Sol inflige um efeito de status de queimadura persistente que impede os inimigos de se curarem passivamente, tornando-a excepcionalmente mortal em longos duelos PvP. A Respiração da Lua brilha ao manter múltiplos oponentes afastados com cortes crescentes amplos que causam alto dano em um grande raio.
+
+### Estilos Tier A
+Água, Névoa e Trovão são opções altamente competitivas que funcionam excepcionalmente bem na maioria dos cenários de combate. A Respiração da Água é o estilo mais equilibrado, oferecendo excelentes movimentos de contra-ataque defensivo que resetam os combos inimigos. A Respiração da Névoa utiliza clones e mecânicas de teletransporte para desorientar os oponentes, enquanto a do Trovão foca em aproximações instantâneas para alcançar alvos em fuga.
+
+### Estilos Tier B
+Vento e Chama são escolhas sólidas, mas sofrem com animações de preparação previsíveis. A Respiração do Vento é excelente para controle de grupo no PvE, permitindo reunir e repelir grupos de inimigos. A Respiração da Chama causa alto dano explosivo, mas jogadores experientes de PvP podem facilmente dar parry em seus movimentos altamente telegrafados.
+
+<Callout type="success" title="Recomendação para Iniciantes">
+Se você é novo no jogo, comece com a Respiração da Água. Seus movimentos defensivos são muito tolerantes e a missão de treinamento é simples de completar no início do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progressão Passo a Passo: Como Construir seu Personagem de Combate">
+
+Construir um personagem poderoso requer uma abordagem estruturada para subir de nível, alocar pontos de habilidade e adquirir equipamentos. Siga estes passos para otimizar sua build de combate de forma eficiente.
+
+<Steps>
+  <Step num="1" title="Selecione sua Facção e Clã">
+    Crie seu personagem e role para um clã. Clãs de alto nível fornecem bônus passivos de atributos, como aumento de vida, stamina ou movimentos familiares únicos que aprimoram suas capacidades básicas de combate.
+  </Step>
+  <Step num="2" title="Faça o Grind das Missões Iniciais na Vila Hayakawa">
+    Complete as missões iniciais de entrega e caça ao redor da Vila Hayakawa para garantir pontos de experiência básicos e Yen. Use essa moeda para comprar sua primeira arma real ou desbloquear habilidades básicas.
+  </Step>
+  <Step num="3" title="Localize um Treinador e Desbloqueie seu Estilo">
+    Viaje pelo mapa para localizar o treinador escolhido. Complete seus testes específicos — que podem incluir treinamento físico ou derrotar inimigos — para desbloquear seu primeiro conjunto de habilidades ativas de combate.
+  </Step>
+  <Step num="4" title="Derrote Chefes para Farmar Recursos">
+    Forme grupos com outros jogadores para caçar chefes principais. Use os materiais derrubados para forjar espadas Nichirin avançadas ou obter itens raros de progressão como Breath Indictments.
+  </Step>
+  <Step num="5" title="Prestígio para Aumentar seu Limite de Nível">
+    Assim que atingir o nível máximo, fale com o NPC de Prestígio para resetar seu nível para um. Esse processo aumenta seu limite máximo de nível, concede pontos de habilidade permanentes e aumenta seu poder geral.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Benefícios do Prestígio">
+O Prestígio reseta seu nível e progresso na história, mas você mantém seu clã, estilo de respiração e itens cosméticos desbloqueados. Os pontos de habilidade extras ganhos com o prestígio são obrigatórios para criar builds competitivas de endgame.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Desafios de Endgame: Estratégias para Lutas de Chefe">
+
+Derrotar chefes de endgame é o principal método para adquirir materiais raros de crafting, Yen e pontos massivos de experiência. No entanto, os encontros com chefes apresentam mecânicas únicas que podem facilmente eliminar jogadores despreparados.
+
+| Chefe | Localização | Estratégia de Combate | Nível Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Rui** | Floresta das Aranhas | Esquive das armadilhas de fios, ataque durante as janelas de recuperação | Nível 25+ |
+| **Akaza** | Terras Desoladas Centrais | Mantenha-se em movimento para evitar ondas de choque, dê parry em seus socos | Nível 40+ |
+| **Gyutaro** | Distrito de Entretenimento | Traga resistência a veneno, esquive de seus ataques de foice amplos | Nível 45+ |
+| **Kaigaku** | Castelo Infinito | Mantenha distância para evitar raios, interrompa suas conjurações | Nível 50+ |
+
+### Estratégia para Rui
+Rui depende de ataques de fios à distância que podem prendê-lo no lugar, seguidos por um golpe de alto dano. Para derrotá-lo, mantenha uma distância média e espere que ele execute seu movimento de puxar fios. Dê um dash lateral imediatamente assim que a animação começar, então feche a distância para desferir um combo completo de ataques leves.
+
+### Estratégia para Akaza
+Akaza é um chefe hiper-agressivo que utiliza socos rápidos e ondas de choque explosivas. Tentar bloquear todo o seu combo quebrará rapidamente sua postura. Em vez disso, foque em dar parry em seu golpe inicial para interromper seu fluxo, ou use movimentos de respiração de alta mobilidade para desgastar a vida dele enquanto recua.
+
+<Checklist
+  id="boss-prep"
+  title="Checklist de Preparação para Combate:"
+  items={[
+    "Carregue totalmente sua barra de respiração antes de iniciar a luta",
+    "Equipe sua espada Nichirin de maior dano ou Arte de Sangue Demoníaco",
+    "Estoque comida de cura e poções de stamina",
+    "Forme um grupo de pelo menos dois jogadores para dividir a agressividade do chefe"
+  ]}
+/>
+
+<Callout type="info" title="Coordenação de Equipe">
+Ao lutar contra chefes em grupo, evite atacar simultaneamente. Alterne seus combos para manter o chefe constantemente atordoado (staggered), impedindo-o de ativar suas habilidades de área de efeito de alto dano.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes: Combate em Demonfall Resolvido">
+
+Entender as nuances do combate pode ser desafiador. Aqui estão as respostas para as perguntas mais comuns sobre mecânicas, builds e progressão.
+
+<FAQ items={[
+  {
+    question: "Como eu reseto meus atributos ou estilo de respiração em Demonfall?",
+    Answer: "Você pode resetar os atributos do seu personagem ou estilo de respiração consumindo um Breath Indictment ou uma Wipe Potion. Esses itens podem ser comprados de mercadores misteriosos ou obtidos resgatando códigos promocionais ativos."
+  },
+  {
+    question: "Qual é o melhor clã para combate PvP?",
+    Answer: "O clã Kamado é muito conceituado para PvP devido ao seu bônus passivo de regeneração de stamina e resistência única ao fogo, que contra-ataca diretamente usuários da Respiração do Sol."
+  },
+  {
+    question: "Posso mudar de Demônio de volta para Humano?",
+    Answer: "Sim, mas você deve usar uma Wipe Potion para resetar completamente os dados do seu personagem. Isso fará você voltar a ser humano, mas também resetará seu nível e progresso na história."
+  },
+  {
+    question: "Como lidar com jogadores que bloqueiam constantemente no PvP?",
+    Answer: "Use ataques pesados (Clique Direito) para esgotar a stamina deles e quebrar sua guarda. Alternativamente, use habilidades imbloqueáveis de estilos como Respiração da Chama ou do Vento para ignorar a defesa."
+  }
+]} />
+
+<Callout type="tip" title="Farmando Wipe Potion">
+Wipe Potions podem ser encontradas ocasionalmente como drops raros ao derrotar chefes de endgame ou compradas no negociante do Mercado Negro na Vila Okuyia por uma grande quantidade de Yen.
+</Callout>
+
+</Section>

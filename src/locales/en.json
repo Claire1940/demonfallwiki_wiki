@@ -10,7 +10,14 @@
       "twitterDescription": "Demonfall Wiki covers codes, breathing styles, clans, weapons, maps, bosses, builds, and progression guides for Roblox Demonfall players with updated tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "breathing": "Breathing",
+    "clans": "Clans",
+    "combat": "Combat",
+    "weapons": "Weapons"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -496,6 +503,26 @@
       "featured": "Featured & Essential",
       "all": "All Codes"
     },
+    "guide": {
+      "title": "Demonfall Guides",
+      "description": "Beginner walkthroughs, progression routes, and system tutorials.",
+      "metaTitle": "Demonfall Guides - Beginner Walkthroughs & Progression",
+      "metaDescription": "Read Demonfall guides covering beginner walkthroughs, progression routes, prestige, and endgame content.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What are Demonfall Guides?",
+      "whatIsDescription": "Demonfall guides cover beginner flow, systems, progression, and endgame content to help players at every stage.",
+      "why": "Why read guides?",
+      "whySteps": {
+        "step1Title": "Learn the Basics",
+        "step1Description": "Understand combat, races, and progression",
+        "step2Title": "Level Faster",
+        "step2Description": "Follow proven leveling routes",
+        "step3Title": "Reach Endgame",
+        "step3Description": "Plan prestige and late-game goals"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
     "breathing": {
       "title": "Demonfall Breathing Styles",
       "description": "Every Demonfall breathing style with moves, trainers, and tier rankings.",
@@ -515,46 +542,6 @@
       },
       "featured": "Featured & Essential",
       "all": "All Breathing Styles"
-    },
-    "builds": {
-      "title": "Demonfall Builds",
-      "description": "Slayer, Demon, and Hybrid builds with stat allocation and skill paths.",
-      "metaTitle": "Demonfall Builds - Best Stats, Skill Trees & Loadouts",
-      "metaDescription": "Optimize your Demonfall build with stat allocation, skill paths, and loadouts for Slayer, Demon, and Hybrid playstyles.",
-      "categoryLabel": "BUILDS & STATS",
-      "whatIs": "What are Demonfall Builds?",
-      "whatIsDescription": "Demonfall builds cover stat allocation, skill choices, and equipment that define how your character fights and progresses.",
-      "why": "Why plan your build?",
-      "whySteps": {
-        "step1Title": "Maximize Damage",
-        "step1Description": "Allocate stats to match your breathing or blood art",
-        "step2Title": "Optimize Skills",
-        "step2Description": "Pick skill upgrades that fit your combat style",
-        "step3Title": "Progress Faster",
-        "step3Description": "A clear build path speeds up leveling and boss fights"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Builds"
-    },
-    "weapons": {
-      "title": "Demonfall Weapons",
-      "description": "Nichirin swords, weapon stats, colors, and upgrade paths.",
-      "metaTitle": "Demonfall Weapons - Nichirin Swords, Colors & Upgrades",
-      "metaDescription": "Learn about every Demonfall weapon including Nichirin swords, colors, rarities, and upgrade paths.",
-      "categoryLabel": "WEAPONS & GEAR",
-      "whatIs": "What are Demonfall Weapons?",
-      "whatIsDescription": "Demonfall weapons include Nichirin swords and gear used by Demon Slayers, each with stats, colors, and upgrade options.",
-      "why": "Why upgrade your weapon?",
-      "whySteps": {
-        "step1Title": "Deal More Damage",
-        "step1Description": "Upgraded swords hit harder in combat",
-        "step2Title": "Unlock Colors",
-        "step2Description": "Different colors offer unique bonuses",
-        "step3Title": "Beat Bosses",
-        "step3Description": "Stronger weapons make raids and duels easier"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Weapons"
     },
     "clans": {
       "title": "Demonfall Clans",
@@ -576,65 +563,45 @@
       "featured": "Featured & Essential",
       "all": "All Clans"
     },
-    "maps": {
-      "title": "Demonfall Maps",
-      "description": "Villages, trainers, boss locations, and quest routes.",
-      "metaTitle": "Demonfall Maps - Villages, Trainers & Boss Locations",
-      "metaDescription": "Explore the Demonfall map with village locations, trainer spots, boss areas, and fast travel routes.",
-      "categoryLabel": "MAPS & LOCATIONS",
-      "whatIs": "What does the Demonfall map cover?",
-      "whatIsDescription": "The Demonfall map guides players to villages, trainers, quest zones, and boss locations across the game world.",
-      "why": "Why learn the map?",
+    "combat": {
+      "title": "Demonfall Combat",
+      "description": "Demonfall combat mechanics, breathing combos, Blood Demon Arts, and PvP strategies.",
+      "metaTitle": "Demonfall Combat - Mechanics, Combos & PvP Strategies",
+      "metaDescription": "Master Demonfall combat with breathing combos, Blood Demon Arts, PvP strategies, and boss fight tactics.",
+      "categoryLabel": "COMBAT & PVP",
+      "whatIs": "What is Demonfall Combat?",
+      "whatIsDescription": "Demonfall combat blends breathing styles, Blood Demon Arts, clans, and weapon mechanics into a skill-based action system for PvE and PvP fights.",
+      "why": "Why master combat?",
       "whySteps": {
-        "step1Title": "Find Trainers",
-        "step1Description": "Locate breathing trainers fast",
-        "step2Title": "Plan Routes",
-        "step2Description": "Travel efficiently between quests",
-        "step3Title": "Hunt Bosses",
-        "step3Description": "Know where each boss spawns"
+        "step1Title": "Move and Dodge",
+        "step1Description": "Learn blocking, dodging, and spacing to survive boss attacks",
+        "step2Title": "Chain Combos",
+        "step2Description": "Combine breathing moves and demon arts into deadly combos",
+        "step3Title": "Win PvP and Raids",
+        "step3Description": "Apply combat skills in duels, boss raids, and the Infinity Castle"
       },
       "featured": "Featured & Essential",
-      "all": "All Locations"
+      "all": "All Combat Guides"
     },
-    "bosses": {
-      "title": "Demonfall Bosses",
-      "description": "Boss skills, drops, strategies, and recommended builds.",
-      "metaTitle": "Demonfall Bosses - Strategies, Drops & Recommended Builds",
-      "metaDescription": "Defeat every Demonfall boss with strategy guides, drop tables, and recommended builds for each encounter.",
-      "categoryLabel": "BOSSES & RAIDS",
-      "whatIs": "What are Demonfall Bosses?",
-      "whatIsDescription": "Demonfall bosses are major encounters that drop progression resources and test your combat build and timing.",
-      "why": "Why fight bosses?",
+    "weapons": {
+      "title": "Demonfall Weapons",
+      "description": "Nichirin swords, weapon stats, colors, and upgrade paths.",
+      "metaTitle": "Demonfall Weapons - Nichirin Swords, Colors & Upgrades",
+      "metaDescription": "Learn about every Demonfall weapon including Nichirin swords, colors, rarities, and upgrade paths.",
+      "categoryLabel": "WEAPONS & GEAR",
+      "whatIs": "What are Demonfall Weapons?",
+      "whatIsDescription": "Demonfall weapons include Nichirin swords and gear used by Demon Slayers, each with stats, colors, and upgrade options.",
+      "why": "Why upgrade your weapon?",
       "whySteps": {
-        "step1Title": "Earn Drops",
-        "step1Description": "Bosses drop valuable resources and gear",
-        "step2Title": "Progress Story",
-        "step2Description": "Many quests require boss defeats",
-        "step3Title": "Team Up",
-        "step3Description": "Raids are easier with a coordinated squad"
+        "step1Title": "Deal More Damage",
+        "step1Description": "Upgraded swords hit harder in combat",
+        "step2Title": "Unlock Colors",
+        "step2Description": "Different colors offer unique bonuses",
+        "step3Title": "Beat Bosses",
+        "step3Description": "Stronger weapons make raids and duels easier"
       },
       "featured": "Featured & Essential",
-      "all": "All Bosses"
-    },
-    "guides": {
-      "title": "Demonfall Guides",
-      "description": "Beginner walkthroughs, progression routes, and system tutorials.",
-      "metaTitle": "Demonfall Guides - Beginner Walkthroughs & Progression",
-      "metaDescription": "Read Demonfall guides covering beginner walkthroughs, progression routes, prestige, and endgame content.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Demonfall Guides?",
-      "whatIsDescription": "Demonfall guides cover beginner flow, systems, progression, and endgame content to help players at every stage.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn the Basics",
-        "step1Description": "Understand combat, races, and progression",
-        "step2Title": "Level Faster",
-        "step2Description": "Follow proven leveling routes",
-        "step3Title": "Reach Endgame",
-        "step3Description": "Plan prestige and late-game goals"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Weapons"
     }
   }
 }

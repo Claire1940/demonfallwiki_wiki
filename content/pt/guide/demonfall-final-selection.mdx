@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Flame, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Seleção Final de Demonfall: Guia de Sobrevivência Passo a Passo",
+  description: "Domine a seleção final de Demonfall com nosso guia de sobrevivência 2026. Aprenda requisitos, estratégias de combate e recompensas para se tornar um Caçador de Demônios.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/ed1c24?text=Final+Selection+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki do Demonfall"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Seleção Final de Demonfall**: O teste obrigatório para jogadores Humanos transitarem para a facção dos Caçadores de Demônios (Demon Slayers).
+- **Requisito**: Os jogadores devem atingir pelo menos o **Nível 5** antes de tentar o desafio da seleção.
+- **Objetivo**: Sobreviver à floresta e eliminar **30 Demônios** para passar no teste com sucesso.
+- **Preparação**: Abasteça-se de **Sopa** e **Bandagens** na Vila Hayakawa para manter a saúde e a fome.
+- **Recompensa Principal**: Passar desbloqueia o posto de **Slayer Corps**, uma Espada Nichirin e acesso aos Estilos de Respiração.
+</Callout>
+
+<Section icon={Target} title="Entendendo o Teste da Seleção Final">
+
+A **seleção final de Demonfall** é o marco mais crítico para qualquer aspirante a guerreiro no mundo de Demonfall. Localizado em uma área de desafio especializada, este teste serve como o portal entre ser um mero humano e se tornar um membro formal do Slayer Corps. Dentro da floresta densa cercada por glicínias (wisteria), os jogadores devem testar sua proeza de combate contra várias entidades demoníacas para provar seu valor.
+
+No meta atual de 2026, o teste continua sendo o guardião da progressão. Se você falhar, continuará sendo um Ronin ou deverá resetar seu personagem para tentar um caminho diferente. O sucesso, no entanto, concede as ferramentas necessárias para caçar chefes de nível superior e participar de raids de endgame. O ambiente é escuro e traiçoeiro, exigindo que os jogadores gerenciem não apenas sua vida, mas também suas barras de stamina e fome simultaneamente.
+
+| Recurso | Detalhes |
+| :--- | :--- |
+| **Localização** | Área de Seleção Final (Norte da Vila Okuyia) |
+| **Nível Mínimo** | Nível 5 |
+| **Objetivo Principal** | Matar 30 Demônios |
+| **Mudança de Facção** | Humano para Caçador de Demônios |
+| **Penalidade de Morte** | Reinício do teste e teletransporte para o spawn |
+
+<Callout type="tip" title="Dica de Mestre">
+Antes de entrar, certifique-se de que sua barra de fome esteja completamente cheia. A regeneração é significativamente mais lenta quando você está com fome, o que pode levar a uma morte rápida durante o grind de 30 abates.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparação e Requisitos">
+
+O sucesso na **seleção final de Demonfall** começa muito antes de você entrar na floresta. Muitos jogadores correm para lá no Nível 5 sem itens, apenas para serem sobrecarregados pelo grande número de demônios. A preparação adequada envolve visitar a **Vila Hayakawa** ou a **Vila Okuyia** para coletar recursos e, potencialmente, rolar para um bônus de Clã benéfico.
+
+Sua escolha de Clã pode alterar drasticamente a dificuldade da seleção. Por exemplo, o clã **Kamado** fornece um aumento massivo de stamina, enquanto o clã **Tokito** permite um ganho de experiência mais rápido. Mesmo que você não tenha um clã lendário, deve se concentrar em dominar os combos básicos de M1 (Ataque Leve) e M2 (Ataque Pesado) com sua katana de madeira inicial.
+
+| Categoria de Preparação | Itens/Status Recomendados |
+| :--- | :--- |
+| **Consumíveis** | 5x Sopa, 3x Bandagens |
+| **Investimento em Atributos** | 2 pontos em Força, 2 pontos em Vitalidade |
+| **Habilidade de Combate** | Dominar a técnica de "Bloqueio-Contra-ataque" |
+| **Prioridade de Clã** | Qualquer clã com bônus de Vida ou Stamina |
+| **Economia** | Pelo menos 100 Yen para suprimentos de emergência |
+
+<CardGrid cols={3}>
+  <Card title="A Build Tank">
+    - **Foco**: Vitalidade e Defesa
+    - **Benefício**: Permite sobreviver a erros e golpes pesados de demônios.
+    - **Requisito**: Nível 5+
+  </Card>
+  <Card title="A Build Atacante">
+    - **Foco**: Força e Velocidade
+    - **Benefício**: Elimina demônios rapidamente para evitar ser cercado.
+    - **Requisito**: Nível 7+ recomendado
+  </Card>
+  <Card title="A Build Equilibrada">
+    - **Foco**: Distribuição uniforme
+    - **Benefício**: Flexível para vários padrões de ataque de demônios.
+    - **Requisito**: Nível 5+
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso Importante">
+Não tente o teste se estiver com latência alta ou lag. O tempo para aparar (parry) ataques de demônios é sensível ao frame, e um único bloqueio perdido pode resultar em um combo que tira 50% da sua vida.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Passo a Passo da Seleção Final">
+
+Navegar pela **seleção final de Demonfall** requer uma abordagem metódica. A floresta é vasta, e se perder pode levá-lo a "zonas quentes" onde vários demônios surgem de uma vez. Siga estes passos para garantir uma transição suave para o Slayer Corps.
+
+<Steps>
+  <Step num="1" title="Localize o NPC da Seleção">
+    Viaje até a entrada da Área de Seleção Final. Você encontrará dois NPCs parados perto das árvores de glicínia. Fale com eles para confirmar que você atende ao requisito de Nível 5 e inicie o teletransporte.
+  </Step>
+  <Step num="2" title="Estabeleça um Perímetro">
+    Uma vez lá dentro, não corra para o centro da floresta. Fique perto das bordas onde os spawns são mais previsíveis. Isso permite que você puxe os demônios um por um, em vez de lutar contra uma multidão.
+  </Step>
+  <Step num="3" title="O Grind de 30 Abates">
+    Enfrente os demônios usando o combo M1-M1-M1-M2. Sempre segure seu bloqueio (tecla F) imediatamente após o término de um combo. Você precisa de 30 mortes confirmadas para acionar a fase de conclusão.
+  </Step>
+  <Step num="4" title="Gerencie Recursos">
+    A cada 10 mortes, recue para uma árvore ou rocha segura para consumir Sopa. Se sua vida estiver baixa, use uma Bandagem para parar qualquer efeito de sangramento causado por golpes poderosos de demônios.
+  </Step>
+  <Step num="5" title="Saia pelo Portão">
+    Assim que o contador chegar a 30, uma notificação aparecerá. Volte para o portão inicial (marcado por lanternas brilhantes) para sair do teste e receber suas recompensas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estratégia de Sucesso">
+Atraia os demônios para as árvores de Glicínia se estiver sendo perseguido por muitos. Os demônios recebem dano passivo e eventualmente se desintegram quando chegam muito perto da borda de Glicínia, dando a você um fôlego muito necessário.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tipos de Inimigos e Táticas de Combate">
+
+Os demônios encontrados na **seleção final de Demonfall** variam em força e habilidade. Embora a maioria seja "Demônios Genéricos", você pode ocasionalmente encontrar variantes mais rápidas que utilizam Kekkijutsu (Artes de Sangue Demoníaco) básicas ou ataques de investida pesada. Entender seus padrões é a diferença entre a vitória e uma longa caminhada de volta à vila.
+
+| Tipo de Demônio | Nível de Perigo | Estratégia de Combate |
+| :--- | :--- | :--- |
+| **Demônio Fraco** | Baixo | Combos M1 padrão, fácil de prender em stun-lock. |
+| **Demônio Rápido** | Médio | Espere pela investida, esquive para a esquerda e contra-ataque. |
+| **Demônio Pesado** | Alto | Nunca troque golpes. Bloqueie o M2 deles e depois puna. |
+| **Demônio Azul** | Muito Alto | Spawn raro. Use repulsão pesada (knockback) para manter distância. |
+
+<CardGrid cols={2}>
+  <Card title="Manobras Defensivas">
+    - **Bloqueio Perfeito**: Cronometre seu bloqueio exatamente quando o golpe atingir para atordoar o demônio.
+    - **Recuperação de Dash**: Use Q para dar um dash para longe se sua barra de bloqueio estiver quase quebrando.
+  </Card>
+  <Card title="Correntes Ofensivas">
+    - **Combo Aéreo**: Lance os demônios com M2 e siga com ataques para dano extra.
+    - **Encurralamento na Parede**: Prenda os demônios contra as árvores para evitar que eles usem dash para fugir.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Combate">
+Fique sempre de olho na sua barra de Stamina (a azul). Se você ficar sem stamina, não poderá bloquear ou dar dash, ficando completamente vulnerável ao golpe final de um demônio.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas e Objetivos Pós-Seleção">
+
+Passar na **seleção final de Demonfall** é apenas o começo da sua jornada. Assim que você sai da floresta, o mundo do jogo se abre significativamente. Você não é mais um "Humano" aos olhos dos sistemas do jogo; você é um Caçador de Demônios, o que lhe concede acesso às mecânicas centrais de progressão de Demonfall.
+
+<Checklist
+  id="post-selection-tasks"
+  title="Tarefas Imediatas Após Passar:"
+  items={[
+    "Equipar seu novo Uniforme de Caçador para bônus defensivos",
+    "Falar com o Ferreiro para receber sua Espada Nichirin",
+    "Encontrar um Treinador de Respiração (Água, Chamas ou Trovão recomendados)",
+    "Juntar-se a um Grupo de Caçadores para começar a farmar os chefes Rui ou Akaza",
+    "Investir seus pontos de habilidade ganhos na Árvore de Habilidades de Respiração"
+  ]}
+/>
+
+| Item de Recompensa | Utilidade |
+| :--- | :--- |
+| **Espada Nichirin** | Arma primária para todos os Estilos de Respiração. |
+| **Posto de Caçador** | Desbloqueia missões diárias e missões da Corporação. |
+| **Bônus de EXP** | Uma quantidade significativa de experiência para alcançar o Nível 10+. |
+| **Minério/Materiais** | Usado para futuras melhorias e personalização da espada. |
+
+<Callout type="info" title="Nota Final">
+A cor da sua espada Nichirin é aleatória após a conclusão. Embora seja puramente cosmético, muitos jogadores consideram certas cores como "Sol" (Vermelho) ou "Lua" (Roxo) como símbolos de prestígio de uma execução de teste bem-sucedida.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O que acontece se eu morrer durante a seleção final de Demonfall?",
+    answer: "Se você morrer, será teletransportado de volta ao seu último ponto de spawn salvo (geralmente uma vila). Seu contador de mortes será resetado e você deverá viajar de volta à Área de Seleção para tentar novamente."
+  },
+  {
+    question: "Preciso de um Estilo de Respiração para passar na Seleção Final?",
+    answer: "Não, você não pode obter um Estilo de Respiração completo até passar. Você deve confiar em suas habilidades básicas de katana e fundamentos de combate para conseguir os 30 abates."
+  },
+  {
+    question: "Posso levar amigos para a Seleção Final comigo?",
+    answer: "O teste é uma instância solo. Embora você possa ver outros jogadores no lobby, uma vez que entra na floresta, deve sobreviver por conta própria."
+  },
+  {
+    question: "Existe um limite de tempo para os 30 abates?",
+    answer: "Não há um cronômetro rígido, mas sua fome e sede diminuirão naturalmente. Se você demorar muito sem suprimentos, acabará morrendo de fome ou perdendo a capacidade de se curar."
+  }
+]} />
+
+</Section>

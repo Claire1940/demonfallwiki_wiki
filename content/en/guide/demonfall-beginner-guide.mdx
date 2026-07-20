@@ -1,0 +1,224 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Demonfall Beginner Guide: Step-by-Step Progression & Top Tips",
+  description: "Master the early game of Demonfall with our comprehensive 2026 beginner guide. Learn about clans, breathing styles, and how to pass the Final Selection.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Demonfall+Beginner+Guide",
+  date: "2026-07-21",
+  author: "demonfall Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Demonfall Beginner Guide**: Focus on rolling a high-tier clan like **Kamado** for a massive 20% EXP boost and sun resistance.
+- **Path Selection**: Decide early between becoming a **Slayer** or a **Demon**; failing the tutorial demon leads to the Demon path.
+- **Final Selection**: Collect **20 Demon Horns** before entering the exam to streamline your breathing style quests.
+- **Breathing Training**: Use **Gourds** (500 Yen each) to increase your breathing level from 0 to 10 for maximum efficiency.
+- **Economy**: Farm **Trinkets** and complete **Crow Missions** to maintain a steady flow of Yen for gear and training.
+</Callout>
+
+<Section icon={Shield} title="Character Creation and Clan Tiers">
+
+Starting your journey in Demonfall begins with character customization and, more importantly, rolling for a family clan. Each clan provides unique passive abilities that can drastically alter your progression speed and combat effectiveness. In the current 2026 meta, the **Kamado** clan remains the gold standard for new players due to its unparalleled utility.
+
+**Video Highlights:**
+- **Clan Importance**: Why rolling the right family determines your early game speed.
+- **Kamado Passive**: Detailed breakdown of the 20% EXP boost and sun resistance.
+- **Slayer vs Demon**: How the tutorial encounter dictates your entire character path.
+- **Final Selection Prep**: The essential items you need before heading to the exam.
+
+<YouTubeEmbed videoId="bDeZsObG9YQ" title="Demonfall Day 1 Starter Guide" />
+
+Choosing a clan is a game of probability. While Kamado is the rarest, several other clans offer significant advantages for specific playstyles.
+
+<CardGrid cols={3}>
+  <Card title="Kamado (0.5%)">
+    - **20% EXP Boost** for all activities
+    - **Sun Resistance** for Demon players
+    - Access to specialized skills
+  </Card>
+  <Card title="Tokito (1.0%)">
+    - **10% EXP Boost**
+    - Faster progression than common clans
+    - Ideal for Mist breathing users
+  </Card>
+  <Card title="Kanroji (1.0%)">
+    - **20% Damage Boost** on all attacks
+    - Incredible for boss farming
+    - High offensive scaling
+  </Card>
+</CardGrid>
+
+| Clan Name | Rarity | Primary Passive Benefit | Best For |
+| :--- | :--- | :--- | :--- |
+| **Kamado** | 0.5% | 20% EXP Boost, Sun Immunity | Fast Leveling |
+| **Tokito** | 1.0% | 10% EXP Boost | Balanced Play |
+| **Agatsuma** | 1.0% | Berserk/Clutch Passive | PvP Survival |
+| **Himejima** | 1.0% | 20% Health Boost | Tank Builds |
+| **Ubuyashiki** | 1.0% | 10% EXP, +2 Skill Points | Skill Point Optimization |
+| **Tomioka** | 1.0% | Lunge & Shoulder Bash | Early Combat |
+
+<Callout type="tip" title="Pro Tip">
+If you are aiming for a Demon build, the Kamado clan is almost mandatory if you want to walk in the sun. Without it, you will be restricted to nighttime gameplay, which significantly slows down your ability to complete quests.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="The First Steps: Slayer or Demon?">
+
+Once you enter the game, you are immediately thrown into a tutorial combat scenario. This is the most critical fork in the road for any player. Your performance here determines your race.
+
+To become a **Slayer**, you must defeat the tutorial demon using the basic katana provided. This requires basic mastery of the M1 (left-click) attack strings and blocking. If the demon starts blocking, use a heavy attack (right-click) to break its guard.
+
+To become a **Demon**, you simply need to let the tutorial demon kill you. This will teleport you to a different starting area where you will begin your life as a creature of the night.
+
+| Path | Difficulty | Key Advantage | Main Goal |
+| :--- | :--- | :--- | :--- |
+| **Slayer** | Moderate | Access to Breathing Styles | Passing Final Selection |
+| **Demon** | Easy Start | High Natural Regen, Blood Arts | Devouring Souls |
+| **Hybrid** | Very Hard | Combines both powers | Late-game evolution |
+
+After completing the tutorial, follow the path to **Hayakawa Village**. This serves as your initial hub where you will meet your Uncle and receive your first instructions.
+
+<Callout type="warning" title="Important">
+Do not wander too far into high-level zones early on. Stick to the paths and look for signs leading to Okuya Village, as it is the most prosperous village near the Final Selection area.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mastering the Final Selection">
+
+For those who chose the path of the Slayer, the **Final Selection** is the ultimate rite of passage. You cannot become a true Demon Slayer or obtain a Nichirin Blade without passing this exam. 
+
+<Steps>
+  <Step num="1" title="Preparation">
+    Travel to **Okuya Village**. Purchase bread for healing and ensure you have at least 100 Yen for fast travel if needed.
+  </Step>
+  <Step num="2" title="Gathering Horns">
+    Locate your desired Breathing Trainer. Most trainers, such as the Wind Trainer, require you to bring **20 Demon Horns**. It is highly efficient to gather these *during* the Final Selection.
+  </Step>
+  <Step num="3" title="Sakura Passage">
+    Follow the signs to the **Sakura Passage**. This area leads directly to the Slayer Exam. Do not go past the exam entrance until you are ready to fight.
+  </Step>
+  <Step num="4" title="The Exam">
+    You must survive and kill **30 Demons** within the forest. Avoid the **Blue Demon** at all costs; it is an optional boss that is extremely tanky and offers no significant reward for beginners.
+  </Step>
+</Steps>
+
+| Target | HP Level | Strategy | Priority |
+| :--- | :--- | :--- | :--- |
+| **Common Demon** | Low | M1 Spam, Dash away if they block | High |
+| **Blue Demon** | Very High | **Avoid entirely** | None |
+| **Demon Groups** | Variable | Use AOE skills or kite them | Medium |
+
+<Checklist
+  id="final-selection-prep"
+  title="Final Selection Checklist:"
+  items={[
+    "Reach at least Level 5-8 for better stats",
+    "Stock up on 5+ Bread items from Okuya Village",
+    "Talk to a Breathing Trainer to activate their quest",
+    "Partying up with a friend (Optional but recommended)",
+    "Set your spawn point at the nearest village"
+  ]}
+/>
+
+<Callout type="success" title="Success Tip">
+If a demon starts blocking your attacks, don't keep swinging. Use a dash (Q) to flip away and reset the engagement. This prevents you from being parried and counter-attacked.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Breathing Styles and Training Mechanics">
+
+Breathing is the core power system for Slayers. After passing the Final Selection, you will receive a **Nichirin Blade**. The color is random but can be rerolled using Robux or specific in-game items. However, the blade is useless without a Breathing Style.
+
+**Breathing Training (Gourds):**
+To maximize your breathing techniques, you must train your lung capacity. This is done by purchasing **Gourds** from the shop in Okuya Village.
+
+| Gourd Type | Cost | Level Increase | Requirement |
+| :--- | :--- | :--- | :--- |
+| **Small Gourd** | 500 Yen | Level 0 to 5 | Basic Breathing |
+| **Medium Gourd** | 700 Yen | Level 5 to 7 | Intermediate |
+| **Large Gourd** | 1,000 Yen | Level 7 to 10 | Advanced |
+
+Training involves a mini-game where you must keep a bar centered. If the bar hits the red zones, the training fails. Breaking a gourd successfully increases your breathing level, allowing you to use skills more frequently without running out of breath.
+
+<CardGrid cols={2}>
+  <Card title="Wind Breathing">
+    - **Trainer Location**: Near Okuya Village
+    - **Pros**: High mobility, hyper-armor on skills
+    - **Cons**: Requires 20 horns and a duel
+  </Card>
+  <Card title="Thunder Breathing">
+    - **Trainer Location**: Coastal area
+    - **Pros**: Extremely fast, great for PvP
+    - **Cons**: High Yen cost for training
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Skill Points">
+Focus your early skill points on **Kendo Strength** and **Body Training**. Kendo increases your raw sword damage, while Body Training provides the HP necessary to survive boss encounters like Okuro.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Economy: Farming Yen and Resources">
+
+Yen is the lifeblood of your progression. You need it for Gourds, food, fast travel, and forging. For a beginner, there are three primary ways to earn money efficiently.
+
+1.  **Trinket Hunting**: Search the ground in villages and forests. Trinkets like rings and necklaces can be sold to shopkeepers for quick cash.
+2.  **Crow Missions**: Once you become a Slayer, your Crow will periodically offer missions. These are usually "Kill X Demons" and provide both EXP and Yen.
+3.  **Mining**: Purchase a pickaxe and find ore veins. This is slower but provides consistent income and materials for crafting.
+
+| Item | Sell Value | Location |
+| :--- | :--- | :--- |
+| **Broken Ring** | 20 Yen | Ground Spawn (Common) |
+| **Gold Necklace** | 100 Yen | Ground Spawn (Rare) |
+| **Demon Horn** | 10 Yen | Demon Drops |
+| **Ore (Various)** | 15-50 Yen | Caves/Rock Outcrops |
+
+<Callout type="warning" title="Death Penalty">
+Be aware that dying in a PvP-enabled server or certain combat zones will cause you to lose a percentage of your current Yen. Always spend your money on Gourds or items before heading into dangerous territory.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced Progression: Bosses and Dungeons">
+
+Once you have your Breathing Style and have reached Level 10-15, you can attempt boss missions. One of the first major challenges is the **Okuro Boss Mission**, accessible through the lady in Hayakawa Village.
+
+Okuro is a former Lower Moon 6 demon who uses fire-based attacks. This fight is notoriously difficult to solo for beginners because his fire breath and stomps can fling players across the map, sometimes resulting in a "kick" from the server due to anti-cheat glitches.
+
+**Boss Strategy:**
+- **Don't Solo**: Bring at least one friend. Use the "Squad" button at the top left to party up.
+- **Block the Stomps**: You can block his physical kicks, but you must run away from the fire breath.
+- **Stay Mobile**: Use your breathing dash skills to stay behind him.
+
+<FAQ items={[
+  {
+    question: "What is the best clan for a beginner in Demonfall?",
+    answer: "The Kamado clan is widely considered the best because it provides a 20% EXP boost, which significantly speeds up the grind to max level, and offers sun resistance for Demon players."
+  },
+  {
+    question: "How do I get a Nichirin Blade?",
+    answer: "You must pass the Final Selection exam by killing 30 demons in the designated forest area. Once completed, you can forge your blade at the Slayer HQ."
+  },
+  {
+    question: "Where can I find the Wind Breathing trainer?",
+    answer: "The Wind Breathing trainer is located near Okuya Village. You will need to provide him with 20 Demon Horns and defeat him in a duel to learn the style."
+  },
+  {
+    question: "What happens if I fail the tutorial demon?",
+    answer: "If you die to the demon in the opening tutorial, you will automatically be set on the path to become a Demon. If you want to be a Slayer, you must defeat it."
+  }
+]} />
+
+</Section>

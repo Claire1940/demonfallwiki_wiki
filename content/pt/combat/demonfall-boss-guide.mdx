@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Bosses do Demonfall: Melhores Táticas Solo e Drops de Recompensas",
+  description: "Domine cada confronto com nosso guia de bosses do Demonfall 2026. Aprenda estratégias solo, taxas de drop e locais de spawn para todos os principais chefes e demônios.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/f5f5f5?text=Demonfall+Boss+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki do Demonfall",
+  keywords: "demonfall, guia de bosses, táticas solo, drops, spawn, roblox"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de bosses do Demonfall**: Focado em mecânicas solo e rotas de farming eficientes para 2026.
+- **Mecânica chave**: Aprender os sinais de animação dos bosses é vital para o "Bloqueio Perfeito" (Perfect Block) e "Parrying".
+- **Melhor estratégia**: Utilize estilos de respiração de longo alcance como Névoa (Mist) ou Chamas (Flame) para encontros solo mais seguros.
+- **Dica crítica**: Sempre traga uma "Wipe Potion" ou "Breath Indict" se planeja resetar após o farming.
+- **Melhor escolha**: Farmar **Kaigaku** ou **Akaza** para obter os drops de maior valor e ganhos de experiência.
+</Callout>
+
+<Section icon={Map} title="Guia de Bosses do Demonfall: Visão Geral e Mecânicas de Spawn">
+
+Entender as mecânicas dos chefes é a diferença entre uma raid bem-sucedida e uma derrota rápida. Neste **guia de bosses do Demonfall**, detalhamos como lidar com as entidades mais perigosas do jogo, seja você um Slayer, Demônio ou Híbrido. Os chefes neste mundo servem como a principal fonte de materiais raros, como Demon Horns, Slayer Marks e o elusivo Muzan Blood.
+
+**Destaques do Vídeo:**
+- Técnicas para solar bosses usando uma espada Nichirin Enferrujada (Rusty Nichirin) básica.
+- Entendendo o pathing da IA dos bosses para explorar vantagens de terreno.
+- Dicas essenciais de movimentação para evitar ataques em área (AOE) de alto dano.
+- Timing ideal para combos M1 (Ataque Leve) contra chefes agressivos.
+
+<YouTubeEmbed videoId="dlqXGlghdOA" title="[NEW 2024] Demonfall 5.0 Guide - All Bosses Solo Part 1" />
+
+Os chefes geralmente surgem em timers fixos ou em locais específicos, como as Cavernas Okuiya ou a Floresta Gelada (Frosty Forest). Saber onde estar e quando é o primeiro passo para dominar o grind.
+
+| Nome do Boss | Requisito de Nível | Localização Principal | Tempo de Respawn |
+| :--- | :--- | :--- | :--- |
+| **Zenitsu** | Nível 10+ | Vila Hayakawa | 15 Minutos |
+| **Rui** | Nível 20+ | Montanha Natagumo | 20 Minutos |
+| **Kaigaku** | Nível 40+ | Caverna Okuiya | 30 Minutos |
+| **Akaza** | Nível 50+ | Castelo Infinito | 1 Hora |
+| **Kokushibo** | Nível 65+ | Floresta Gelada | 1 Hora |
+
+<Callout type="tip" title="Server Hopping">
+Se um boss foi derrotado recentemente, trocar de servidor (server hopping) é a maneira mais eficiente de encontrar um spawn ativo. Use a lista de servidores para encontrar instâncias com pouca população para uma chance maior de um encontro solo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégias de Bosses para o Início do Jogo">
+
+Para novos jogadores, os primeiros chefes podem ser intimidadores. No entanto, eles são essenciais para subir de nível e adquirir seu primeiro conjunto de equipamentos decentes. O foco aqui é aprender o ciclo fundamental de combate: Atacar, Esquivar e Bloquear.
+
+<CardGrid cols={3}>
+  <Card title="Zenitsu (Trovão)">
+    - **Movimentação rápida**
+    - Alto potencial de atordoamento
+    - Fraco contra parrying
+  </Card>
+  <Card title="Rui (Lua Inferior 5)">
+    - **Ataques de fios à distância**
+    - Alto dano em área (AOE)
+    - Requer aproximação rápida
+  </Card>
+  <Card title="Giyu (Hashira da Água)">
+    - **Movimentos defensivos de contra-ataque**
+    - Grande reserva de vida
+    - Padrões amigáveis para iniciantes
+  </Card>
+</CardGrid>
+
+Ao lutar contra Zenitsu, seu movimento "Thunderclap and Flash" é seu trunfo mais perigoso. Ele se teleporta diretamente para sua localização. Você deve ouvir o efeito sonoro de "faísca" distinto para cronometrar seu bloqueio.
+
+| Boss | Vida (HP) | Dificuldade | Melhor Estilo Contra |
+| :--- | :--- | :--- | :--- |
+| **Zenitsu** | 600 | Fácil | Água / Vento |
+| **Rui** | 1.200 | Média | Chamas / Névoa |
+| **Giyu** | 1.500 | Média | Trovão / Sol |
+
+<Callout type="warning" title="Gerenciamento de Stamina">
+Não use seus ataques M1 freneticamente. Se sua barra de stamina chegar a zero, você não conseguirá bloquear ou dar dash, ficando vulnerável ao movimento ultimate de um boss.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Domínio Solo Passo a Passo">
+
+Solar chefes requer uma abordagem mais disciplinada do que raids em grupo. Você não pode contar com outros para atrair o aggro, então seu posicionamento é primordial. Siga estes passos para melhorar seu desempenho solo.
+
+<Steps>
+  <Step num="1" title="Preparação & Buffs">
+    Antes de engajar, certifique-se de que sua barra de fome esteja cheia para manter a regeneração de vida. Consuma um item de "Sopa" ou "Carne". Se você tiver acesso a buffs de Clã (como Kamado ou Agatsuma), garanta que estejam ativos.
+  </Step>
+  <Step num="2" title="Puxando o Aggro">
+    Aproxime-se do boss lentamente. Use um movimento à distância (se disponível) para puxá-lo para longe de outros mobs. Isso evita que você seja cercado por demônios de nível baixo enquanto luta contra o alvo principal.
+  </Step>
+  <Step num="3" title="O Loop de Combo">
+    A maioria dos chefes pode sofrer um "Combo Infinito" se cronometrado corretamente. Use uma sequência de 4 ataques M1 seguidos por uma habilidade de repulsão (knock-back). Espere que eles se recuperem e então dê um dash para reiniciar o loop.
+  </Step>
+  <Step num="4" title="Bloqueio Perfeito">
+    Quando um boss brilhar em vermelho ou preparar um ataque pesado, segure sua tecla de bloqueio logo antes do impacto. Um "Bloqueio Perfeito" (Perfect Block) atordoará o chefe por 2 segundos, permitindo uma rotação completa de habilidades.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Vantagem de Prestígio">
+Alcançar o Prestígio 1 ou superior aumenta significativamente seu dano base, tornando o solo contra chefes de nível médio como Rui muito mais rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Bosses Mundiais e Drops Lendários">
+
+Chefes mundiais como Kaigaku e Akaza representam o auge do desafio em 2026. Esses encontros frequentemente exigem builds específicas ou estilos de respiração de alto nível para sobreviver. As recompensas, no entanto, valem o esforço.
+
+| Boss | Drop Exclusivo | Taxa de Drop | Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Kaigaku** | **Dark Thunder Essence** | 5% | Crafting de Trovão Sombrio |
+| **Akaza** | **Blue Spider Lily** | 2% | Transformação Híbrida |
+| **Kokushibo** | **Moon Katana Shard** | 1% | Espada da Respiração da Lua |
+| **Gyutaro** | **Poison Blood** | 10% | Buff de Respiração do Veneno |
+
+Akaza é particularmente notório por seu moveset "Destructive Death". Ele tem uma reserva de vida massiva e pode regenerar HP se você não se mantiver agressivo. Usar a Respiração do Sol ou da Lua é altamente recomendado devido ao alto DPS e efeitos de queima/sangramento.
+
+<CardGrid cols={2}>
+  <Card title="Táticas contra Kaigaku">
+    - Evite as zonas de raios negros no chão.
+    - Fique perto para minimizar suas ondas de choque à distância.
+    - Use "Ataques Pesados" para quebrar a guarda dele.
+  </Card>
+  <Card title="Táticas contra Akaza">
+    - Nunca fique parado; sua "Compass Needle" rastreia movimento.
+    - Guarde seu ultimate para a segunda fase dele (50% de HP).
+    - Bloqueie seus projéteis do tipo ar para economizar stamina.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Regras de Saque">
+O saque no Demonfall é instanciado para alguns chefes, mas compartilhado para chefes mundiais. Certifique-se de causar pelo menos 10% do dano total para se qualificar para a tabela de drops.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checklist Essencial de Farming">
+
+Para maximizar sua eficiência ao seguir este **guia de bosses do Demonfall**, você deve manter uma checklist de itens e objetivos. Isso garante que você não perca tempo em chefes que não fornecem os materiais necessários para sua build específica.
+
+<Checklist
+  id="boss-farming-2026"
+  title="Checklist de Preparação para Farming:"
+  items={[
+    "Confirme se sua Respiração/Arte de Sangue Demoníaca está no nível máximo",
+    "Equipe um colar ou amuleto para aumentar as taxas de drop",
+    "Estoque pelo menos 5 Poções de Cura",
+    "Defina seu ponto de spawn perto da localização do boss",
+    "Verifique o horário do servidor para sincronizar com os ciclos de respawn"
+  ]}
+/>
+
+<Callout type="warning" title="Interferência PVP">
+Arenas de bosses são frequentemente pontos de PVP. Esteja preparado para defender seu saque de outros jogadores. Se você for um Slayer, agrupar-se com outros membros da corporação pode proporcionar segurança em números.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tier List de Dificuldade de Bosses">
+
+Nem todos os chefes são criados iguais. Alguns são "testes de atributos" (stat checks), enquanto outros exigem alta habilidade mecânica. Esta tabela classifica os chefes com base no meta atual de 2026 para jogadores solo.
+
+| Tier | Chefes | Motivo da Dificuldade | Nível Recomendado |
+| :--- | :--- | :--- | :--- |
+| **S-Tier** | Kokushibo, Akaza | HP massivo, golpes imbloqueáveis | 70+ |
+| **A-Tier** | Kaigaku, Gyutaro | Alto dano explosivo, efeitos de status | 50-65 |
+| **B-Tier** | Rui, Enmu | Padrões complexos, controle de grupo | 30-45 |
+| **C-Tier** | Zenitsu, Giyu | Movimentos previsíveis, vida baixa | 10-25 |
+
+Solar chefes S-Tier com uma "Nichirin Enferrujada" é um desafio popular da comunidade, mas para o farming padrão, é altamente ineficiente. Use sua melhor arma elemental para limpar esses encontros rapidamente.
+
+<Callout type="tip" title="Vantagem Elemental">
+Alguns chefes têm fraquezas ocultas. Por exemplo, chefes Demônios recebem um pouco mais de dano de habilidades da Respiração do Sol, enquanto Slayers humanos são mais suscetíveis a Artes de Sangue de Veneno.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor estilo de respiração para este guia de bosses do Demonfall?",
+    answer: "Para solar chefes, Névoa (Mist) e Chamas (Flame) são atualmente os mais consistentes devido ao seu alto dano e utilidade defensiva. A Respiração do Sol é a melhor para DPS bruto, mas tem altos custos de stamina."
+  },
+  {
+    question: "Os drops dos chefes escalam com o meu nível?",
+    answer: "Não, os drops dos chefes têm taxas de porcentagem fixas, independentemente do seu nível. No entanto, jogadores de nível superior podem derrotar os chefes mais rápido, resultando em mais drops por hora."
+  },
+  {
+    question: "Posso solar o Akaza sendo um jogador novo?",
+    answer: "É extremamente difícil. Akaza tem muita vida e uma IA complexa. Recomenda-se estar pelo menos no Nível 50 e ter um Estilo de Respiração totalmente evoluído antes de tentar uma corrida solo."
+  },
+  {
+    question: "Como consigo a Blue Spider Lily dos chefes?",
+    answer: "A Blue Spider Lily é um drop raro do Akaza ou pode ser encontrada raramente surgindo pelo mundo. Farmar o Akaza é a maneira mais confiável de obtê-la para builds Híbridas."
+  }
+]} />
+
+</Section>

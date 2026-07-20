@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "demonfall keybinds: 2026 controller & keyboard setup guide",
+  description: "Master demonfall keybinds for both controllers and keyboards. Learn advanced combat controls, parkour steps, and menu navigation in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Demonfall+Keybinds+Guide",
+  date: "2026-07-21",
+  author: "demonfall Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Mastering the official **demonfall keybinds** is essential for dominating both PvE and PvP combat.
+- **Key mechanic**: Toggle shift lock using controller bumper combinations to vastly improve your combat accuracy.
+- **Best strategy**: Keep your hunger meter full with soup to ensure your health regeneration remains active during fights.
+- **Critical tip**: Skill tree points are permanent per prestige; allocate your points carefully to avoid wasting resources.
+</Callout>
+
+<Section icon={Map} title="Controller Layout & Setup Overview">
+
+Demonfall has significantly improved its console and controller support, bridging the gap between PC and console players. Previously, navigating menus, executing wall climbs, and managing combat camera angles proved highly challenging without a mouse and keyboard. The integration of dedicated controller mappings has completely transformed the gameplay experience, allowing console players to compete at the highest level.
+
+**Video Highlights:**
+- Learn how to toggle shift lock seamlessly on console controllers.
+- Understand menu navigation and equipping inventory items to active slots.
+- Master the exact button combinations for combat, carrying, and gripping.
+- Discover how to resolve common NPC interaction bugs on console.
+
+<YouTubeEmbed videoId="Sj-T7d8cKSs" title="Demonfall Controller Keybinds Update" />
+
+One of the most requested features for controller users was a dedicated shift lock toggle. This mechanic is now fully functional and allows players to lock their camera perspective, which is crucial for landing precise breathing techniques and executing complex parkour maneuvers. 
+
+| Action | Controller Input | Keyboard Input |
+| --- | --- | --- |
+| Toggle Shift Lock | LB + RB | Shift |
+| Open Menu / Players | Down D-Pad | Tab / M |
+| Open Skill Tree | Right D-Pad | K |
+| Charge Breathing | Up D-Pad | G |
+| Interact with NPC | Left D-Pad | E |
+
+<Callout type="warning" title="NPC Interaction Bug">
+Some NPCs may suffer from positioning bugs that make them difficult to talk to on controller. If the interaction prompt does not appear, try standing extremely close to the NPC or repositioning your camera directly over their head before pressing the Left D-Pad.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics & Controller Mappings">
+
+Combat in Demonfall is fast, punishing, and heavily rewards timing and positioning. Whether you are executing basic light attack combos (M1) or unleashing devastating heavy attacks, knowing your controller or keyboard layout by heart is vital. The action-heavy nature of the game means that a single misinput can result in losing a massive chunk of your health bar.
+
+For controller players, the layout utilizes the face buttons for basic attacks and movement, while utilizing the triggers to navigate active skills. Keyboard players rely on standard mouse clicks and hotkeys to cycle through their breathing styles or Blood Demon Arts (BDA).
+
+| Action | Xbox Input | PlayStation Input |
+| --- | --- | --- |
+| Light Attack (M1) | X Button | Square Button |
+| Heavy Attack (M2) | Y Button | Triangle Button |
+| Dash | B Button | Circle Button |
+| Jump | A Button | X Button |
+| Carry Opponent | RB + B | R1 + Circle |
+| Grip Opponent | RB + Y | R1 + Triangle |
+
+| Action | Default PC Key | Combat Function |
+| --- | --- | --- |
+| Light Attack (M1) | Left Click | Core combo starter and pressure tool |
+| Heavy Attack (M2) | Right Click | Guard break and high-damage finisher |
+| Dash | Q Key | Swift dodge to reposition or escape combos |
+| Block | F Key | Mitigates incoming damage from frontal attacks |
+| Carry Opponent | V Key | Pick up downed players or NPCs |
+| Grip Opponent | B Key | Execute downed targets to gain EXP or health |
+
+<Callout type="tip" title="Perfect Block Counter">
+You can execute a Perfect Block (PB) by blocking right before an opponent's attack lands. Successfully performing a PB triggers an automatic counter-kick that knocks your opponent back, giving you an immediate opening to counter-attack.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Movement & Parkour Tutorial">
+
+Vertical mobility is a core aspect of world exploration in Demonfall. Players often need to scale tall cliffs, navigate rooftops, and climb mountain ranges to reach breathing trainers, hidden NPCs, or quest objectives. Because the standard double jump is insufficient for scaling tall vertical walls, players must master the wall-climb chain mechanic.
+
+Using shift lock is highly recommended during parkour. Locking your camera makes it much easier to control your character's orientation as you bounce between vertical surfaces.
+
+<Steps>
+  <Step num="1" title="Enable Shift Lock">
+    Press LB and RB simultaneously (on controller) or the Shift key (on keyboard) to lock your camera perspective. This ensures your character always faces the direction of your camera.
+  </Step>
+  <Step num="2" title="Jump at the Wall">
+    Run toward the vertical surface and press the jump button (A on Xbox, X on PlayStation, Spacebar on PC) to make initial contact with the wall.
+  </Step>
+  <Step num="3" title="Rotate and Jump Again">
+    While touching the wall, quickly rotate your camera to face the opposite wall or angle, then press the jump button again to bounce upward.
+  </Step>
+  <Step num="4" title="Chain Jumps to the Top">
+    Repeat the camera-rotation and jump sequence in rapid succession. This allows you to climb incredibly high walls without sliding back down.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Movement Stamina">
+Wall climbing does not consume your breathing meter, but dashing does. Ensure your stamina bar is fully charged before attempting long-distance parkour sequences to avoid falling mid-climb.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival & Inventory Management">
+
+Survival in Demonfall requires careful management of your status bars. In addition to health and stamina, players must closely monitor their hunger meter. If your hunger meter empties, your character's natural health regeneration stops completely, making you highly vulnerable to any incoming damage.
+
+Managing your inventory efficiently ensures you can quickly recover during or after intense combat encounters.
+
+<CardGrid cols={3}>
+  <Card title="Slayer Survival">
+    Slayers rely heavily on purchasing soup from village vendors. Consuming soup restores your hunger meter and enables continuous health regeneration during long PvE farming sessions.
+  </Card>
+  <Card title="Demon Survival">
+    Demons must feed on defeated human NPCs or players to satisfy their hunger. If a demon's hunger bar empties, they cannot regenerate health, leading to swift defeat in combat.
+  </Card>
+  <Card title="Inventory Hotbars">
+    Items must be equipped to the Z and X slots from your bag menu. Use the triggers (RT/LT) to highlight these slots and press the interaction button to consume items like soup mid-fight.
+  </Card>
+</CardGrid>
+
+| Indicator | Screen Location | Depletion Penalty | Primary Recovery Method |
+| --- | --- | --- | --- |
+| Health Bar | Bottom Center | Character dies and loses EXP | Natural regeneration (requires hunger) |
+| Stamina Bar | Bottom Left (Blue) | Cannot dash or activate skills | Automatic recovery over time |
+| Hunger Bar | Bottom Right | Halts all health regeneration | Consuming soup, meat, or feeding |
+
+<Callout type="success" title="Soup Efficiency">
+Always carry a full stack of soup in your inventory. It is the most cost-effective and reliable method to maintain your hunger bar, ensuring you are always ready for unexpected PvP encounters.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Skill Tree & Progression Milestones">
+
+Your character's strength is determined by your level and how you allocate points in your skill tree. Accessing the skill tree on a controller is done by pressing the Right D-Pad, which opens a menu split into breathing techniques, body enhancements, and sword skills. For demons, the breathing side is replaced by Blood Demon Arts (BDA).
+
+Planning your build ahead of time is critical because skill points cannot be unequipped once spent. The only way to reset your skills is by using a Wipe Potion or prestiging your character.
+
+<Checklist
+  id="progression-milestones"
+  title="Essential Progression Milestones:"
+  items={[
+    "Master the wall-climb parkour technique to access hidden trainers.",
+    "Reach max level to prepare for your first prestige cycle.",
+    "Equip your primary breathing or BDA skills to your active hotbar.",
+    "Accumulate enough yen to keep a constant supply of soup in your bag.",
+    "Memorize your controller or keyboard combat keybinds for perfect blocking."
+  ]}
+/>
+
+| Menu Tab | Controller Action | Primary Function |
+| --- | --- | --- |
+| Settings Cog | Select icon via menu | Redeem active codes, toggle damage counters, or respawn |
+| Shop Cart | Select icon via menu | Purchase premium items and cosmetic customization options |
+| Bag Inventory | Select icon via menu | View owned trinkets, accessories, and equip active items |
+
+<Callout type="warning" title="Permanent Skill Point Allocation">
+Double-check your build path before clicking on any skill node. Because skill points are permanent, an accidental click can ruin a specialized build, forcing you to use rare reset items.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I toggle shift lock using demonfall keybinds on a controller?",
+    answer: "You can toggle shift lock on a controller by pressing the Left Bumper (LB) and Right Bumper (RB) simultaneously. On a keyboard, simply press the Shift key."
+  },
+  {
+    question: "What happens if my hunger bar reaches zero in Demonfall?",
+    answer: "When your hunger bar is completely empty, your natural health regeneration is disabled. This makes you extremely fragile, as you will not recover health after taking damage."
+  },
+  {
+    question: "Can I reset my spent skill points if I make a mistake?",
+    answer: "No, you cannot manually unequip individual skills. To reset your skill tree, you must either use a Wipe Potion, consume a Breath Indict (for breathing styles), or prestige your character."
+  },
+  {
+    question: "How do I carry and grip players using a controller?",
+    answer: "To carry a downed opponent, press RB + B (on Xbox) or R1 + Circle (on PlayStation). To grip and execute them, press RB + Y (on Xbox) or R1 + Triangle (on PlayStation)."
+  }
+]} />
+
+<Callout type="tip" title="Road Sign Navigation">
+If you ever get lost while exploring the massive map, pay close attention to the wooden road signs scattered along the paths. They point directly toward major cities, trainers, and quest locations.
+</Callout>
+
+</Section>

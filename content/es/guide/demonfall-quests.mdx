@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Misiones de Demonfall: Guía paso a paso de la historia del Cazador",
+  description: "Domina todas las misiones de Demonfall con nuestra guía de 2026. Desde la Selección Final hasta el Castillo Infinito, aprende a derrotar a cada jefe y subir de nivel rápido.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Demonfall+Quests+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Demonfall",
+  keywords: "misiones de demonfall, guía de cazador, respiración, selección final, castillo infinito"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Esta guía cubre las **misiones de Demonfall** esenciales para la historia del Cazador (Slayer).
+- **Mecánica clave**: El progreso está ligado a NPCs específicos como Hayah y Ubuyashiki.
+- **Mejor estrategia**: Usa puntos de "truco" (cheese) para jefes iniciales como Okuro para ahorrar recursos.
+- **Consejo crítico**: Siempre farmea 20 cuernos de demonio antes de intentar las pruebas de Estilo de Respiración.
+- **Mejor opción**: La Respiración del Viento es actualmente el mejor estilo PVE debido a su enorme daño de área (AOE).
+</Callout>
+
+<Section icon={Map} title="Iniciando el viaje del Cazador en Demonfall">
+
+El camino de un Cazador de Demonios comienza con la personalización del personaje y la suerte en el sorteo de tu clan. En el meta actual de 2026, la elección de tu clan impacta significativamente en cómo abordas las **misiones de Demonfall** iniciales. Una vez que hayas establecido tu personaje, tu primer objetivo es localizar a Hayah, la principal proveedora de misiones para los nuevos Cazadores. Ella sirve como puerta de entrada a la narrativa central y te guiará para obtener tu primer Estilo de Respiración, esencial para sobrevivir a los brutales encuentros que te esperan.
+
+**Puntos destacados del video:**
+- Recorrido completo de la historia del Cazador desde el Nivel 1.
+- Cómo farmear eficientemente 20 cuernos de demonio en la Caverna Gélida (Frosty Cavern).
+- Estrategias para derrotar al entrenador de Respiración del Viento.
+- Guía paso a paso para completar rápido la Selección Final.
+- Tácticas para los jefes finales del Castillo Infinito.
+
+<YouTubeEmbed videoId="yCaZxQ-Mb8I" title="Completing the Storyline as a SLAYER | Demon Fall" />
+
+Antes de sumergirte en las misiones, debes considerar tu Clan inicial. Diferentes clanes proporcionan mejoras pasivas que pueden facilitar significativamente las misiones del juego temprano.
+
+<CardGrid cols={3}>
+  <Card title="Clan Tokito">
+    - **Aumento de XP**: Subida de nivel más rápida en las primeras misiones.
+    - **Maestría de Viento**: Ideal si planeas usar Respiración del Viento.
+    - **Fuerza PVE**: Grandes capacidades de daño de área (AOE).
+  </Card>
+  <Card title="Clan Kamado">
+    - **Respiración del Sol**: Acceso al estilo más poderoso del juego tardío.
+    - **Durabilidad**: Mejor supervivencia en peleas contra jefes.
+    - **Alto Potencial**: Lo mejor para jugadores dedicados al endgame.
+  </Card>
+  <Card title="Clan Agatsuma">
+    - **Modo Berserk**: Aumento temporal de poder cuando tienes poca vida.
+    - **Enfoque en Velocidad**: Movimiento más rápido entre objetivos de misión.
+    - **Sinergia de Trueno**: Perfecto para builds de alta movilidad.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Pro">
+Si juegas solo, prioriza clanes con bonificaciones de XP o regeneración de salud para minimizar el tiempo de inactividad entre misiones.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Obtención de Estilos de Respiración y Selección Final">
+
+Antes de poder aceptar oficialmente las principales **misiones de Demonfall**, debes demostrar tu valía dominando un Estilo de Respiración. Este es un proceso de varios pasos que implica mucho farmeo y un duelo desafiante contra un entrenador. La mayoría de los entrenadores se encuentran en dojos ocultos o específicos, como el de la Aldea Okia. Por ejemplo, la Respiración del Viento es muy recomendable para PVE debido a su gran área de efecto (AOE), lo que te permite limpiar grupos de demonios con facilidad.
+
+<Steps>
+  <Step num="1" title="Recolectar 20 Cuernos de Demonio">
+    Viaja a la Caverna Gélida (Frosty Cavern). Este lugar es el sitio más eficiente para farmear demonios. Necesitas 20 cuernos solo para hablar con la mayoría de los entrenadores.
+  </Step>
+  <Step num="2" title="Localizar al Entrenador">
+    Para la Respiración del Viento, dirígete a la Aldea Okia y busca el dojo. Cada estilo tiene una ubicación única, así que consulta tu mapa con frecuencia.
+  </Step>
+  <Step num="3" title="Derrotar al Entrenador">
+    Este es un duelo 1 contra 1. Los entrenadores suelen saltar y usar habilidades de alta movilidad. Trae a un amigo si el juego lo permite, o enfócate en combos de M1.
+  </Step>
+  <Step num="4" title="Entrar en la Selección Final">
+    Una vez que tengas tu estilo de respiración, entra en la prueba de la Selección Final. Debes sobrevivir y matar a un número específico de demonios para ganar tu Nichirin de Cazador.
+  </Step>
+</Steps>
+
+| Requisito | Cantidad | Ubicación | Propósito |
+| :--- | :--- | :--- | :--- |
+| **Cuernos de Demonio** | 20 | Caverna Gélida | Requerido para desbloquear pruebas de entrenador |
+| **Yen** | Varía | Cualquier Aldea | Usado para comprar equipo y reinicios |
+| **Nivel** | 10+ | Cualquiera | Mínimo recomendado para la Selección Final |
+| **Paciencia** | Alta | Dojo del Entrenador | Esencial para dominar los patrones de la IA |
+
+<Callout type="warning" title="¡Cuidado!">
+Los entrenadores en 2026 tienen una IA actualizada. Esquivarán activamente tus ataques pesados, así que enfócate en cadenas rápidas de M1 y espera a que sus habilidades estén en enfriamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Misiones de la Historia Principal: Jefes de Lunas Inferiores">
+
+Después de sobrevivir a la Selección Final y recibir tu espada Nichirin, regresas con Hayah para comenzar las **misiones de Demonfall** oficiales. El primer gran obstáculo es la Luna Inferior 6, Okuro. Estas misiones pasan de la simple caza de demonios a encuentros complejos con jefes que requieren mecánicas específicas para ser superados. Tras Okuro, serás dirigido a Ubuyashiki, quien supervisa las misiones de mayor riesgo que involucran a las Doce Kizuki.
+
+| Nombre de la Misión | Jefe / Objetivo | Estrategia | Recompensas |
+| :--- | :--- | :--- | :--- |
+| **Misión 1** | **Okuro (LM6)** | Usa el bug de "terreno elevado"; spamea M1 desde arriba. | Rango de Cazador, XP, Yen |
+| **Misión 2** | **Matar 8 Demonios** | Farmea en las afueras de Hayakawa para muertes rápidas. | Progreso a la misión de Rui |
+| **Misión 3** | **Rui (LM5)** | Evita los hilos; usa habilidades de respiración a distancia. | Mucha XP, Drops Raros |
+| **Misión 4** | **Luna Inferior 2** | Haz parry a los ataques pesados; mantente móvil para evitar el AOE. | Acceso al Castillo Infinito |
+
+<Callout type="info" title="Estrategia de Jefe">
+Para Okuro, existe una táctica conocida donde puedes pararte en una parte elevada específica de la arena. A menudo se glitcheará, permitiéndote infligir daño gratis sin recibir golpes.
+</Callout>
+
+La transición de la Misión 2 a la Misión 3 es un aumento significativo de dificultad. Necesitarás pasar de la caza básica de demonios a la misión de Rui, que requiere una mejor gestión del tiempo y de los recursos. Asegúrate de que tu barra de respiración esté siempre mejorada antes de intentarlas.
+
+</Section>
+
+<Section icon={Shield} title="El Castillo Infinito: Desafío Final de la Historia">
+
+El pináculo de las **misiones de Demonfall** disponibles actualmente es la misión del Castillo Infinito. Este es un desafío final que te enfrenta a las entidades más poderosas del juego: las 3 Lunas Superiores principales. A diferencia de las misiones anteriores, esta requiere un alto nivel de maestría sobre tu estilo de respiración y un timing perfecto para el parry. Te enfrentarás a Akaza, Doma y Kokushibo en secuencia, lo que hace de esta la prueba definitiva de la resolución de un Cazador.
+
+**Detalles de los encuentros con Lunas Superiores:**
+- **Akaza**: Se enfoca en un brutal combate cuerpo a cuerpo. Su velocidad es su mayor arma.
+- **Doma**: Usa ataques de área (AOE) basados en hielo que pueden congelarte. Mantener la distancia es clave.
+- **Kokushibo**: El jefe más peligroso, utiliza la Respiración de la Luna con un alcance y daño masivos.
+
+| Jefe | Dificultad | Amenaza Principal | Estilo Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Akaza** | ★★★★☆ | Golpes rápidos / Ondas de choque | Trueno o Agua |
+| **Doma** | ★★★★☆ | AOE congelante / Clones | Viento o Niebla |
+| **Kokushibo** | ★★★★★ | Alcance masivo / Ruptura instantánea | Sol o Llama |
+
+<Callout type="success" title="Logro de Endgame">
+Completar la misión del Castillo Infinito marca el final de la historia actual del Cazador. Esto otorga un prestigio masivo y desbloquea opciones de equipo de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progreso y Recompensas del Cazador">
+
+Para asegurarte de no haber omitido ningún paso crítico en tu viaje por las **misiones de Demonfall**, sigue esta lista de verificación de progreso. Mantenerte al día con tus niveles y equipo es vital para las peleas contra los jefes finales.
+
+<Checklist
+  id="slayer-progression"
+  title="Lista de Hitos del Cazador:"
+  items={[
+    "Alcanzar el nivel 10 y farmear 20 cuernos de demonio",
+    "Obtener con éxito un Estilo de Respiración de un entrenador",
+    "Completar la Selección Final y obtener tu Nichirin",
+    "Derrotar a Okuro (Luna Inferior 6) y subir de rango",
+    "Completar las misiones de Rui y la Luna Inferior 2",
+    "Entrar y limpiar el desafío del Castillo Infinito"
+  ]}
+/>
+
+Más allá de las misiones principales, también debes centrarte en objetivos secundarios para maximizar el potencial de tu personaje.
+
+| Actividad | Beneficio | Frecuencia |
+| :--- | :--- | :--- |
+| **Pruebas Diarias** | XP y Yen extra | Cada 24 horas |
+| **Duelos PVP** | Práctica de habilidad y ranking | Ilimitado |
+| **Caza de Baratijas** | Vender por Yen para comprar pociones | Continuo |
+| **Reinicios de Clan** | Optimizar pasivas para el endgame | Según sea necesario |
+
+<Callout type="tip" title="Consejo Final">
+No te apresures en el Castillo Infinito. Si mueres repetidamente contra Akaza o Doma, dedica tiempo a hacer pruebas diarias para aumentar tu nivel y tu reserva de salud.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo empiezo las misiones principales de Demonfall como Cazador?",
+    answer: "Primero debes completar la secuencia de introducción, hablar con Hayah y obtener 20 cuernos de demonio para conseguir un Estilo de Respiración. Después de pasar la Selección Final, Hayah te dará tu primera misión oficial."
+  },
+  {
+    question: "¿Cuál es el mejor Estilo de Respiración para completar misiones rápido?",
+    answer: "La Respiración del Viento es actualmente de nivel superior para las misiones porque sus grandes ataques de área te permiten limpiar grupos de demonios y golpear a los jefes desde una distancia segura."
+  },
+  {
+    question: "¿Puedo repetir la misión del Castillo Infinito?",
+    answer: "Sí, puedes volver a jugar el Castillo Infinito para obtener recompensas y XP, pero la finalización inicial de la historia solo ocurre una vez por nivel de prestigio."
+  },
+  {
+    question: "¿Qué pasa si no puedo derrotar a Okuro?",
+    answer: "Intenta usar la estrategia de 'terreno elevado' mencionada en nuestra guía o forma equipo con otro jugador. Okuro es un jefe guardián diseñado para poner a prueba tus habilidades básicas de combate."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Demonfall Infinity Castle: Guia Solo e Estratégias de Chefes",
+  description: "Domine a raid do Infinity Castle no Demonfall com nosso guia solo de 2026. Aprenda contra-ataques para Akaza, Doma e Kokushibo para ganhar drops lendários.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Infinity+Castle+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki do Demonfall",
+  keywords: "demonfall, infinity castle, guia solo, estratégias de chefes, akaza, doma, kokushibo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Requisito Principal**: Use a respiração da Névoa, Sol ou Lua para alto dano e evasão essencial.
+- **Vantagem de Raça**: Tornar-se um **Híbrido** é altamente recomendado pela mecânica de cura da Absorção Corporal (Body Absorption).
+- **Habilidade Chave**: Certifique-se de que a habilidade **Lunge** esteja desbloqueada em sua árvore de habilidades para aproximação e cancelamento de movimentos.
+- **Estratégia de Chefe**: Utilize os Hashiras NPCs (Giyu, Shinobu, Sanemi) como distrações enquanto foca no dano explosivo.
+- **Melhores Saques**: As recompensas de alto nível incluem a Capa do Doma e o Sangue do Kokushibo para o buff Six Eyes.
+</Callout>
+
+<Section icon={Map} title="Preparando-se para a Raid do Infinity Castle no Demonfall">
+
+Entrar no **demonfall infinity castle** é uma das atividades de endgame mais desafiadoras em 2026. Completar esta missão solo requer uma combinação de estilos de respiração de alto nível, características raciais específicas e um profundo entendimento das mecânicas dos chefes. Antes de tentar uma run solo, os jogadores devem otimizar sua build para garantir que possam sobreviver ao massacre das Luas Superiores sem uma equipe para apoiá-los.
+
+**Destaques do Vídeo:**
+- Estilos de respiração recomendados para solo (Névoa, Sol, Lua).
+- A vantagem estratégica da raça Híbrida.
+- Como utilizar a habilidade Lunge para cancelamento de movimentos.
+- Rotação básica de chefes para Akaza e Doma.
+
+<YouTubeEmbed videoId="dL-tjAoCgq4" title="Como Fazer Solo no Infinity Castle (Tudo o Que Você Precisa Saber) | Demonfall" />
+
+A escolha do estilo de respiração é a base do seu sucesso. Embora muitos estilos sejam viáveis para jogo em grupo, o modo solo exige estilos que ofereçam tanto alto DPS quanto "i-frames" (frames de invencibilidade) confiáveis ou manobras evasivas.
+
+| Estilo de Respiração | Vantagem Principal | Tier Solo |
+| :--- | :--- | :--- |
+| **Névoa (Mist)** | Alta evasão com distrações baseadas em clones | S-Tier |
+| **Sol (Sun)** | Dano de queimadura massivo e alto escalonamento de M1 | S-Tier |
+| **Lua (Moon)** | Alcance excepcional e hitboxes de área ampla | S-Tier |
+| **Chama (Flame)** | Forte dano explosivo, mas carece de alta mobilidade | A-Tier |
+| **Água (Water)** | Ótimas opções defensivas, mas menor produção de dano | B-Tier |
+
+<Callout type="tip" title="Superioridade Híbrida">
+No meta atual de 2026, os Híbridos são considerados a escolha ideal para solar o Infinity Castle. A habilidade de usar **Absorção Corporal** permite que você se cure no meio da luta consumindo Hashiras caídos ou os clones do Doma, proporcionando um nível de sustento que Humanos ou Caçadores puros não conseguem igualar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="A Vantagem Híbrida e Otimização de Build">
+
+Para maximizar sua eficiência no **demonfall infinity castle**, sua árvore de habilidades deve ser especificamente adaptada para encontros com chefes. Atributos passivos são importantes, mas habilidades de movimento ativas são o que determinam se você sobreviverá a uma barragem de uma Lua Superior.
+
+<CardGrid cols={3}>
+  <Card title="Habilidade Lunge">
+    - **Essencial** para fechar distância.
+    - Usada para cancelar animações dos chefes.
+    - Proporciona uma recuperação rápida após ser repelido.
+  </Card>
+  <Card title="Absorção Corporal">
+    - Exclusiva para jogadores **Híbridos**.
+    - Cura uma porção significativa de HP.
+    - Use em NPCs caídos para resetar sua reserva de vida.
+  </Card>
+  <Card title="Maestria de Dash">
+    - Reduz o custo de estamina para esquiva.
+    - Crítico para evitar as vinhas de gelo do Doma.
+    - Permite um melhor posicionamento durante a fase do Kokushibo.
+  </Card>
+</CardGrid>
+
+A comparação entre builds de Humano e Híbrido destaca por que o último é preferido para conteúdo solo. Enquanto os Humanos têm acesso a vantagens específicas de Caçador, a sobrevivência bruta da raça Híbrida supera os buffs de dano em cenários de raid longos e desgastantes.
+
+| Recurso | Caçador Humano | Híbrido |
+| :--- | :--- | :--- |
+| **Cura** | Limitada a comida/poções | **Absorção Corporal** (Alta) |
+| **Estamina** | Regeneração padrão | Regeneração aprimorada |
+| **Acesso a Skills** | Árvore de Respiração Completa | Respiração + Artes Demoníacas |
+| **Dificuldade** | Alta (Sem margem para erro) | Moderada (Cura permissiva) |
+
+<Callout type="warning" title="Aviso sobre Árvore de Habilidades">
+Não entre no castelo sem desbloquear o **Lunge**. Sem esta habilidade, você terá dificuldade em interromper os ataques de longo alcance do Akaza ou as invocações de pilares do Doma, levando a uma derrota rápida.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégia de Chefe: Akaza, o Lua Superior Três">
+
+O primeiro grande obstáculo no **demonfall infinity castle** é Akaza. Ao entrar em sua câmara, ele focará imediatamente em Giyu Tomioka. Seu objetivo principal é causar o máximo de dano possível enquanto Giyu atua como seu tanque principal.
+
+<Steps>
+  <Step num="1" title="Engajamento Inicial">
+    Espere Akaza focar no Giyu. Quando Akaza se comprometer com um M2 (ataque pesado) no NPC, use seu **Lunge** para atingi-lo e siga com um combo M1 de 3-4 acertos.
+  </Step>
+  <Step num="2" title="Protegendo o Giyu">
+    Se Giyu ficar preso em um combo, use um **Shoulder Bash** ou um movimento de respiração de alto repelimento para atordoar Akaza. Isso reseta a IA e mantém sua distração viva por mais tempo.
+  </Step>
+  <Step num="3" title="Identificação de Movimentos">
+    Akaza usa duas variantes de soco. O **Dash Punch** deve ser esquivado lateralmente. O **Teleport Punch** é bloqueável; mantenha sua guarda alta se ele desaparecer da sua tela.
+  </Step>
+  <Step num="4" title="A Transição Solo">
+    Assim que Giyu for derrotado, você deve atrair a barragem do Akaza. Bloqueie os acertos iniciais, espere a animação da barragem terminar, então contra-ataque com um Shoulder Bash e um combo completo.
+  </Step>
+</Steps>
+
+| Movimento do Akaza | Ação de Contra-ataque | Nível de Perigo |
+| :--- | :--- | :--- |
+| **Barrage** | Bloqueie, depois Shoulder Bash | ★★★★☆ |
+| **Dash Punch** | Dash lateral / Esquiva | ★★★☆☆ |
+| **Teleport Kick** | Segure Bloqueio | ★★★☆☆ |
+| **Destructive Death** | Distância / Movimento Evasivo | ★★★★★ |
+
+<Callout type="success" title="Oportunidade de Cura">
+Se você for um Híbrido, espere até que Giyu seja derrubado. Você pode pegá-lo e carregá-lo para a próxima sala ou absorvê-lo imediatamente para entrar na luta contra Doma com vida cheia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégia de Chefe: Doma e os Clones de Gelo">
+
+Doma apresenta um desafio diferente no **demonfall infinity castle**. Sua luta foca em negação de área e gerenciamento de multidão. Você será auxiliado por Shinobu Kocho, que é vital para lidar com os clones do Doma.
+
+Quando Doma invocar seus clones de gelo, não desperdice seus movimentos ultimate neles. Deixe Shinobu enfrentar os clones enquanto você mantém o foco no corpo principal. Os pilares de gelo e os deslizamentos do Doma são seus movimentos mais perigosos, mas eles têm uma animação de preparação distinta que pode ser cancelada.
+
+**Checklist Tático para Doma:**
+- **Pulo Duplo**: Esteja sempre pronto para pular duas vezes quando vir o chão congelar para evitar as Vinhas de Gelo.
+- **Spam de Lunge**: Use Lunge sempre que Doma começar a animação de seu Pilar de Gelo para cancelar o movimento.
+- **Uso de Evasivas**: Salve o movimento evasivo do seu estilo de respiração especificamente para o agarrão dele ou se você for pego em múltiplos deslizamentos de gelo.
+
+| Habilidade do Doma | Dica Visual | Melhor Resposta |
+| :--- | :--- | :--- |
+| **Pilares de Gelo** | Levantando os braços | **Lunge** para cancelar |
+| **Vinhas de Gelo** | Chão fica branco | **Pulo Duplo** |
+| **Clones de Gelo** | Salto para trás | Deixe Shinobu distrair |
+| **Deslizamento** | Inclinando-se para frente | Bloqueie ou Dash lateral |
+
+<Callout type="info" title="Nota sobre Saque">
+Doma tem uma chance rara de dropar a **Capa do Doma**. Este acessório é muito procurado por seu valor estético e leves buffs defensivos na atualização de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Encontro Final: Kokushibo e os Seis Olhos">
+
+O chefe final do **demonfall infinity castle** é Kokushibo, o Lua Superior Um. Esta luta é um teste de paciência. Você terá Sanemi Shinazugawa ajudando, mas ele frequentemente morre rápido devido ao dano massivo de área (AOE) do Kokushibo.
+
+**Fase 1: Estratégia de Suporte**
+Enquanto Sanemi estiver vivo, foque em "chip damage" (dano gradual). Não se comprometa demais com combos longos, pois a Respiração da Lua do Kokushibo tem arcos amplos que podem te atingir mesmo se você estiver atrás dele. Fique a uma distância média e use seus movimentos de respiração baseados em projéteis.
+
+**Fase 2: Sobrevivência Solo**
+Depois que Sanemi cair, a luta se torna um jogo de isca. 
+- **Longo Alcance**: Mantenha seu bloqueio constantemente levantado. Suas lâminas de lua crescente podem viajar por toda a arena.
+- **Curto Alcance**: Circule ao redor dele para atrair seu movimento de barragem. Assim que ele errar a barragem, você tem uma janela de 2 segundos para desferir um combo.
+
+| Recompensa | Chance de Drop | Efeito |
+| :--- | :--- | :--- |
+| **Sangue de Kokushibo** | Raro | Concede **Six Eyes** (Demônios/Híbridos) |
+| **Minério Sombrio** | Comum | Material de crafting |
+| **XP de Prestígio** | Garantido | Impulso significativo de progressão |
+
+<Callout type="warning" title="Mecânica de One-Shot">
+A forma ultimate da Respiração da Lua do Kokushibo pode matar a maioria dos jogadores com um golpe se forem pegos sem estamina. Nunca deixe sua barra de estamina cair abaixo de 20% durante esta luta.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Conclusão do Infinity Castle">
+
+Antes de partir para sua próxima run do **demonfall infinity castle**, certifique-se de ter verificado estes passos essenciais de preparação para maximizar sua eficiência.
+
+<Checklist
+  id="infinity-castle-prep"
+  title="Requisitos Pré-Raid:"
+  items={[
+    "Alcance pelo menos o Nível 60 para escalonamento ideal de atributos",
+    "Equipe um estilo de respiração com pelo menos um movimento de evasão",
+    "Desbloqueie as habilidades Lunge e Shoulder Bash",
+    "Certifique-se de que suas cabaças de vida e estamina estejam totalmente aprimoradas",
+    "Se estiver jogando como Híbrido, confirme se a Absorção Corporal está vinculada a uma tecla"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor estilo de respiração para uma run solo no Infinity Castle do Demonfall?",
+    answer: "Névoa (Mist) e Lua (Moon) são atualmente as melhores escolhas. Névoa fornece clones que confundem a IA do chefe, enquanto Lua oferece o alcance necessário para se manter seguro durante as fases letais de Kokushibo."
+  },
+  {
+    question: "Posso solar o Infinity Castle como um Humano puro?",
+    answer: "Sim, mas é significativamente mais difícil. Você deve ser perfeito em seus parries e esquivas, já que não possui a cura da Absorção Corporal que os Híbridos usam para se recuperar de erros."
+  },
+  {
+    question: "O que o buff Six Eyes realmente faz?",
+    answer: "Obtido através do Sangue do Kokushibo, o buff Six Eyes aumenta sua velocidade de M1, expande seu campo de visão e permite que você veja as barras de vida de todos os inimigos."
+  },
+  {
+    question: "Como faço para os clones de gelo do Doma não me sobrecarregarem?",
+    answer: "O truque é ignorá-los e focar no Doma. Deixe a NPC Shinobu atrair o aggro deles. Se você for um Híbrido, pode usar a Absorção Corporal nos clones para se curar."
+  }
+]} />
+
+</Section>

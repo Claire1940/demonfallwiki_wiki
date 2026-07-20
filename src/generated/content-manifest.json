@@ -1,1 +1,608 @@
-{}
+{
+  "en": {
+    "breathing": [
+      {
+        "slug": "demonfall-beast-breathing",
+        "file": "demonfall-beast-breathing"
+      },
+      {
+        "slug": "demonfall-best-breathing",
+        "file": "demonfall-best-breathing"
+      },
+      {
+        "slug": "demonfall-breathing-styles",
+        "file": "demonfall-breathing-styles"
+      },
+      {
+        "slug": "demonfall-breathing-tier-list",
+        "file": "demonfall-breathing-tier-list"
+      },
+      {
+        "slug": "demonfall-breathing",
+        "file": "demonfall-breathing"
+      },
+      {
+        "slug": "demonfall-flame-breathing",
+        "file": "demonfall-flame-breathing"
+      },
+      {
+        "slug": "demonfall-love-breathing",
+        "file": "demonfall-love-breathing"
+      },
+      {
+        "slug": "demonfall-mist-breathing",
+        "file": "demonfall-mist-breathing"
+      },
+      {
+        "slug": "demonfall-moon-breathing",
+        "file": "demonfall-moon-breathing"
+      },
+      {
+        "slug": "demonfall-sun-breathing",
+        "file": "demonfall-sun-breathing"
+      },
+      {
+        "slug": "demonfall-thunder-breathing",
+        "file": "demonfall-thunder-breathing"
+      },
+      {
+        "slug": "demonfall-water-breathing",
+        "file": "demonfall-water-breathing"
+      }
+    ],
+    "clans": [
+      {
+        "slug": "demonfall-agatsuma-clan",
+        "file": "demonfall-agatsuma-clan"
+      },
+      {
+        "slug": "demonfall-clan-tier-list",
+        "file": "demonfall-clan-tier-list"
+      },
+      {
+        "slug": "demonfall-clans",
+        "file": "demonfall-clans"
+      },
+      {
+        "slug": "demonfall-family-buffs",
+        "file": "demonfall-family-buffs"
+      },
+      {
+        "slug": "demonfall-iguro-clan",
+        "file": "demonfall-iguro-clan"
+      },
+      {
+        "slug": "demonfall-kamado-clan",
+        "file": "demonfall-kamado-clan"
+      },
+      {
+        "slug": "demonfall-rengoku-clan",
+        "file": "demonfall-rengoku-clan"
+      },
+      {
+        "slug": "demonfall-tokito-clan",
+        "file": "demonfall-tokito-clan"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "demonfall-codes",
+        "file": "demonfall-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "demonfall-boss-guide",
+        "file": "demonfall-boss-guide"
+      },
+      {
+        "slug": "demonfall-combat",
+        "file": "demonfall-combat"
+      },
+      {
+        "slug": "demonfall-demon-art-tier-list",
+        "file": "demonfall-demon-art-tier-list"
+      },
+      {
+        "slug": "demonfall-demon-arts",
+        "file": "demonfall-demon-arts"
+      },
+      {
+        "slug": "demonfall-hybrid",
+        "file": "demonfall-hybrid"
+      },
+      {
+        "slug": "demonfall-infinity-castle",
+        "file": "demonfall-infinity-castle"
+      },
+      {
+        "slug": "demonfall-slayer-mark",
+        "file": "demonfall-slayer-mark"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "demonfall-beginner-guide",
+        "file": "demonfall-beginner-guide"
+      },
+      {
+        "slug": "demonfall-final-selection",
+        "file": "demonfall-final-selection"
+      },
+      {
+        "slug": "demonfall-keybinds",
+        "file": "demonfall-keybinds"
+      },
+      {
+        "slug": "demonfall-leveling-guide",
+        "file": "demonfall-leveling-guide"
+      },
+      {
+        "slug": "demonfall-progression",
+        "file": "demonfall-progression"
+      },
+      {
+        "slug": "demonfall-quests",
+        "file": "demonfall-quests"
+      },
+      {
+        "slug": "demonfall-storyline",
+        "file": "demonfall-storyline"
+      },
+      {
+        "slug": "demonfall-tutorial",
+        "file": "demonfall-tutorial"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "demonfall-katanas",
+        "file": "demonfall-katanas"
+      },
+      {
+        "slug": "demonfall-nichirin-colors",
+        "file": "demonfall-nichirin-colors"
+      },
+      {
+        "slug": "demonfall-nichirin",
+        "file": "demonfall-nichirin"
+      },
+      {
+        "slug": "demonfall-swords",
+        "file": "demonfall-swords"
+      }
+    ]
+  },
+  "es": {
+    "breathing": [
+      {
+        "slug": "demonfall-beast-breathing",
+        "file": "demonfall-beast-breathing"
+      },
+      {
+        "slug": "demonfall-best-breathing",
+        "file": "demonfall-best-breathing"
+      },
+      {
+        "slug": "demonfall-breathing-styles",
+        "file": "demonfall-breathing-styles"
+      },
+      {
+        "slug": "demonfall-breathing-tier-list",
+        "file": "demonfall-breathing-tier-list"
+      },
+      {
+        "slug": "demonfall-breathing",
+        "file": "demonfall-breathing"
+      },
+      {
+        "slug": "demonfall-flame-breathing",
+        "file": "demonfall-flame-breathing"
+      },
+      {
+        "slug": "demonfall-love-breathing",
+        "file": "demonfall-love-breathing"
+      },
+      {
+        "slug": "demonfall-mist-breathing",
+        "file": "demonfall-mist-breathing"
+      },
+      {
+        "slug": "demonfall-moon-breathing",
+        "file": "demonfall-moon-breathing"
+      },
+      {
+        "slug": "demonfall-sun-breathing",
+        "file": "demonfall-sun-breathing"
+      },
+      {
+        "slug": "demonfall-thunder-breathing",
+        "file": "demonfall-thunder-breathing"
+      },
+      {
+        "slug": "demonfall-water-breathing",
+        "file": "demonfall-water-breathing"
+      }
+    ],
+    "clans": [
+      {
+        "slug": "demonfall-clan-tier-list",
+        "file": "demonfall-clan-tier-list"
+      },
+      {
+        "slug": "demonfall-clans",
+        "file": "demonfall-clans"
+      },
+      {
+        "slug": "demonfall-family-buffs",
+        "file": "demonfall-family-buffs"
+      },
+      {
+        "slug": "demonfall-iguro-clan",
+        "file": "demonfall-iguro-clan"
+      },
+      {
+        "slug": "demonfall-kamado-clan",
+        "file": "demonfall-kamado-clan"
+      },
+      {
+        "slug": "demonfall-rengoku-clan",
+        "file": "demonfall-rengoku-clan"
+      },
+      {
+        "slug": "demonfall-tokito-clan",
+        "file": "demonfall-tokito-clan"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "demonfall-codes",
+        "file": "demonfall-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "demonfall-boss-guide",
+        "file": "demonfall-boss-guide"
+      },
+      {
+        "slug": "demonfall-combat",
+        "file": "demonfall-combat"
+      },
+      {
+        "slug": "demonfall-demon-art-tier-list",
+        "file": "demonfall-demon-art-tier-list"
+      },
+      {
+        "slug": "demonfall-demon-arts",
+        "file": "demonfall-demon-arts"
+      },
+      {
+        "slug": "demonfall-hybrid",
+        "file": "demonfall-hybrid"
+      },
+      {
+        "slug": "demonfall-infinity-castle",
+        "file": "demonfall-infinity-castle"
+      },
+      {
+        "slug": "demonfall-slayer-mark",
+        "file": "demonfall-slayer-mark"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "demonfall-beginner-guide",
+        "file": "demonfall-beginner-guide"
+      },
+      {
+        "slug": "demonfall-final-selection",
+        "file": "demonfall-final-selection"
+      },
+      {
+        "slug": "demonfall-keybinds",
+        "file": "demonfall-keybinds"
+      },
+      {
+        "slug": "demonfall-leveling-guide",
+        "file": "demonfall-leveling-guide"
+      },
+      {
+        "slug": "demonfall-progression",
+        "file": "demonfall-progression"
+      },
+      {
+        "slug": "demonfall-quests",
+        "file": "demonfall-quests"
+      },
+      {
+        "slug": "demonfall-storyline",
+        "file": "demonfall-storyline"
+      },
+      {
+        "slug": "demonfall-tutorial",
+        "file": "demonfall-tutorial"
+      }
+    ]
+  },
+  "ja": {
+    "breathing": [
+      {
+        "slug": "demonfall-beast-breathing",
+        "file": "demonfall-beast-breathing"
+      },
+      {
+        "slug": "demonfall-best-breathing",
+        "file": "demonfall-best-breathing"
+      },
+      {
+        "slug": "demonfall-breathing-styles",
+        "file": "demonfall-breathing-styles"
+      },
+      {
+        "slug": "demonfall-breathing-tier-list",
+        "file": "demonfall-breathing-tier-list"
+      },
+      {
+        "slug": "demonfall-breathing",
+        "file": "demonfall-breathing"
+      },
+      {
+        "slug": "demonfall-flame-breathing",
+        "file": "demonfall-flame-breathing"
+      },
+      {
+        "slug": "demonfall-love-breathing",
+        "file": "demonfall-love-breathing"
+      },
+      {
+        "slug": "demonfall-mist-breathing",
+        "file": "demonfall-mist-breathing"
+      },
+      {
+        "slug": "demonfall-moon-breathing",
+        "file": "demonfall-moon-breathing"
+      },
+      {
+        "slug": "demonfall-sun-breathing",
+        "file": "demonfall-sun-breathing"
+      },
+      {
+        "slug": "demonfall-thunder-breathing",
+        "file": "demonfall-thunder-breathing"
+      },
+      {
+        "slug": "demonfall-water-breathing",
+        "file": "demonfall-water-breathing"
+      }
+    ],
+    "clans": [
+      {
+        "slug": "demonfall-clan-tier-list",
+        "file": "demonfall-clan-tier-list"
+      },
+      {
+        "slug": "demonfall-clans",
+        "file": "demonfall-clans"
+      },
+      {
+        "slug": "demonfall-family-buffs",
+        "file": "demonfall-family-buffs"
+      },
+      {
+        "slug": "demonfall-kamado-clan",
+        "file": "demonfall-kamado-clan"
+      },
+      {
+        "slug": "demonfall-tokito-clan",
+        "file": "demonfall-tokito-clan"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "demonfall-codes",
+        "file": "demonfall-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "demonfall-boss-guide",
+        "file": "demonfall-boss-guide"
+      },
+      {
+        "slug": "demonfall-combat",
+        "file": "demonfall-combat"
+      },
+      {
+        "slug": "demonfall-demon-art-tier-list",
+        "file": "demonfall-demon-art-tier-list"
+      },
+      {
+        "slug": "demonfall-demon-arts",
+        "file": "demonfall-demon-arts"
+      },
+      {
+        "slug": "demonfall-hybrid",
+        "file": "demonfall-hybrid"
+      },
+      {
+        "slug": "demonfall-infinity-castle",
+        "file": "demonfall-infinity-castle"
+      },
+      {
+        "slug": "demonfall-slayer-mark",
+        "file": "demonfall-slayer-mark"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "demonfall-keybinds",
+        "file": "demonfall-keybinds"
+      },
+      {
+        "slug": "demonfall-leveling-guide",
+        "file": "demonfall-leveling-guide"
+      },
+      {
+        "slug": "demonfall-progression",
+        "file": "demonfall-progression"
+      },
+      {
+        "slug": "demonfall-quests",
+        "file": "demonfall-quests"
+      },
+      {
+        "slug": "demonfall-storyline",
+        "file": "demonfall-storyline"
+      },
+      {
+        "slug": "demonfall-tutorial",
+        "file": "demonfall-tutorial"
+      }
+    ]
+  },
+  "pt": {
+    "breathing": [
+      {
+        "slug": "demonfall-beast-breathing",
+        "file": "demonfall-beast-breathing"
+      },
+      {
+        "slug": "demonfall-best-breathing",
+        "file": "demonfall-best-breathing"
+      },
+      {
+        "slug": "demonfall-breathing-styles",
+        "file": "demonfall-breathing-styles"
+      },
+      {
+        "slug": "demonfall-breathing-tier-list",
+        "file": "demonfall-breathing-tier-list"
+      },
+      {
+        "slug": "demonfall-breathing",
+        "file": "demonfall-breathing"
+      },
+      {
+        "slug": "demonfall-flame-breathing",
+        "file": "demonfall-flame-breathing"
+      },
+      {
+        "slug": "demonfall-love-breathing",
+        "file": "demonfall-love-breathing"
+      },
+      {
+        "slug": "demonfall-mist-breathing",
+        "file": "demonfall-mist-breathing"
+      },
+      {
+        "slug": "demonfall-moon-breathing",
+        "file": "demonfall-moon-breathing"
+      },
+      {
+        "slug": "demonfall-sun-breathing",
+        "file": "demonfall-sun-breathing"
+      },
+      {
+        "slug": "demonfall-thunder-breathing",
+        "file": "demonfall-thunder-breathing"
+      },
+      {
+        "slug": "demonfall-water-breathing",
+        "file": "demonfall-water-breathing"
+      }
+    ],
+    "clans": [
+      {
+        "slug": "demonfall-clan-tier-list",
+        "file": "demonfall-clan-tier-list"
+      },
+      {
+        "slug": "demonfall-clans",
+        "file": "demonfall-clans"
+      },
+      {
+        "slug": "demonfall-family-buffs",
+        "file": "demonfall-family-buffs"
+      },
+      {
+        "slug": "demonfall-kamado-clan",
+        "file": "demonfall-kamado-clan"
+      },
+      {
+        "slug": "demonfall-rengoku-clan",
+        "file": "demonfall-rengoku-clan"
+      },
+      {
+        "slug": "demonfall-tokito-clan",
+        "file": "demonfall-tokito-clan"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "demonfall-codes",
+        "file": "demonfall-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "demonfall-boss-guide",
+        "file": "demonfall-boss-guide"
+      },
+      {
+        "slug": "demonfall-combat",
+        "file": "demonfall-combat"
+      },
+      {
+        "slug": "demonfall-demon-art-tier-list",
+        "file": "demonfall-demon-art-tier-list"
+      },
+      {
+        "slug": "demonfall-demon-arts",
+        "file": "demonfall-demon-arts"
+      },
+      {
+        "slug": "demonfall-hybrid",
+        "file": "demonfall-hybrid"
+      },
+      {
+        "slug": "demonfall-infinity-castle",
+        "file": "demonfall-infinity-castle"
+      },
+      {
+        "slug": "demonfall-slayer-mark",
+        "file": "demonfall-slayer-mark"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "demonfall-final-selection",
+        "file": "demonfall-final-selection"
+      },
+      {
+        "slug": "demonfall-keybinds",
+        "file": "demonfall-keybinds"
+      },
+      {
+        "slug": "demonfall-leveling-guide",
+        "file": "demonfall-leveling-guide"
+      },
+      {
+        "slug": "demonfall-progression",
+        "file": "demonfall-progression"
+      },
+      {
+        "slug": "demonfall-quests",
+        "file": "demonfall-quests"
+      },
+      {
+        "slug": "demonfall-storyline",
+        "file": "demonfall-storyline"
+      },
+      {
+        "slug": "demonfall-tutorial",
+        "file": "demonfall-tutorial"
+      }
+    ]
+  }
+}
