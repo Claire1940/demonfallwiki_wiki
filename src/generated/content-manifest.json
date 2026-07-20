@@ -226,6 +226,10 @@
     ],
     "clans": [
       {
+        "slug": "demonfall-agatsuma-clan",
+        "file": "demonfall-agatsuma-clan"
+      },
+      {
         "slug": "demonfall-clan-tier-list",
         "file": "demonfall-clan-tier-list"
       },
@@ -323,6 +327,24 @@
         "slug": "demonfall-tutorial",
         "file": "demonfall-tutorial"
       }
+    ],
+    "weapons": [
+      {
+        "slug": "demonfall-katanas",
+        "file": "demonfall-katanas"
+      },
+      {
+        "slug": "demonfall-nichirin-colors",
+        "file": "demonfall-nichirin-colors"
+      },
+      {
+        "slug": "demonfall-nichirin",
+        "file": "demonfall-nichirin"
+      },
+      {
+        "slug": "demonfall-swords",
+        "file": "demonfall-swords"
+      }
     ]
   },
   "ja": {
@@ -378,6 +400,10 @@
     ],
     "clans": [
       {
+        "slug": "demonfall-agatsuma-clan",
+        "file": "demonfall-agatsuma-clan"
+      },
+      {
         "slug": "demonfall-clan-tier-list",
         "file": "demonfall-clan-tier-list"
       },
@@ -390,8 +416,16 @@
         "file": "demonfall-family-buffs"
       },
       {
+        "slug": "demonfall-iguro-clan",
+        "file": "demonfall-iguro-clan"
+      },
+      {
         "slug": "demonfall-kamado-clan",
         "file": "demonfall-kamado-clan"
+      },
+      {
+        "slug": "demonfall-rengoku-clan",
+        "file": "demonfall-rengoku-clan"
       },
       {
         "slug": "demonfall-tokito-clan",
@@ -436,6 +470,14 @@
     ],
     "guide": [
       {
+        "slug": "demonfall-beginner-guide",
+        "file": "demonfall-beginner-guide"
+      },
+      {
+        "slug": "demonfall-final-selection",
+        "file": "demonfall-final-selection"
+      },
+      {
         "slug": "demonfall-keybinds",
         "file": "demonfall-keybinds"
       },
@@ -458,6 +500,24 @@
       {
         "slug": "demonfall-tutorial",
         "file": "demonfall-tutorial"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "demonfall-katanas",
+        "file": "demonfall-katanas"
+      },
+      {
+        "slug": "demonfall-nichirin-colors",
+        "file": "demonfall-nichirin-colors"
+      },
+      {
+        "slug": "demonfall-nichirin",
+        "file": "demonfall-nichirin"
+      },
+      {
+        "slug": "demonfall-swords",
+        "file": "demonfall-swords"
       }
     ]
   },
@@ -514,6 +574,10 @@
     ],
     "clans": [
       {
+        "slug": "demonfall-agatsuma-clan",
+        "file": "demonfall-agatsuma-clan"
+      },
+      {
         "slug": "demonfall-clan-tier-list",
         "file": "demonfall-clan-tier-list"
       },
@@ -524,6 +588,10 @@
       {
         "slug": "demonfall-family-buffs",
         "file": "demonfall-family-buffs"
+      },
+      {
+        "slug": "demonfall-iguro-clan",
+        "file": "demonfall-iguro-clan"
       },
       {
         "slug": "demonfall-kamado-clan",
@@ -576,6 +644,10 @@
     ],
     "guide": [
       {
+        "slug": "demonfall-beginner-guide",
+        "file": "demonfall-beginner-guide"
+      },
+      {
         "slug": "demonfall-final-selection",
         "file": "demonfall-final-selection"
       },
@@ -602,6 +674,24 @@
       {
         "slug": "demonfall-tutorial",
         "file": "demonfall-tutorial"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "demonfall-katanas",
+        "file": "demonfall-katanas"
+      },
+      {
+        "slug": "demonfall-nichirin-colors",
+        "file": "demonfall-nichirin-colors"
+      },
+      {
+        "slug": "demonfall-nichirin",
+        "file": "demonfall-nichirin"
+      },
+      {
+        "slug": "demonfall-swords",
+        "file": "demonfall-swords"
       }
     ]
   }

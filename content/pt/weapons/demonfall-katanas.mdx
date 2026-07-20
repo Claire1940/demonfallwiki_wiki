@@ -1,0 +1,189 @@
+import { Swords, Sparkles, Target, Trophy, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Katanas de Demonfall: Guia de Armas de 2026 e Ranking de Cores",
+  description: "Descubra todas as katanas de Demonfall, incluindo as cores das espadas Nichirin, estatísticas de dano, custos de forja e as melhores builds de armas para o Roblox Demon Slayer.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111827/ffffff?text=Demonfall+Katanas+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki do Demonfall"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As **katanas de Demonfall** servem como o sistema de armas principal para os Caçadores de Demônios (Demon Slayers), ditando seu dano corpo a corpo e eficiência de habilidades.
+- As **cores de Nichirin** são em sua maioria cosméticas, mas representam sua identidade única de Caçador e afinidade com o estilo de respiração.
+- **Espadas personalizadas** podem ser forjadas na Base do Esquadrão de Caçadores usando Minério de Sol, Chifres de Demônio e Ienes.
+- Os **caminhos de melhoria** transformam seu personagem de uma fraca Katana Enferrujada em armas elementais poderosas e específicas de estilo.
+</Callout>
+
+<Section icon={Swords} title="Visão Geral das Katanas e do Combate com Espadas em Demonfall">
+
+No mundo sombrio e infestado de demônios de Roblox Demonfall, sua arma é a única barreira entre a sobrevivência e uma morte rápida. Para aqueles que trilham o caminho do Esquadrão de Caçadores de Demônios, as **katanas de Demonfall** (conhecidas na história como Espadas Nichirin) são as ferramentas definitivas de purificação. Essas lâminas especializadas são forjadas a partir de um minério único que absorve a luz solar, tornando-as as únicas armas capazes de matar demônios permanentemente. 
+
+Entender como sua espada funciona é fundamental para dominar o ciclo de combate do jogo. O combate corpo a corpo depende de uma combinação de Ataques Leves (LMB) e Ataques Pesados (RMB). Os ataques leves permitem executar combos rápidos e fluidos que mantêm os oponentes atordoados, enquanto os ataques pesados causam um enorme dano de quebra de guarda ao custo de quadros de recuperação mais longos. Sua escolha de katana influencia diretamente seu dano base, que escala dinamicamente com seu Estilo de Respiração ativo e investimentos na árvore de habilidades passivas.
+
+| Tipo de Arma | Dano Base | Custo de Compra | Requisitos de Forja | Melhor Função de Combate |
+| :--- | :--- | :--- | :--- | :--- |
+| Katana Enferrujada | 4 | Grátis | Arma Inicial | Nivelamento Inicial |
+| Katana de Caçador | 5 | 150 Ienes | Nenhum | Caçador de Meio de Jogo |
+| Katana Personalizada | 6 | 1.000 Ienes | Domínio do Estilo de Respiração | Builds de Fim de Jogo |
+
+Escolher quando transicionar do seu equipamento inicial básico para uma arma especializada é um marco que todo jogador deve enfrentar. Embora a Katana Enferrujada seja suficiente para eliminar espíritos fracos na Vila Hayakawa, tentar enfrentar chefes de alto nível como Rui ou Akaza com uma lâmina de nível baixo resultará em uma derrota rápida.
+
+<Callout type="info" title="Nota sobre o Escalonamento de Dano">
+O dano base da espada é apenas a base do seu poder ofensivo. Investir pontos de habilidade no nó de Domínio da Espada na árvore de habilidades do seu personagem amplificará ainda mais o dano de todos os ataques leves e pesados.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guia de Cores e Raridades de Katana">
+
+Quando você passa com sucesso no árduo teste da Seleção Final e se junta oficialmente ao Esquadrão de Caçadores, você recebe sua primeira espada Nichirin verdadeira. Junto com essa melhoria, sua espada recebe aleatoriamente uma cor distinta. Essa cor é um reflexo direto da energia espiritual do seu personagem e frequentemente se alinha com Estilos de Respiração específicos. 
+
+Embora a maioria das cores de espada em Demonfall seja puramente cosmética, elas carregam um imenso prestígio dentro da comunidade. Conseguir uma cor rara altamente cobiçada, como Preto ou Roxo, sinaliza instantaneamente sua dedicação e sorte para os outros jogadores. Se você não estiver satisfeito com a cor obtida, pode resetar os cosméticos do seu personagem ou usar itens específicos do jogo para girar novamente (reroll) até encontrar a combinação estética perfeita.
+
+| Cor da Katana | Grau de Raridade | Estilo de Respiração Associado | Efeito Visual de Combate |
+| :--- | :--- | :--- | :--- |
+| Azul | Comum | Respiração da Água | Rastros fluidos de água azul |
+| Amarelo | Comum | Respiração do Trovão | Faíscas amarelas de raio |
+| Vermelho | Incomum | Respiração da Chama | Explosões de chamas laranja brilhantes |
+| Verde | Incomum | Respiração do Vento | Rajadas de vento esmeralda |
+| Roxo | Raro | Respiração do Inseto | Partículas de névoa de veneno roxa |
+| Preto | Muito Raro | Respiração do Sol | Rastros de chamas de sombras escuras |
+
+Combinar o estilo visual da sua espada com a sua build de combate é um dos aspectos de personalização mais satisfatórios do jogo. Vamos ver como diferentes alinhamentos elementais podem definir sua identidade de Caçador:
+
+<CardGrid cols={3}>
+  <Card title="Alinhamento de Água">
+    - **Defesa equilibrada**
+    - Extensão fluida de combos
+    - Excelente para Caçadores iniciantes que buscam consistência
+  </Card>
+  <Card title="Alinhamento de Trovão">
+    - **Velocidade de ataque ultra-rápida**
+    - Alto potencial de dano explosivo
+    - Ideal para jogadores de PvP agressivos que preferem combate em alta velocidade
+  </Card>
+  <Card title="Alinhamento de Chama">
+    - **Dano de queimadura agressivo**
+    - Alto poder de ataque bruto
+    - Perfeito para quebrar a guarda de chefes e causar muito dano em PvE
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Giro de Cosméticos (Reroll)">
+Mudar a cor da sua espada após a Seleção Final requer uma Poção de Limpeza (Wipe Potion), que reseta todo o progresso do seu personagem, ou a compra de um reroll cosmético usando Robux na loja do jogo. Planeje suas escolhas com cuidado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Forjar e Melhorar Sua Katana">
+
+Para realmente desbloquear o poder das **katanas de Demonfall**, você deve melhorar sua arma padrão de Caçador para uma Katana de Respiração Personalizada. Esse processo exige que você reúna materiais raros espalhados pelo mapa e localize o ferreiro mestre. O sistema de forja personalizada foi projetado para recompensar os jogadores que exploram ativamente territórios perigosos e derrotam ameaças demoníacas poderosas.
+
+Antes de poder forjar uma arma personalizada, você deve garantir que dominou totalmente o Estilo de Respiração escolhido. O ferreiro se recusará a trabalhar em sua lâmina se você não tiver desbloqueado as técnicas elementais correspondentes na sua árvore de habilidades.
+
+<Steps>
+  <Step num="1" title="Passe na Seleção Final">
+    Viaje para a Área de Seleção Final e sobreviva ao teste na floresta infestada de demônios. Concluir este desafio desbloqueia a Base do Esquadrão de Caçadores e concede sua Katana de Caçador inicial.
+  </Step>
+  <Step num="2" title="Reúna os Materiais de Forja">
+    Explore as cavernas montanhosas para minerar Minério de Sol. Você também precisará caçar demônios selvagens no mapa para coletar Chifres de Demônio, que agem como um agente de ligação para a forja elemental.
+  </Step>
+  <Step num="3" title="Localize o Ferreiro">
+    Navegue até a Base do Esquadrão de Caçadores e localize o NPC ferreiro mestre perto da forja central. Certifique-se de ter seus materiais e os Ienes necessários prontos em seu inventário.
+  </Step>
+  <Step num="4" title="Forje Sua Lâmina Personalizada">
+    Interaja com o ferreiro, escolha o caminho de melhoria elemental desejado e pague a taxa de forja. Sua katana padrão será transformada em uma poderosa arma personalizada.
+  </Step>
+</Steps>
+
+Coletar os materiais necessários para essa melhoria pode ser perigoso. Use a tabela abaixo para planejar suas rotas de coleta e entender onde encontrar cada item essencial:
+
+| Material de Forja | Localização da Fonte Principal | Taxa Média de Queda | Utilidade Principal de Melhoria |
+| :--- | :--- | :--- | :--- |
+| Minério de Sol | Cavernas de Montanha (Veios de Mineração) | 100% via Mineração | Componente principal para todas as lâminas personalizadas |
+| Chifre de Demônio | Derrotar Demônios Selvagens | 35% de Chance de Queda | Necessário para ligação elemental |
+| Ienes | Concluir Missões e Caçadas a Chefes | 100% de Recompensa | Taxa de serviço de forja e compra |
+
+<Callout type="success" title="Dica de Coleta">
+Ao minerar Minério de Sol nas cavernas, traga um amigo para proteger suas costas. Os demônios frequentemente surgem em áreas escuras, e ser emboscado enquanto está preso em uma animação de mineração pode facilmente levar à perda de uma vida.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Melhores Builds de Katana e Sinergia de Respiração">
+
+Uma katana personalizada é tão forte quanto a build que a apoia. Para maximizar sua eficiência de combate tanto em encontros PvP quanto no farm de chefes PvE, você deve coordenar sua escolha de arma, Estilo de Respiração e alocação na árvore de habilidades. Certos estilos ganham benefícios passivos massivos quando combinados com seus designs de armas personalizadas correspondentes.
+
+Por exemplo, os jogadores que utilizam a Respiração do Sol descobrirão que a lendária Katana Preta não apenas tem um visual incrivelmente marcante, mas também complementa perfeitamente os golpes de alto dano e amplo alcance do estilo do Sol. Enquanto isso, os usuários da Respiração da Névoa se beneficiam muito das opções de furtividade e mobilidade fornecidas por uma lâmina personalizada leve.
+
+| Estilo de Respiração | Katana Recomendada | Classificação de Sinergia | Função de Combate | Modo de Jogo Alvo |
+| :--- | :--- | :--- | :--- | :--- |
+| Respiração da Água | Katana de Água | ★★★★★ | Contra-ataque Defensivo | Farm de Chefes PvE |
+| Respiração do Trovão | Katana de Trovão | ★★★★★ | Combos de Alta Velocidade | Arena Ranqueada PvP |
+| Respiração da Chama | Katana de Chama | ★★★★☆ | Dano Bruto Elevado | Raides em Grupo |
+| Respiração da Névoa | Katana de Névoa | ★★★★☆ | Alta Mobilidade | Progressão Solo |
+| Respiração do Sol | Katana Preta | ★★★★★ | Meta de Fim de Jogo | Todo o Conteúdo |
+
+Ao alocar seus pontos de habilidade, priorize o desbloqueio das habilidades ativas do seu Estilo de Respiração antes de gastar os pontos restantes em Domínio da Espada bruto. Ter acesso a um conjunto diversificado de movimentos é muito mais valioso do que um pequeno aumento em seus ataques leves básicos.
+
+<Callout type="tip" title="Otimização de Build">
+Se você estiver tendo dificuldades no PvP, tente mudar para uma build de Trovão ou Névoa. Esses estilos oferecem aproximações rápidas e opções de fuga, permitindo que você controle o ritmo da luta e puna os erros do oponente facilmente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Marcos e Lista de Verificação de Progressão">
+
+Enquanto trabalha para aperfeiçoar seu personagem, acompanhar os marcos de sua arma e progressão manterá você focado no caminho de melhoria mais eficiente. Use esta lista de verificação para garantir que não pule etapas vitais em sua jornada para se tornar um Caçador de nível Hashira.
+
+<Checklist
+  id="katana-progression-goals"
+  title="Marcos de Armas de Caçador:"
+  items={[
+    "Conclua o tutorial inicial e obtenha sua Katana Enferrujada gratuita.",
+    "Alcance o Nível 10 e viaje para a Área de Seleção Final.",
+    "Sobreviva ao teste da Seleção Final para desbloquear a Katana de Caçador.",
+    "Minere 20 Minérios de Sol e colete 10 Chifres de Demônio em encontros selvagens.",
+    "Acumule 1.000 Ienes através de missões de vilas e caçadas a chefes locais.",
+    "Visite o ferreiro do Esquadrão de Caçadores para forjar sua primeira Katana Personalizada."
+  ]}
+/>
+
+<Callout type="warning" title="Aviso de Prestígio">
+Ativar o sistema de Prestígio reseta o nível, a árvore de habilidades e o inventário do seu personagem de volta ao nível um em troca de bônus de experiência permanentes e rerolls de clã. Não forje uma katana personalizada cara logo antes de obter Prestígio, pois você a perderá!
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+Para ajudar a esclarecer quaisquer dúvidas restantes sobre a personalização e progressão de armas no Roblox Demonfall, compilamos respostas para as perguntas mais comuns feitas pela comunidade.
+
+<FAQ items={[
+  {
+    question: "Como faço para mudar a cor da minha katana em Demonfall?",
+    answer: "Você pode mudar a cor da sua katana resetando o progresso do seu personagem com uma Poção de Limpeza (Wipe Potion) ou comprando um reroll cosmético de cor na loja do jogo usando Robux."
+  },
+  {
+    question: "As diferentes katanas de Demonfall causam mais dano?",
+    answer: "Sim, causam. A Katana Enferrujada inicial causa 4 de dano base, a Katana de Caçador padrão causa 5 de dano base e as katanas personalizadas específicas de respiração causam 6 de dano base."
+  },
+  {
+    question: "Onde o ferreiro está localizado para eu melhorar minha arma?",
+    answer: "O NPC ferreiro mestre está localizado dentro da Base do Esquadrão de Caçadores. Você deve passar com sucesso no teste da Seleção Final para obter acesso a esta área segura da facção."
+  },
+  {
+    question: "Jogadores demônios podem usar as katanas de Demonfall?",
+    answer: "Não, as katanas são armas exclusivas para jogadores Humanos e Caçadores. Personagens demônios devem contar com seus punhos, garras e suas Artes de Sangue Demoníaco exclusivas para o combate."
+  }
+]} />
+
+</Section>

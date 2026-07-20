@@ -1,0 +1,224 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Iniciante do Demonfall: Progressão Passo a Passo e Melhores Dicas",
+  description: "Domine o início do jogo em Demonfall com o nosso guia completo de iniciante de 2026. Aprenda sobre clãs, estilos de respiração e como passar na Seleção Final.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Demonfall+Beginner+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki do Demonfall"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de Iniciante do Demonfall**: Foque em conseguir um clã de nível alto como **Kamado** para obter um bônus massivo de 20% de EXP e resistência ao sol.
+- **Seleção de Caminho**: Decida cedo entre se tornar um **Exterminador (Slayer)** ou um **Demônio (Demon)**; falhar contra o demônio do tutorial leva ao caminho do Demônio.
+- **Seleção Final**: Colete **20 Chifres de Demônio (Demon Horns)** antes de entrar no exame para agilizar as missões de estilo de respiração.
+- **Treinamento de Respiração**: Use **Cabaças (Gourds)** (500 Ienes cada) para aumentar seu nível de respiração de 0 a 10 para máxima eficiência.
+- **Economia**: Farme **Acessórios (Trinkets)** e complete **Missões do Corvo (Crow Missions)** para manter um fluxo constante de Ienes para equipamentos e treinamento.
+</Callout>
+
+<Section icon={Shield} title="Criação de Personagem e Níveis de Clã">
+
+Começar sua jornada no Demonfall começa com a personalização do personagem e, mais importante, girar para obter um clã familiar. Cada clã fornece habilidades passivas únicas que podem alterar drasticamente sua velocidade de progressão e eficácia em combate. No meta atual de 2026, o clã **Kamado** continua sendo o padrão ouro para novos jogadores devido à sua utilidade incomparável.
+
+**Destaques do Vídeo:**
+- **Importância do Clã**: Por que conseguir a família certa determina a velocidade do seu início de jogo.
+- **Passiva do Kamado**: Detalhamento do bônus de 20% de EXP e resistência ao sol.
+- **Exterminador vs Demônio**: Como o encontro do tutorial dita todo o caminho do seu personagem.
+- **Preparação para a Seleção Final**: Os itens essenciais que você precisa antes de ir para o exame.
+
+<YouTubeEmbed videoId="bDeZsObG9YQ" title="Guia Inicial do Dia 1 de Demonfall" />
+
+Escolher um clã é um jogo de probabilidade. Embora o Kamado seja o mais raro, vários outros clãs oferecem vantagens significativas para estilos de jogo específicos.
+
+<CardGrid cols={3}>
+  <Card title="Kamado (0,5%)">
+    - **Bônus de 20% de EXP** para todas as atividades
+    - **Resistência ao Sol** para jogadores Demônios
+    - Acesso a habilidades especializadas
+  </Card>
+  <Card title="Tokito (1,0%)">
+    - **Bônus de 10% de EXP**
+    - Progressão mais rápida do que clãs comuns
+    - Ideal para usuários da Respiração da Névoa
+  </Card>
+  <Card title="Kanroji (1,0%)">
+    - **Bônus de 20% de Dano** em todos os ataques
+    - Incrível para farmar chefes
+    - Alto escalonamento ofensivo
+  </Card>
+</CardGrid>
+
+| Nome do Clã | Raridade | Benefício Passivo Principal | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| **Kamado** | 0,5% | Bônus de 20% de EXP, Imunidade ao Sol | Subir de Nível Rápido |
+| **Tokito** | 1,0% | Bônus de 10% de EXP | Jogo Equilibrado |
+| **Agatsuma** | 1,0% | Passiva Berserk/Clutch | Sobrevivência no PvP |
+| **Himejima** | 1,0% | Bônus de 20% de Vida | Builds de Tanque |
+| **Ubuyashiki** | 1,0% | 10% de EXP, +2 Pontos de Habilidade | Otimização de Pontos de Habilidade |
+| **Tomioka** | 1,0% | Avanço e Golpe de Ombro | Combate Inicial |
+
+<Callout type="tip" title="Dica de Mestre">
+Se o seu objetivo é uma build de Demônio, o clã Kamado é quase obrigatório se você quiser andar sob o sol. Sem ele, você ficará restrito à jogabilidade noturna, o que atrasa significativamente sua capacidade de completar missões.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Os Primeiros Passos: Exterminador ou Demônio?">
+
+Assim que você entra no jogo, é imediatamente lançado em um cenário de combate tutorial. Esta é a bifurcação mais crítica no caminho para qualquer jogador. Seu desempenho aqui determina sua raça.
+
+Para se tornar um **Exterminador (Slayer)**, você deve derrotar o demônio do tutorial usando a katana básica fornecida. Isso requer um domínio básico das sequências de ataque M1 (clique esquerdo) e bloqueio. Se o demônio começar a bloquear, use um ataque pesado (clique direito) para quebrar a guarda dele.
+
+Para se tornar um **Demônio (Demon)**, você simplesmente precisa deixar o demônio do tutorial matar você. Isso o teletransportará para uma área inicial diferente, onde você começará sua vida como uma criatura da noite.
+
+| Caminho | Dificuldade | Vantagem Principal | Objetivo Principal |
+| :--- | :--- | :--- | :--- |
+| **Exterminador** | Moderada | Acesso a Estilos de Respiração | Passar na Seleção Final |
+| **Demônio** | Início Fácil | Alta Regeneração Natural, Artes de Sangue | Devorar Almas |
+| **Híbrido** | Muito Difícil | Combina ambos os poderes | Evolução de fim de jogo |
+
+Depois de completar o tutorial, siga o caminho para a **Vila Hayakawa**. Ela serve como seu hub inicial, onde você encontrará seu Tio e receberá suas primeiras instruções.
+
+<Callout type="warning" title="Importante">
+Não se afaste muito para zonas de nível alto logo no início. Siga os caminhos e procure por placas que levam à Vila Okuya, pois é a vila mais próspera perto da área da Seleção Final.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando a Seleção Final">
+
+Para aqueles que escolheram o caminho do Exterminador, a **Seleção Final** é o rito de passagem definitivo. Você não pode se tornar um verdadeiro Exterminador de Demônios ou obter uma Espada Nichirin sem passar neste exame.
+
+<Steps>
+  <Step num="1" title="Preparação">
+    Viaje para a **Vila Okuya**. Compre pão para cura e certifique-se de ter pelo menos 100 Ienes para viagem rápida, se necessário.
+  </Step>
+  <Step num="2" title="Coletando Chifres">
+    Localize o Treinador de Respiração desejado. A maioria dos treinadores, como o Treinador do Vento, exige que você traga **20 Chifres de Demônio**. É altamente eficiente coletar estes *durante* a Seleção Final.
+  </Step>
+  <Step num="3" title="Passagem Sakura">
+    Siga as placas para a **Passagem Sakura**. Esta área leva diretamente ao Exame de Exterminador. Não passe da entrada do exame até estar pronto para lutar.
+  </Step>
+  <Step num="4" title="O Exame">
+    Você deve sobreviver e matar **30 Demônios** dentro da floresta. Evite o **Demônio Azul** a todo custo; ele é um chefe opcional extremamente resistente e não oferece recompensas significativas para iniciantes.
+  </Step>
+</Steps>
+
+| Alvo | Nível de Vida | Estratégia | Prioridade |
+| :--- | :--- | :--- | :--- |
+| **Demônio Comum** | Baixo | Spam de M1, Dash para longe se ele bloquear | Alta |
+| **Demônio Azul** | Muito Alto | **Evitar totalmente** | Nenhuma |
+| **Grupos de Demônios** | Variável | Use habilidades de área (AOE) ou recue atacando (kite) | Média |
+
+<Checklist
+  id="final-selection-prep"
+  title="Lista de Verificação para a Seleção Final:"
+  items={[
+    "Alcançar pelo menos o Nível 5-8 para obter melhores atributos",
+    "Estocar mais de 5 Pães da Vila Okuya",
+    "Falar com um Treinador de Respiração para ativar a missão dele",
+    "Formar um grupo com um amigo (Opcional, mas recomendado)",
+    "Definir seu ponto de renascimento (spawn) na vila mais próxima"
+  ]}
+/>
+
+<Callout type="success" title="Dica de Sucesso">
+Se um demônio começar a bloquear seus ataques, não continue batendo. Use um dash (Q) para se afastar e reiniciar o combate. Isso evita que você sofra um parry (aparada) e um contra-ataque.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estilos de Respiração e Mecânicas de Treinamento">
+
+A Respiração é o sistema de poder central para os Exterminadores. Depois de passar na Seleção Final, você receberá uma **Espada Nichirin**. A cor é aleatória, mas pode ser alterada usando Robux ou itens específicos do jogo. No entanto, a lâmina é inútil sem um Estilo de Respiração.
+
+**Treinamento de Respiração (Cabaças):**
+Para maximizar suas técnicas de respiração, você deve treinar sua capacidade pulmonar. Isso é feito comprando **Cabaças (Gourds)** na loja da Vila Okuya.
+
+| Tipo de Cabaça | Custo | Aumento de Nível | Requisito |
+| :--- | :--- | :--- | :--- |
+| **Cabaça Pequena** | 500 Ienes | Nível 0 ao 5 | Respiração Básica |
+| **Cabaça Média** | 700 Ienes | Nível 5 ao 7 | Intermediário |
+| **Cabaça Grande** | 1.000 Ienes | Nível 7 ao 10 | Avançado |
+
+O treinamento envolve um minijogo onde você deve manter uma barra centralizada. Se a barra atingir as zonas vermelhas, o treinamento falha. Quebrar uma cabaça com sucesso aumenta seu nível de respiração, permitindo que você use habilidades com mais frequência sem ficar sem fôlego.
+
+<CardGrid cols={2}>
+  <Card title="Respiração do Vento">
+    - **Localização do Treinador**: Perto da Vila Okuya
+    - **Prós**: Alta mobilidade, hiper-armadura em habilidades
+    - **Contras**: Requer 20 chifres e um duelo
+  </Card>
+  <Card title="Respiração do Trovão">
+    - **Localização do Treinador**: Área costeira
+    - **Prós**: Extremamente rápida, ótima para PvP
+    - **Contras**: Alto custo de Ienes para o treinamento
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Pontos de Habilidade">
+Foque seus pontos de habilidade iniciais em **Força do Kendo (Kendo Strength)** e **Treinamento Corporal (Body Training)**. O Kendo aumenta o dano bruto da sua espada, enquanto o Treinamento Corporal fornece a Vida (HP) necessária para sobreviver a encontros com chefes como Okuro.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Economia: Farmando Ienes e Recursos">
+
+O Iene é a força vital da sua progressão. Você precisa dele para Cabaças, comida, viagem rápida e forja. Para um iniciante, existem três maneiras principais de ganhar dinheiro de forma eficiente.
+
+1.  **Caça a Acessórios (Trinkets)**: Vasculhe o chão nas vilas e florestas. Acessórios como anéis e colares podem ser vendidos para lojistas para conseguir dinheiro rápido.
+2.  **Missões do Corvo (Crow Missions)**: Assim que você se torna um Exterminador, seu Corvo periodicamente oferecerá missões. Elas geralmente são do tipo "Mate X Demônios" e fornecem tanto EXP quanto Ienes.
+3.  **Mineração**: Compre uma picareta e encontre veios de minério. Isso é mais lento, mas fornece uma renda consistente e materiais para fabricação (crafting).
+
+| Item | Valor de Venda | Localização |
+| :--- | :--- | :--- |
+| **Anel Quebrado** | 20 Ienes | Espalhado pelo Chão (Comum) |
+| **Colar de Ouro** | 100 Ienes | Espalhado pelo Chão (Raro) |
+| **Chifres de Demônio** | 10 Ienes | Drop de Demônios |
+| **Minério (Vários)** | 15-50 Ienes | Cavernas/Afloramentos Rochosos |
+
+<Callout type="warning" title="Penalidade de Morte">
+Esteja ciente de que morrer em um servidor com PvP ativado ou em certas zonas de combate fará com que você perca uma porcentagem dos seus Ienes atuais. Sempre gaste seu dinheiro em Cabaças ou itens antes de ir para territórios perigosos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão Avançada: Chefes e Masmorras">
+
+Assim que tiver seu Estilo de Respiração e atingir o Nível 10-15, você poderá tentar missões de chefe. Um dos primeiros grandes desafios é a **Missão do Chefe Okuro**, acessível através da moça na Vila Hayakawa.
+
+Okuro é um ex-Lua Inferior 6 que usa ataques baseados em fogo. Esta luta é notoriamente difícil de ser feita solo por iniciantes porque seu sopro de fogo e pisadas podem arremessar os jogadores pelo mapa, às vezes resultando em uma desconexão ("kick") do servidor devido a falhas do sistema anti-cheat.
+
+**Estratégia para o Chefe:**
+- **Não vá Solo**: Traga pelo menos um amigo. Use o botão "Squad" no canto superior esquerdo para formar um grupo.
+- **Bloqueie as Pisadas**: Você pode bloquear os chutes físicos dele, mas deve correr para longe do sopro de fogo.
+- **Mantenha-se Móvel**: Use suas habilidades de dash de respiração para ficar atrás dele.
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor clã para um iniciante no Demonfall?",
+    answer: "O clã Kamado é amplamente considerado o melhor porque fornece um bônus de 20% de EXP, o que acelera significativamente a jornada até o nível máximo, e oferece resistência ao sol para jogadores Demônios."
+  },
+  {
+    question: "Como faço para obter uma Espada Nichirin?",
+    answer: "Você deve passar no exame da Seleção Final matando 30 demônios na área designada da floresta. Depois de concluído, você pode forjar sua espada no QG dos Exterminadores (Slayer HQ)."
+  },
+  {
+    question: "Onde posso encontrar o treinador da Respiração do Vento?",
+    answer: "O treinador da Respiração do Vento está localizado perto da Vila Okuya. Você precisará entregar a ele 20 Chifres de Demônio e derrotá-lo em um duelo para aprender o estilo."
+  },
+  {
+    question: "O que acontece se eu falhar contra o demônio do tutorial?",
+    answer: "Se você morrer para o demônio no tutorial de abertura, você será automaticamente colocado no caminho para se tornar um Demônio. Se você quiser ser um Exterminador, deve derrotá-lo."
+  }
+]} />
+
+</Section>
