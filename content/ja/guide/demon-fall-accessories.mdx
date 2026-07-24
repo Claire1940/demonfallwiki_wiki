@@ -1,0 +1,87 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Demonfall アクセサリーガイド",
+  description: "最高の Demonfall アクセサリーやゲームパス、特別アイテムを発見しましょう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=Demonfall+Accessories+Guide",
+  date: "2026-07-24",
+  author: "demonfall Wiki Team"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主要キーワード**: Demonfall アクセサリーやゲームパス
+- **重要なメカニズム**: キャラクターに最適なアクセサリーの理解
+- **ベストストラテジー**: プレイスタイルを強化するアクセサリーより優先
+- **重要なヒント**: 異なるアクセサリを試して最適なものを見つける
+- **トップチョイス**: Renokuユーザー向けのRangokuウィッグ
+</Callout>
+
+<Section icon={Map} title="Demonfall アクセサリーの紹介">
+Demonfallは、キャラクターをカスタマイズし、ゲームプレイ体験を向上させるためのさまざまなアクセサリを提供しています。特別アイテムやゲームパスから選ぶことができます。このガイドでは、最高のDemonfallアクセサリを探検し、どのように正しいアクセサリを選ぶかのヒントを提供します。
+</Section>
+
+<Section icon={Swords} title="ゲームパスとアクセサリ">
+<Callout type="tip" title="ゲームパス">
+Demonfallのゲームパスは、特別アイテムや利点の範囲を提供しています。Robuxで購入可能で、特別なヘアスタイル、エモティコン、そしてユニークなインゲームアイテムなどが含まれることがあります。
+</Callout>
+
+<Callout type="info" title="アクセサリ">
+Demonfallのアクセサリは、Robuxで購入したり、ボスのドロップ、家族の特性、または特定の商人からの特別アイテムを通じて入手できます。彼らは衣服アイテム、帽子、マスクなどが含まれます。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="考慮すべきトップアクセサリ">
+<Callout type="warning" title="Rangokuウィッグ">
+RangokuウィッグはRenokuユーザーに限定されており、目立つために必須のアクセサリです。キャラクターにスタイルを加えるユニークなアクセサリです。
+</Callout>
+
+<Callout type="success" title="テスターのマスク">
+テスターのマスクはゲーム内のテスター用の特別アイテムです。非常に手に入りにくいアクセサリで、キャラクターに特別な独自性を加えます。
+</Callout>
+
+<Callout type="info" title="Rangokuキャップ">
+Rangokuキャップはスタイリッシュなアクセサリで、見た目は素晴らしいですが、ランニングアニメーションに問題があります。きれいな外観ですが、滑らかなアニメーションを持つキャップを探している場合は最適な選択肢ではないかもしれません。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="正しいアクセサリを選ぶ方法">
+<Callout type="tip" title="プレイスタイルを考慮する">
+アクセサリを選ぶ際には、プレイスタイルとゲームプレイ体験を向上させるものを優先してください。例えば、魔法使いの場合は、魔法の力を強化するアクセサリを優先したいかもしれません。
+</Callout>
+
+<Callout type="info" title="異なるアクセサリを試す">
+異なるアクセサリを試して、最適なものを見つけることに恐れを感じないでください。時には、最初に考えるかもしれないアクセサリではないものが最適なアクセサリになることがあります。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="結論">
+Demonfallで正しいアクセサリを選ぶことで、ゲームプレイ体験を大幅に向上させることができます。ゲームパスから特別アイテムを探しているか、さまざまなソースからのユニークなアクセサリを探しているかに関わらず、誰にでも何かがあります。プレイスタイルを考慮し、異なるアクセサリを試して最適なものを見つけることを忘れないでください。
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+<FAQ items={[
+  {
+    question: "Rangokuウィッグをどうやって手に入れるか？",
+    answer: "RangokuウィッグはRenokuユーザーに限定されています。Renokuユーザーでない場合は、このアクセサリを入手することができません。"
+  },
+  {
+    question: "Demonfallにはゲームパスがありますか？",
+    answer: "はい、Demonfallには特別アイテムや利点を提供するゲームパスがあります。Robuxで購入できます。"
+  },
+  {
+    question: "アクセサリは敵からドロップされますか？",
+    answer: "Demonfallのアクセサリは敵からドロップされません。購入、家族の特性、または特定の商人からの特別アイテムを通じて入手する必要があります。"
+  }
+]} />
+</Section>

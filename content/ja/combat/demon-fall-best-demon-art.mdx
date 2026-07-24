@@ -1,0 +1,94 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "デモンフォールのベストデモンアートティアリスト",
+  description: "デモンフォールで最も優れたデモンアートを評価し、プレイスタイルに合わせて最適なものを選ぶためのガイドを提供します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=ベストデモンアートティアリスト",
+  date: "2026-07-21",
+  author: "デモンフォールウィキチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主要キーワード**: ベストデモンアートティアリスト
+- **重要メカニクス**: デモンアートのパフォーマンスと効果
+- **ベスト戦略**: プレイスタイルに合わせたデモンアートを選ぶ
+- **重要なヒント**: スタミナ管理とコンボの可能性に注意
+- **トップ選択**: バランスの取れたプレイのためのAasaとNethco
+</Callout>
+
+<Section icon={Map} title="デモンアートの紹介">
+デモンアートは、デモンフォールでキャラクターの戦闘能力を高める特別なスキルです。それぞれのデモンアートにはユニークな動作と効果があり、プレイスタイルと戦略に不可欠です。
+</Section>
+
+<Section icon={Swords} title="ティアリスト分析">
+デモンフォールで最も優れたデモンアートの詳細を以下に示します。SからDティアまでのレベルで評価されています：
+
+<Callout type="tip" title="Sティア">
+- **Aasa**: 純粋なデモンプレイのための究極のデモンアートで、高いダメージ出力とコンボの可能性があります。
+- **Nethco**: ダメージ、ユーティリティ、スタミナ管理のバランスが取れたものを提供します。
+</Callout>
+
+<Callout type="warning" title="Cティア">
+- **Sadd**: ダメージが不足しており、ほとんどのプレイスタイルには推奨されません。
+</Callout>
+
+<Callout type="info" title="Bティア">
+- **Arrow**: フリーのコンボスターターや速い動作を提供しますが、大きなダメージはありません。
+</Callout>
+
+<Callout type="success" title="Aティア">
+- **String**: 高ダメージのコンボが可能で、良いポジショニングとタイミングが必要です。
+- **Sequels**: 高ダメージと良い防御オプションを提供しますが、スタミナ管理が慎重に行われなければなりません。
+</Callout>
+
+<Callout type="warning" title="Dティア">
+- **Taki**: スタミナ管理の問題によりパフォーマンスが低いです。
+- **Ice**: 大きなダメージがなく、ほとんどのプレイスタイルには推奨されません。
+</Callout>
+</Section>
+
+<Section icon={Target} title="適切なデモンアートの選択">
+デモンアートを選ぶ際には以下の要因を考慮してください：
+- **プレイスタイル**: あるデモンアートは攻撃的なプレイスタイルに適していますが、他のものはより被動的です。
+- **スタミナ管理**: あるデモンアートは効果的に機能するためにスタミナの慎重な管理が必要です。
+- **コンボ**: あるデモンアートは高いコンボの可能性があり、正しく使用すると強力です。
+</Section>
+
+<Section icon={Trophy} title="目標とチェックリスト">
+デモンフォールで優秀になるためには、以下の重要な目標と進捗を助けるチェックリストがあります：
+<Checklist
+  id="demon-arts-goals"
+  title="必須目標:"
+  items={[
+    "少なくとも1つのデモンアートをマスターする",
+    "スタミナ管理を理解する",
+    "効果的なコンボ戦略を学ぶ",
+    "競技プレイでランクアップする"
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="FAQ">
+<FAQ items={[
+  {
+    question: "初心者に最適なデモンアートは何ですか？",
+    answer: "Aasaは高いダメージ出力とコンボの可能性があるため、初心者に最適です。"
+  },
+  {
+    question: "スタミナを効果的に管理する方法は何ですか？",
+    answer: "プレイスタイルを練習し、各デモンアートのスタミナ要件を学んで効果的に管理する必要があります。"
+  },
+  {
+    question: "選んだ後でもデモンアートを変更できますか？",
+    answer: "はい、キャラクターをリセットすることでデモンアートを変更できます。"
+  }
+]} />
+</Section>

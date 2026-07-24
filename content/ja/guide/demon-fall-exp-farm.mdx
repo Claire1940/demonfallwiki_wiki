@@ -1,0 +1,109 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Demon Fall経験値獲得戦略ガイド",
+  description: "この包括的なガイドで、Demon Fallでの経験値獲得の最善戦略を発見してください。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=Exp+Farming+Guide",
+  date: "2026-07-21",
+  author: "demonfall Wikiチーム"
+};
+
+<Callout type="info" title="クイックガイド">
+- **主要キーワード**: Demon Fall経験値獲得
+- **最適な農場スポット**: 高い経験値率のある場所
+- **最適な装備**: 農場効率を高めるための装備
+- **高度なヒント**: 継続的な経験値獲得を最大化する技術
+- **推奨レベル**: 有効な農場の最低レベル
+</Callout>
+
+<Section icon={Map} title="1. Demon Fallの経験値獲得への導入">
+
+経験値（exp）は、Demon Fallにおけるキャラクターの進行において重要な要素です。このセクションでは、経験値を効率的に獲得するための最善戦略の概要を提供します。
+
+</Section>
+
+<Section icon={Swords} title="2. 経験値獲得のためのトップ農場スポット">
+
+| 位置 | 説明 | 経験値率 |
+|------|------|----------|
+| 地獄 | 高い経験値ドロップを持つ挑戦的なダンジョン。 | ★★★★★ |
+| 漫遊の迷路 | 異なる経路と敵がいる迷路状の構造。 | ★★★★ |
+| 古代遺跡 | 力強い敵と価値のある所持品を持つ古代の遗址。 | ★★★★ |
+| 森 | 多様な敵と資源を持つ広大な地域。 | ★★★ |
+
+</Section>
+
+<Section icon={Trophy} title="3. 有効な農場のための必需品">
+
+| 装備 | 説明 | 効果 |
+|------|------|------|
+| エクスカリバー | 高ダメージを持つ強力な剣。 | +20% ダメージ |
+| 力強さの護手 | 力を増加させる手袋。 | +15% 力 |
+| スピードのローブ | 移動速度を向上させるアウトフィット。 | +15% スピード |
+| 活気のアミュレット | 健康を増加させるネックレス。 | +20% 健康 |
+
+</Section>
+
+<Section icon={Target} title="4. 高度な農場技術">
+
+<Steps>
+  <Step num="1" title="適切な装備を選ぶ">
+    農場スポットに最適な装備を装備して、ダメージと効率を最大化します。
+  </Step>
+  <Step num="2" title="レベル同期">
+    キャラクターが効果的ですぎないレベルで農場が有効であることを確認します。
+  </Step>
+  <Step num="3" title="農場ルート">
+    バックトラッキングを最小限に抑え、経験値獲得を最大化するために農場ルートを計画します。
+  </Step>
+  <Step num="4" title="ポーションを使用する">
+  健康を維持し、ダウンタイムを避けるためにポーションを使用します。
+  </Step>
+  <Step num="5" title="グループ農場">
+  より挑戦的な敵と高い経験値率のため、グループに参加を検討します。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="5. 目標とチェックリスト">
+
+<Checklist
+  id="farming-goals"
+  title="農場目標:"
+  items={[
+    "メインストーリーを完了する",
+    "レベル50に達する",
+    "最初の伝説のアイテムを入手する",
+    "核の農場メカニクスをマスターする"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="6. FAQ">
+
+<FAQ items={[
+  {
+    question: "Demon Fallで経験値を獲得する最善の方法は何ですか？",
+    answer: "経験値を獲得する最善の方法は、挑戦的な農場スポットを選択し、適切な装備を装備し、高度な農場技術を使用することです。"
+  },
+  {
+    question: "一人で経験値を獲得できますか、それともグループに参加するべきですか？",
+    answer: "一人で経験値を獲得できますが、グループに参加することで挑戦的な敵と高い経験値率がより効果的になります。"
+  },
+  {
+    question: "経験値獲得に役立つ特定のアイテムはありますか？",
+    answer: "はい、ダメージ、力、速度、健康を増加させる装備を装備することで、農場効率を大幅に向上させることができます。"
+  }
+]} />
+
+</Section>

@@ -1,0 +1,76 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Demonfallソード：完全ガイド",
+  description: "さまざまなDemonfallソード、そのステータス、および入手方法を探求します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=Demonfall+Swords",
+  date: "2026-07-24",
+  author: "demonfall Wikiチーム"
+};
+
+<Callout type="info" title="クイックガイド">
+- **主要キーワード**: Demonfallソード
+- **主要メカニクス**: クラフティングとアップグレード
+- **ベストストラテジー**: プレイスタイルに合わせたソードを選ぶ
+- **重要なヒント**: 各ソードのユニークなプロパティを理解する
+- **トップ選択**: 邪悪に対して高いダメージを与えるためにカマドニチリンを選ぶ
+</Callout>
+
+<Section icon={Map} title="Demonfallソードの紹介">
+
+Demonfallソードは、デーモンと戦うためにスレイヤーが使用する特別な武器です。各ソードにはユニークなプロパティがあり、特定の素材を使用してクラフトされます。このガイドでは、さまざまな種類のDemonfallソード、そのステータス、および入手方法について探求します。
+
+</Section>
+
+<Section icon={Swords} title="Rusty Nichirin">
+
+Rusty Nichirinは、チュートリアル中にプレイヤーに与えられるスタートアップソードです。基本的なステータスがあり、ゲームのメカニクスに素晴らしい紹介となります。
+
+</Section>
+
+<Section icon={Trophy} title="ソードのクラフティング">
+
+ソードを作成するには、プレイヤーが特定の素材を収集する必要があります。これには、サンオレ、デーモンホーン、クリスタルエッセンスなどがあります。作成するソードの種類は、収集した素材とプレイヤーが選択した呼吸スタイルによって決まります。
+
+</Section>
+
+<Section icon={Target} title="ソードのステータスとバフ">
+
+各ソードにはユニークなステータスとバフがあり、そのパフォーマンスに影響を与えます。一部のソードは高いダメージを与え、他のソードは敵を盲目にする能力や移動速度を増加させるユニークな能力を持っています。
+
+</Section>
+
+<Section icon={Shield} title="ユニークなソードの入手方法">
+
+ユニークなソードは、特定のクエストや挑戦を完了することで入手できます。例えば、Kamado Nichirinは、50,000円と60個のサンオレが必要なクエストを完了することでクラフトできます。
+
+</Section>
+
+<Section icon={Sparkles} title="結論">
+
+Demonfallソードは、ゲームのゲームプレイの重要な部分です。さまざまなソードの種類とそのプロパティを理解することで、プレイヤーは自分のプレイスタイルに合わせた正しい武器を選択し、戦闘での成功の確率を高めることができます。
+
+</Section>
+
+<FAQ items={[
+  {
+    question: "Rusty Nichirinとは何ですか？",
+    answer: "Rusty Nichirinは、チュートリアル中にプレイヤーに与えられるスタートアップソードです。基本的なステータスがあり、ゲームのメカニクスに素晴らしい紹介となります。"
+  },
+  {
+    question: "ソードを作成する方法はどうですか？",
+    answer: "ソードを作成するには、プレイヤーが特定の素材を収集する必要があります。これには、サンオレ、デーモンホーン、クリスタルエッセンスなどがあります。作成するソードの種類は、収集した素材とプレイヤーが選択した呼吸スタイルによって決まります。"
+  },
+  {
+    question: "デーモンに対してどのソードが最も効果的ですか？",
+    answer: "Kamado Nichirinは、デーモンに対して最も効果的なソードの1つです。デーモンに対して高いダメージボーナスがあり、50,000円と60個のサンオレが必要なクエストを完了することでクラフトできます。"
+  }
+]} />

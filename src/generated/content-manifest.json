@@ -92,6 +92,14 @@
     ],
     "combat": [
       {
+        "slug": "demon-fall-best-demon-art",
+        "file": "demon-fall-best-demon-art"
+      },
+      {
+        "slug": "demon-fall-blood-demon-arts",
+        "file": "demon-fall-blood-demon-arts"
+      },
+      {
         "slug": "demonfall-boss-guide",
         "file": "demonfall-boss-guide"
       },
@@ -121,6 +129,18 @@
       }
     ],
     "guide": [
+      {
+        "slug": "demon-fall-accessories",
+        "file": "demon-fall-accessories"
+      },
+      {
+        "slug": "demon-fall-egg",
+        "file": "demon-fall-egg"
+      },
+      {
+        "slug": "demon-fall-exp-farm",
+        "file": "demon-fall-exp-farm"
+      },
       {
         "slug": "demonfall-beginner-guide",
         "file": "demonfall-beginner-guide"
@@ -155,6 +175,14 @@
       }
     ],
     "weapons": [
+      {
+        "slug": "demon-fall-nichirin-sword",
+        "file": "demon-fall-nichirin-sword"
+      },
+      {
+        "slug": "demon-fall-swords",
+        "file": "demon-fall-swords"
+      },
       {
         "slug": "demonfall-katanas",
         "file": "demonfall-katanas"
@@ -176,6 +204,14 @@
   "es": {
     "breathing": [
       {
+        "slug": "demon-fall-beast-breathing",
+        "file": "demon-fall-beast-breathing"
+      },
+      {
+        "slug": "demon-fall-breathing-styles",
+        "file": "demon-fall-breathing-styles"
+      },
+      {
         "slug": "demonfall-beast-breathing",
         "file": "demonfall-beast-breathing"
       },
@@ -266,6 +302,18 @@
     ],
     "combat": [
       {
+        "slug": "demon-fall-best-demon-art",
+        "file": "demon-fall-best-demon-art"
+      },
+      {
+        "slug": "demon-fall-blood-demon-arts",
+        "file": "demon-fall-blood-demon-arts"
+      },
+      {
+        "slug": "demon-fall-demon-art-tier-list",
+        "file": "demon-fall-demon-art-tier-list"
+      },
+      {
         "slug": "demonfall-boss-guide",
         "file": "demonfall-boss-guide"
       },
@@ -295,6 +343,38 @@
       }
     ],
     "guide": [
+      {
+        "slug": "demon-fall-accessories",
+        "file": "demon-fall-accessories"
+      },
+      {
+        "slug": "demon-fall-agatsuma-clan",
+        "file": "demon-fall-agatsuma-clan"
+      },
+      {
+        "slug": "demon-fall-agatsuma",
+        "file": "demon-fall-agatsuma"
+      },
+      {
+        "slug": "demon-fall-akaza",
+        "file": "demon-fall-akaza"
+      },
+      {
+        "slug": "demon-fall-bosses-xp",
+        "file": "demon-fall-bosses-xp"
+      },
+      {
+        "slug": "demon-fall-egg",
+        "file": "demon-fall-egg"
+      },
+      {
+        "slug": "demon-fall-exam",
+        "file": "demon-fall-exam"
+      },
+      {
+        "slug": "demon-fall-exp-farm",
+        "file": "demon-fall-exp-farm"
+      },
       {
         "slug": "demonfall-beginner-guide",
         "file": "demonfall-beginner-guide"
@@ -329,6 +409,18 @@
       }
     ],
     "weapons": [
+      {
+        "slug": "demon-fall-espadas",
+        "file": "demon-fall-espadas"
+      },
+      {
+        "slug": "demon-fall-nichirin-sword",
+        "file": "demon-fall-nichirin-sword"
+      },
+      {
+        "slug": "demon-fall-swords",
+        "file": "demon-fall-swords"
+      },
       {
         "slug": "demonfall-katanas",
         "file": "demonfall-katanas"
@@ -350,6 +442,14 @@
   "ja": {
     "breathing": [
       {
+        "slug": "demon-fall-beast-breathing",
+        "file": "demon-fall-beast-breathing"
+      },
+      {
+        "slug": "demon-fall-breathing-styles",
+        "file": "demon-fall-breathing-styles"
+      },
+      {
         "slug": "demonfall-beast-breathing",
         "file": "demonfall-beast-breathing"
       },
@@ -440,6 +540,18 @@
     ],
     "combat": [
       {
+        "slug": "demon-fall-best-demon-art",
+        "file": "demon-fall-best-demon-art"
+      },
+      {
+        "slug": "demon-fall-blood-demon-arts",
+        "file": "demon-fall-blood-demon-arts"
+      },
+      {
+        "slug": "demon-fall-demon-art-tier-list",
+        "file": "demon-fall-demon-art-tier-list"
+      },
+      {
         "slug": "demonfall-boss-guide",
         "file": "demonfall-boss-guide"
       },
@@ -469,6 +581,42 @@
       }
     ],
     "guide": [
+      {
+        "slug": "demon-fall-accessories",
+        "file": "demon-fall-accessories"
+      },
+      {
+        "slug": "demon-fall-agatsuma-clan",
+        "file": "demon-fall-agatsuma-clan"
+      },
+      {
+        "slug": "demon-fall-agatsuma",
+        "file": "demon-fall-agatsuma"
+      },
+      {
+        "slug": "demon-fall-akaza",
+        "file": "demon-fall-akaza"
+      },
+      {
+        "slug": "demon-fall-bosses-xp",
+        "file": "demon-fall-bosses-xp"
+      },
+      {
+        "slug": "demon-fall-boulder",
+        "file": "demon-fall-boulder"
+      },
+      {
+        "slug": "demon-fall-controls-pc",
+        "file": "demon-fall-controls-pc"
+      },
+      {
+        "slug": "demon-fall-egg",
+        "file": "demon-fall-egg"
+      },
+      {
+        "slug": "demon-fall-exp-farm",
+        "file": "demon-fall-exp-farm"
+      },
       {
         "slug": "demonfall-beginner-guide",
         "file": "demonfall-beginner-guide"
@@ -503,6 +651,26 @@
       }
     ],
     "weapons": [
+      {
+        "slug": "demon-fall-espadas",
+        "file": "demon-fall-espadas"
+      },
+      {
+        "slug": "demon-fall-nichirin-sword",
+        "file": "demon-fall-nichirin-sword"
+      },
+      {
+        "slug": "demon-fall-swords",
+        "file": "demon-fall-swords"
+      },
+      {
+        "slug": "demon-fall-wiki-sword-colors",
+        "file": "demon-fall-wiki-sword-colors"
+      },
+      {
+        "slug": "demonfall-kamado-sword",
+        "file": "demonfall-kamado-sword"
+      },
       {
         "slug": "demonfall-katanas",
         "file": "demonfall-katanas"
@@ -524,6 +692,10 @@
   "pt": {
     "breathing": [
       {
+        "slug": "demon-fall-breathing-styles",
+        "file": "demon-fall-breathing-styles"
+      },
+      {
         "slug": "demonfall-beast-breathing",
         "file": "demonfall-beast-breathing"
       },
@@ -614,6 +786,18 @@
     ],
     "combat": [
       {
+        "slug": "demon-fall-best-demon-art",
+        "file": "demon-fall-best-demon-art"
+      },
+      {
+        "slug": "demon-fall-blood-demon-arts",
+        "file": "demon-fall-blood-demon-arts"
+      },
+      {
+        "slug": "demon-fall-demon-art-tier-list",
+        "file": "demon-fall-demon-art-tier-list"
+      },
+      {
         "slug": "demonfall-boss-guide",
         "file": "demonfall-boss-guide"
       },
@@ -643,6 +827,42 @@
       }
     ],
     "guide": [
+      {
+        "slug": "demon-fall-accessories",
+        "file": "demon-fall-accessories"
+      },
+      {
+        "slug": "demon-fall-agatsuma-clan",
+        "file": "demon-fall-agatsuma-clan"
+      },
+      {
+        "slug": "demon-fall-agatsuma",
+        "file": "demon-fall-agatsuma"
+      },
+      {
+        "slug": "demon-fall-akaza",
+        "file": "demon-fall-akaza"
+      },
+      {
+        "slug": "demon-fall-bosses-xp",
+        "file": "demon-fall-bosses-xp"
+      },
+      {
+        "slug": "demon-fall-boulder",
+        "file": "demon-fall-boulder"
+      },
+      {
+        "slug": "demon-fall-egg",
+        "file": "demon-fall-egg"
+      },
+      {
+        "slug": "demon-fall-exam",
+        "file": "demon-fall-exam"
+      },
+      {
+        "slug": "demon-fall-exp-farm",
+        "file": "demon-fall-exp-farm"
+      },
       {
         "slug": "demonfall-beginner-guide",
         "file": "demonfall-beginner-guide"
@@ -677,6 +897,22 @@
       }
     ],
     "weapons": [
+      {
+        "slug": "demon-fall-espadas",
+        "file": "demon-fall-espadas"
+      },
+      {
+        "slug": "demon-fall-nichirin-sword",
+        "file": "demon-fall-nichirin-sword"
+      },
+      {
+        "slug": "demon-fall-swords",
+        "file": "demon-fall-swords"
+      },
+      {
+        "slug": "demon-fall-wiki-sword-colors",
+        "file": "demon-fall-wiki-sword-colors"
+      },
       {
         "slug": "demonfall-katanas",
         "file": "demonfall-katanas"

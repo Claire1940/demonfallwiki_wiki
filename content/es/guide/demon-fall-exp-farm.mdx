@@ -1,0 +1,109 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Guía de Estrategias de Cultivo de Exp en Demon Fall",
+  description: "Descubre las mejores estrategias de cultivo de exp en Demon Fall con esta guía completa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Exp+Farming+Guide",
+  date: "2026-07-21",
+  author: "Equipo de Wiki de Demon Fall"
+};
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Cultivo de exp en Demon Fall
+- **Mejores lugares de cultivo**: Lugares con altas tasas de exp
+- **Equipo óptimo**: Equipamiento para mejorar la eficiencia de cultivo
+- **Consejos avanzados**: Técnicas para maximizar la ganancia de exp
+- **Nivel recomendado**: Nivel mínimo para un cultivo efectivo
+</Callout>
+
+<Section icon={Map} title="1. Introducción al Cultivo de Exp en Demon Fall">
+
+El cultivo de experiencia (exp) es un aspecto crucial del progreso del personaje en Demon Fall. Esta sección proporcionará una visión general de las mejores estrategias para cultivar exp de manera eficiente.
+
+</Section>
+
+<Section icon={Swords} title="2. Los Mejores Lugares de Cultivo de Exp">
+
+| Ubicación | Descripción | Tasa de Exp |
+|-----------|-------------|-------------|
+| El Abismo | Un dungeon desafiante con altas caídas de exp. | ★★★★★ |
+| El Laberinto | Una estructura en laberinto con varios caminos y enemigos. | ★★★★ |
+| Las Ruinas | Un sitio antiguo con enemigos poderosos y botín valioso. | ★★★★ |
+| El Bosque | Una vasta área con una variedad de enemigos y recursos. | ★★★ |
+
+</Section>
+
+<Section icon={Trophy} title="3. Equipo Esencial para un Cultivo Efectivo">
+
+| Equipo | Descripción | Efecto |
+|--------|-------------|--------|
+| Excalibur | Una espada poderosa con alto daño. | +20% Daño |
+| Guantes de la Fuerza | Guantes que aumentan la fuerza. | +15% Fuerza |
+| Túnica de la Velocidad | Un traje que mejora la velocidad de movimiento. | +15% Velocidad |
+| Amuleto de la Vitalidad | Un collar que aumenta la salud. | +20% Salud |
+
+</Section>
+
+<Section icon={Target} title="4. Técnicas Avanzadas de Cultivo">
+
+<Steps>
+  <Step num="1" title="Elije el Equipo Correcto">
+    Equipa el mejor equipo para tu lugar de cultivo para maximizar el daño y la eficiencia.
+  </Step>
+  <Step num="2" title="Sincronización de Niveles">
+    Asegúrate de que tu personaje esté en un nivel donde el cultivo sea efectivo y no demasiado fácil.
+  </Step>
+  <Step num="3" title="Ruta de Cultivo">
+    Planifica tu ruta de cultivo para minimizar el retroceso y maximizar la ganancia de exp.
+  </Step>
+  <Step num="4" title="Usa Pociones">
+  Utiliza pociones para mantener la salud y evitar el tiempo muerto.
+  </Step>
+  <Step num="5" title="Cultivo en Grupo">
+  Considera unirte a un grupo para enemigos más desafiantes y tasas de exp más altas.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="5. Objetivos y Lista de Verificación">
+
+<Checklist
+  id="farming-goals"
+  title="Objetivos de Cultivo:"
+  items={[
+    "Completar la historia principal",
+    "Llegar al nivel 50",
+    "Obtener el primer artículo legendario",
+    "Dominar los mecanismos centrales de cultivo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="6. Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de cultivar exp en Demon Fall?",
+    answer: "La mejor manera de cultivar exp es elegir un lugar de cultivo desafiante, equipar el equipo correcto y usar técnicas avanzadas de cultivo."
+  },
+  {
+    question: "¿Puedo cultivar exp solo o debería unirme a un grupo?",
+    answer: "Puedes cultivar exp solo, pero unirse a un grupo puede ser más efectivo para enemigos desafiantes y tasas de exp más altas."
+  },
+  {
+    question: "¿Hay algún artículo específico que pueda ayudar con el cultivo de exp?",
+    answer: "Sí, equipar equipo que aumente el daño, la fuerza, la velocidad y la salud puede mejorar significativamente la eficiencia de cultivo."
+  }
+]} />
+
+</Section>

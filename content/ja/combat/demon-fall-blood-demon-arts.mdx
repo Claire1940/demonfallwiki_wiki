@@ -1,0 +1,115 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "血魔艺术：2026年掌握恶魔坠落艺术",
+  description: "探索掌握恶魔坠落中血魔艺术的终极指南，包括策略、技巧和常见问题解答。",
+  category: "指南",
+  image: "https://placehold.co/800x400/059669/fff?text=血魔艺术指南",
+  date: "2026-07-21",
+  author: "恶魔坠落维基团队"
+}
+
+<Callout type="info" title="快速指南">
+- **主要关键词**：血魔艺术
+- **关键机制**：理解血魔艺术的独特能力
+- **最佳策略**：如何优化你的角色构建
+- **关键提示**：掌握连击技巧
+- **最佳选择**：血魔艺术的必备装备
+</Callout>
+
+<Section icon={Map} title="血魔艺术简介">
+
+血魔艺术是恶魔坠落中一个强大且多才多艺的职业，以其毁灭性的连击和独特能力而闻名。在这篇指南中，我们将深入了解血魔艺术的细节，为您提供在战斗中脱颖而出的知识。
+
+</Section>
+
+<Section icon={Swords} title="理解血魔艺术">
+
+血魔艺术是一种专注于近战格斗的武术职业。以下是您需要了解的关于这个职业的一些关键点：
+
+<Checklist
+  id="blood-demon-arts"
+  title="关键特性："
+  items={[
+    "高伤害输出",
+    "快速战斗节奏",
+    "独特的连击",
+    "多才多艺的技能组合"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="优化你的角色构建">
+
+为了最大限度地发挥血魔艺术的作用，优化你的角色构建至关重要。以下是一个逐步指南：
+
+<Steps>
+  <Step num="1" title="选择合适的技能">
+    选择与你的游戏风格相匹配并增强你的连击的技能。
+  </Step>
+  <Step num="2" title="装备最佳装备">
+    投资于能提高你的伤害输出和生存能力的装备。
+  </Step>
+  <Step num="3" title="掌握连击技巧">
+    练习你的连击以在战斗中最大化其效果。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="血魔艺术的必备装备">
+
+要成为一名出色的血魔艺术，你需要合适的装备。以下是一份必备物品清单：
+
+| 装备 | 描述 |
+|-----------|-------------|
+| 恶魔之剑 | 一把独特的剑，能提高你的连击伤害。 |
+| 血液药瓶 | 增加你的生命值和法力回复。 |
+| 恶魔斗篷 | 提高你的防御和抗性。 |
+
+</Section>
+
+<Section icon={Shield} title="连击和战术">
+
+连击是血魔艺术的基础。以下是一些必须掌握的连击：
+
+<Checklist
+  id="combos-tactics"
+  title="必备连击："
+  items={[
+    "恶魔之击 + 恶魔踢",
+    "恶魔踢 + 恶魔跳跃",
+    "恶魔跳跃 + 恶魔之击"
+  ]}
+/>
+
+面对敌人时，请记住战略性地使用你的技能。专注于连击以造成最大伤害并避免被击中。
+
+</Section>
+
+<Section icon={Sparkles} title="常见问题解答">
+
+<FAQ items={[
+  {
+    question: "我如何解锁血魔艺术？",
+    answer: "通过达到30级并完成‘恶魔之路’任务来解锁血魔艺术。"
+  },
+  {
+    question: "解锁血魔艺术后，我可以更改我的职业吗？",
+    answer: "不，解锁血魔艺术后你不能更改你的职业。请谨慎选择！"
+  },
+  {
+    question: "对于血魔艺术，最佳起始技能是什么？",
+    answer: "最佳起始技能是恶魔之击，因为它许多连击的基础。"
+  }
+]} />
+
+</Section>
